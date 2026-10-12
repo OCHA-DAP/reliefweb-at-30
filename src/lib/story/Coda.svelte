@@ -6,10 +6,9 @@
   import peaks from '$lib/data/epidemic_peaks.json';
   import active from '$lib/data/ga_active_12m.json';
   import fw from '$lib/data/firewall.json';
-  import { fmt, kfmt, completeCount } from '$lib/chart.js';
-  import { machineStats, aiDocsBrief, aiDocsSpan } from '$lib/machines.js';
+  import { fmt, completeCount } from '$lib/chart.js';
+  import { aiDocsBrief, aiDocsSpan } from '$lib/machines.js';
   import { readWindowShort } from '$lib/readwindow.js';
-  import StatRow from '$lib/components/StatRow.svelte';
   import AiDocsFigure from '$lib/components/AiDocsFigure.svelte';
   import Figure from '$lib/components/Figure.svelte';
   import Columns from '$lib/components/Columns.svelte';
@@ -37,22 +36,6 @@
   const millions = (v) => `${(v / 1e6).toFixed(1)} million`;
   const FULL = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   const month = (d) => `${FULL[+d.slice(5, 7) - 1]} ${d.slice(0, 4)}`;
-
-  // The referral fall starts the month AI blocks on reliefweb.int start to climb.
-  // Said as timing only: whether the firewall stops assistants fetching pages
-  // they cite, and when its AI block began, is not known.
-  const aiIntro = `${aiDocsBrief} The fall began in December 2025, the month the firewall started blocking far more AI requests to reliefweb.int; whether one caused the other is not known.`;
-
-  // reliefweb.int only, over the same months as the ChatGPT figure beside it.
-  const fwStat = {
-    k: 'AI crawler requests blocked',
-    v: kfmt(rwAi.reduce((a, b) => a + b, 0)),
-    n: `Requests to reliefweb.int blocked by the firewall's AI rule, ${readWindowShort}`
-  };
-  const stats = [
-    ...machineStats.filter((s) => ['Visits from ChatGPT', 'Data requests from outside OCHA'].includes(s.k)),
-    fwStat
-  ];
 
   const METHODS = [
     {
@@ -82,10 +65,6 @@
     {millions(rwAi[rwLast])} requests to reliefweb.int it classed as AI harvesting, up from {millions(rwAi[0])} in
     {month(rwMonths[0])}. AI assistants, meanwhile, send people straight to ReliefWeb's documents.
   </p>
-  <div class="keyfigs">
-    <StatRow {stats} source="Google Analytics 4, ReliefWeb API usage logs, OCHA TSS firewall logs" />
-  </div>
-
   <Figure
     id="coda-firewall"
     title="AI crawlers blocked on reliefweb.int"
@@ -115,7 +94,7 @@
     title="AI assistants send readers to ReliefWeb's documents"
     sub="Visits starting on a report or map, by referring assistant, {aiDocsSpan}, complete months"
     docsNote
-    intro={aiIntro}
+    intro={aiDocsBrief}
   />
 
   <blockquote class="close">
@@ -135,7 +114,6 @@
 
 <style>
   /* As wide as the chapters' in-flow figures (.inflow), and centered like them. */
-  .keyfigs,
   .coda :global(#coda-aidocs),
   .coda :global(#coda-firewall) {
     max-width: 900px;

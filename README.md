@@ -38,4 +38,4 @@ AUDIT_URL=http://localhost:4173/ npm run audit                                # 
 ## Before launch
 
 - [ ] Remove `<meta name="robots" content="noindex">` from `src/app.html` and from `src/routes/+page.svelte`.
-- [ ] Add Google Tag Manager to `src/app.html`, the way ReliefWeb does (containers GTM-TLKXSWT and GTM-LQCS, loaded by `reliefweb.int/gtm-load.js`, plus the `<noscript>` iframes), skipped on localhost. Confirm first which container(s) to use, that they fire on the GitHub Pages hostname, and which GA property the visits go to.
+- [ ] Add Google Tag Manager to `src/app.html`, the way ReliefWeb does (`reliefweb.int/gtm-load.js`, plus the `<noscript>` iframes), skipped on localhost. Use both containers, as TSS confirmed: GTM-TLKXSWT (managed by TSS) and GTM-LQCS (UN Secretariat, managed by OICT). Then check that Google Analytics records visits from the GitHub Pages hostname and the ReliefWeb redirect.
