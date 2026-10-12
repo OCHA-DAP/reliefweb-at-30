@@ -1,0 +1,280 @@
+/* OCHA brand palette and page chrome — the single definition.
+
+   The house rule is UN Blue on white with black text: the blue and its ramp
+   carry roughly ninety percent of the visible colour, and the five accents
+   appear only where content genuinely needs to be told apart. Everything here
+   follows from that, including what is absent — no drop shadows, no serif
+   display face, and no dark theme, because the brand specifies black on white.
+
+   --s1..--s6 are the monochrome ramp slots, the default for anything stacked or
+   sequential. --c1..--c6 are the categorical set — UN Blue plus the accents —
+   and are only for series that overlap inside one plot, where a single hue
+   cannot keep them apart. Neither is ever cycled: see ocha-palette.md. */
+
+:root{
+  color-scheme: light;
+
+  /* UN Blue ramp, dark to light. The whole chart vocabulary comes from here. */
+  --b1:#002E6E; --b2:#004987; --b3:#0074B7; --b4:#009EDB;
+  --b5:#64BDEA; --b6:#C5DFEF; --b7:#E3EDF6;
+
+  /* Accents. Sparingly, and only to flag a state or split a category. Each is
+     given twice: the brand hue, and the step of its own OCHA ramp that clears
+     4.5:1 on white. Bright orange and green measure 2.6:1 and 2.3:1, so a line
+     carrying a text label has to take the darker step of the same hue. */
+  --a-green:#72BF44;  --a-green-ink:#338C46;
+  --a-yellow:#FFC800; --a-yellow-ink:#B16D03;
+  --a-orange:#F58220; --a-orange-ink:#C15025;
+  --a-red:#ED1847;    --a-red-ink:#A71F36;
+  --a-purple:#A05FB4; --a-purple-ink:#763F98;
+  --a-slate:#6E6259;
+
+  --bg:#FFFFFF; --surface:#FFFFFF; --surface-2:#E3EDF6;
+  /* The appendix band: a neutral gray, not a blue, so it reads as set apart from
+     the story rather than as another part of it. */
+  --band:#F2F2F2;
+  /* Text is black at every level; hierarchy is size and weight, not tint. */
+  --ink:#000000; --ink-2:#000000; --muted:#000000;
+  --rule:#C5DFEF; --rule-strong:#999999;
+
+  /* --accent is UN Blue itself and is for ink on the page: chart fills, rules,
+     callout edges. Headings are black; UN Blue is 3.04:1 on white, which is
+     the graphics floor but not the 4.5:1 text floor, so anything blue and
+     small — eyebrow, section number, stat period, callout label, links, focus
+     rings — takes --accent-text: one ramp step darker at 5.02:1, and
+     unmistakably the same blue. */
+  --accent:#009EDB; --accent-text:#0074B7; --accent-ink:#004987; --accent-soft:#E3EDF6;
+  --crit:var(--a-red);
+
+  --s1:var(--b1); --s2:var(--b2); --s3:var(--b3);
+  --s4:var(--b4); --s5:var(--b5); --s6:var(--b6);
+  /* The categorical set. Every slot is the readable step of its hue, because
+     these series carry direct end-labels and those labels are text. The order
+     is the one ocha-palette.md brute-forced to CVD ΔE 6.0; the sixth slot is a
+     neutral because six colorblind-safe hues are not available at all. */
+  --c1:var(--b3);           --c2:var(--a-orange-ink); --c3:var(--a-purple-ink);
+  --c4:var(--a-green-ink);  --c5:var(--a-red-ink);    --c6:var(--a-slate);
+
+  /* Rose / fell: a direction, so it takes the accent the brand reserves for a
+     flagged state rather than a second arbitrary hue. */
+  --up:var(--b4); --down:var(--a-red);
+  /* Published vs read: two blues plus a dash, not two hues. */
+  --pub:var(--b4); --read:var(--b1);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:'Roboto Variable',Roboto,Arial,sans-serif;
+  font-size:15px; line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1000px; margin:0 auto; padding:0 24px 96px}
+
+/* ---------- masthead ---------- */
+.mast{padding:56px 0 28px;}
+.eyebrow{
+  font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--accent-text); margin:0 0 14px;
+}
+h1{
+  font-family:'Crimson Pro Variable',Crimson,Georgia,serif; font-weight:700;
+  font-size:clamp(30px,4.4vw,50px); line-height:1.1; letter-spacing:-.015em;
+  margin:0 0 16px; text-wrap:balance;
+}
+.standfirst{font-size:18px; line-height:1.6; color:var(--ink-2); max-width:62ch; margin:0 0 22px}
+.meta{
+  display:flex; flex-wrap:wrap; gap:8px 22px; font-size:12.5px; color:var(--muted);
+  padding-top:4px;
+}
+.meta b{color:var(--ink-2); font-weight:500}
+
+/* ---------- stat row ---------- */
+.stats{
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(min(150px,100%),1fr));
+  gap:1px; background:var(--rule); border:1px solid var(--rule);
+  margin:32px 0 8px; border-radius:6px; overflow:hidden;
+}
+.stat{background:var(--surface); padding:18px 18px 16px}
+.stat .p{
+  font-size:10.5px; font-weight:600; letter-spacing:.06em;
+  color:var(--accent-text); margin-bottom:5px; font-variant-numeric:tabular-nums;
+}
+.stat .k{
+  font-size:10.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--muted); margin-bottom:9px;
+}
+.stat .v{font-size:29px; font-weight:700; line-height:1; letter-spacing:-.02em; font-variant-numeric:tabular-nums}
+.stat .n{font-size:12px; color:var(--ink-2); margin-top:7px; line-height:1.4}
+
+/* ---------- attribution line ----------
+   Every figure and stat row carries one. Defined once here rather than in each
+   component: Figure, StatRow and the section stat rows all render the same mark. */
+.source{
+  font-size:11.5px; color:var(--muted); margin:10px 0 0; line-height:1.5;
+}
+.card .source{border-top:1px solid var(--rule); padding-top:9px}
+.source span{
+  font-size:10px; font-weight:700; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--ink-2); margin-right:9px;
+}
+
+/* ---------- sections ---------- */
+section{margin-top:60px}
+.shead{border-top:1px solid var(--rule-strong); padding-top:22px; margin-bottom:26px}
+/* The six numbered sections are the story; each opens on a heavy UN Blue rule
+   with its number hung in a left column, matching the figure numbers inside it
+   (section 3 holds figures 3a–3c). The unnumbered sections after them sit
+   outside the story and keep the plain gray rule. */
+.shead:has(.sno){
+  display:grid; grid-template-columns:auto 1fr; column-gap:22px;
+  border-top:4px solid var(--accent); padding-top:24px; margin-top:44px;
+}
+.shead:has(.sno) > :not(.sno){grid-column:2}
+.sno{
+  grid-column:1; grid-row:1 / span 3;
+  font-family:'Crimson Pro Variable',Crimson,Georgia,serif; font-weight:700;
+  font-size:80px; line-height:.8; color:var(--accent-text); font-variant-numeric:lining-nums;
+}
+.snum{
+  font-family:'Crimson Pro Variable',Crimson,Georgia,serif; font-size:12px; font-weight:700;
+  color:var(--accent-text); letter-spacing:.08em; display:block; margin-bottom:8px;
+}
+h2{
+  font-family:'Crimson Pro Variable',Crimson,Georgia,serif; font-weight:700;
+  font-size:26px; line-height:1.22; letter-spacing:-.01em; margin:0 0 10px; text-wrap:balance;
+}
+.sintro{color:var(--ink-2); max-width:70ch; margin:0; font-size:15.5px; text-align:left}
+
+/* ---------- appendix ----------
+   The impact-story figures and the archived ones, after the story's footer. A
+   full-bleed gray band with its own label; the white cards inside stand out
+   against it. Its first section drops the top rule, which the band edge replaces. */
+.appendix{background:var(--band); border-top:1px solid var(--rule-strong); padding-top:36px}
+.appendix-label{
+  font-size:11px; font-weight:700; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--muted); margin:0;
+}
+.appendix section:first-of-type{margin-top:28px}
+.appendix section:first-of-type .shead{border-top:none; padding-top:0}
+
+/* ---------- cards ---------- */
+.card{
+  background:var(--surface); border:1px solid var(--rule-strong); border-radius:8px;
+  padding:20px 20px 14px; margin-bottom:20px;
+}
+.card h3{font-size:15px; font-weight:700; margin:0 0 3px; letter-spacing:-.005em}
+.card .sub{font-size:12.5px; color:var(--muted); margin:0 0 16px}
+/* min() guard: a bare minmax(330px,1fr) refuses to shrink below its floor, so
+   on a phone the grid is wider than the card and pushes the page sideways. */
+.grid2{display:grid; grid-template-columns:repeat(auto-fit,minmax(min(330px,100%),1fr)); gap:20px}
+.grid2 .card{margin-bottom:0}
+
+/* ---------- finding callout ---------- */
+.finding{
+  border-left:3px solid var(--accent); background:var(--accent-soft);
+  padding:16px 20px; border-radius:0 6px 6px 0; margin:20px 0;
+}
+.finding.warn{border-left-color:var(--crit); background:color-mix(in srgb,var(--crit) 8%,var(--surface))}
+.finding .lab{
+  font-size:10.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--accent-text); margin-bottom:6px;
+}
+.finding.warn .lab{color:var(--crit)}
+.finding p{margin:0; font-size:14.5px; line-height:1.6; color:var(--ink)}
+.finding p + p{margin-top:9px}
+
+/* ---------- chart chrome ---------- */
+/* No overflow container: the SVG is sized from this element's own measured
+   width, so it can never be wider than it. Charts scale down rather than
+   scroll. Data tables are the exception and carry their own .tblwrap. */
+.chart{width:100%}
+svg{display:block; max-width:100%; height:auto; font-family:'Roboto Variable',Roboto,Arial,sans-serif}
+.gridline{stroke:#E5E5E5; stroke-width:1}
+.axis-line{stroke:var(--rule-strong); stroke-width:1}
+.tick{fill:var(--muted); font-size:11px; font-variant-numeric:tabular-nums}
+/* Category names, not scale furniture: these are the reader's way into the chart,
+   so they take full ink. A `fill` attribute cannot do this — presentation
+   attributes lose to the .tick rule above, which is why the var(--ink-2) that
+   used to sit on these labels never applied. */
+.cat{fill:var(--ink); font-size:11px}
+.axis-title{fill:var(--muted); font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase}
+.leader{fill:none; stroke-width:1.25; opacity:.6; stroke-linejoin:round}
+.dlabel{font-size:11.5px; font-weight:700; font-variant-numeric:tabular-nums}
+.annot{fill:var(--ink-2); font-size:11px}
+.annot-rule{stroke:var(--rule-strong); stroke-width:1; stroke-dasharray:2 3}
+.partial{fill:var(--muted); opacity:.09}
+.partial-lab{fill:var(--muted); font-size:10px; font-weight:400; letter-spacing:.06em}
+
+.legend{display:flex; flex-wrap:wrap; gap:6px 16px; margin:14px 0 4px}
+.lg{display:flex; align-items:center; gap:7px; font-size:12.5px; color:var(--ink-2)}
+.lg i{width:11px; height:11px; border-radius:3px; flex:none}
+.lg .lgline{width:16px; height:4px; flex:none; overflow:visible}
+
+/* ---------- controls ---------- */
+.tbtn{
+  background:none; border:1px solid var(--rule-strong); color:var(--ink-2);
+  font-family:inherit; font-size:11.5px; font-weight:500; padding:4px 11px;
+  border-radius:5px; cursor:pointer; margin-top:12px;
+}
+.tbtn:hover{background:var(--surface-2); color:var(--ink)}
+.tbtn:focus-visible{outline:2px solid var(--accent-text); outline-offset:2px}
+.tbtn[aria-pressed="true"]{background:var(--accent-soft); border-color:var(--accent); color:var(--accent-ink)}
+.tblwrap{overflow-x:auto; margin-top:12px}
+table{border-collapse:collapse; font-size:12px; width:100%; font-variant-numeric:tabular-nums}
+th,td{padding:5px 10px; text-align:right; border-bottom:1px solid var(--rule); white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+thead th{color:var(--muted); font-weight:700; font-size:10.5px; letter-spacing:.06em; text-transform:uppercase}
+
+/* ---------- tooltip ---------- */
+.tip{
+  position:fixed; pointer-events:none; z-index:50;
+  background:var(--surface); border:1px solid var(--rule-strong); border-radius:6px;
+  padding:9px 12px; font-size:12.5px;
+  min-width:150px;
+}
+.tip .ty{font-weight:700; margin-bottom:6px; font-size:13px}
+.tip .tr{display:flex; align-items:center; gap:8px; justify-content:space-between; line-height:1.7}
+.tip .tr .nm{display:flex; align-items:center; gap:6px; color:var(--ink-2)}
+.tip .tr i{width:9px; height:9px; border-radius:2px; flex:none}
+.tip .tr b{font-variant-numeric:tabular-nums; font-weight:700; white-space:nowrap}
+
+/* ---------- method aside ---------- */
+details.method{
+  background:var(--surface-2); border:1px solid var(--rule); border-radius:8px;
+  padding:14px 20px; margin:20px 0;
+}
+details.method summary{
+  cursor:pointer; font-size:13px; font-weight:700; color:var(--ink-2);
+  letter-spacing:.02em;
+}
+details.method summary:focus-visible{outline:2px solid var(--accent-text); outline-offset:3px}
+details.method[open] summary{margin-bottom:12px}
+details.method p{font-size:14px; line-height:1.6; color:var(--ink-2); margin:0 0 10px; max-width:74ch}
+details.method p:last-child{margin-bottom:4px}
+details.method p.note{font-size:12px; color:var(--muted); line-height:1.5; margin-top:14px}
+
+footer{margin-top:56px; padding-top:22px; border-top:1px solid var(--rule); font-size:12.5px; color:var(--muted)}
+footer a{color:var(--accent-text)}
+.note{font-size:12px; color:var(--muted); margin:10px 0 0; line-height:1.5; max-width:78ch}
+
+@media (max-width:640px){
+  .wrap{padding:0 16px 64px}
+  .mast{padding-top:36px}
+  .stat .v{font-size:24px}
+  .sno{font-size:58px}
+  .shead:has(.sno){column-gap:14px}
+  .stats{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important; animation:none!important}}
+
+/* Chart hover/keyboard capture layer. Focusable so the tooltip is reachable
+   without a pointer; the ring is drawn on the plot rather than the invisible
+   rect's edge, which would otherwise be a full-width box around the chart. */
+.capture{outline:none}
+.capture:focus-visible{outline:2px solid var(--accent-text); outline-offset:-2px}
+caption{
+  caption-side:top; text-align:left; font-size:11px; font-weight:700;
+  letter-spacing:.06em; text-transform:uppercase; color:var(--muted);
+  padding-bottom:6px;
+}

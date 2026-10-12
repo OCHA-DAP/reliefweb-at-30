@@ -1,0 +1,2952 @@
+{
+ "years": [
+  "1996",
+  "1997",
+  "1998",
+  "1999",
+  "2000",
+  "2001",
+  "2002",
+  "2003",
+  "2004",
+  "2005",
+  "2006",
+  "2007",
+  "2008",
+  "2009",
+  "2010",
+  "2011",
+  "2012",
+  "2013",
+  "2014",
+  "2015",
+  "2016",
+  "2017",
+  "2018",
+  "2019",
+  "2020",
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "reach": {
+  "per_year": [
+   92,
+   106,
+   108,
+   134,
+   137,
+   126,
+   138,
+   153,
+   156,
+   148,
+   149,
+   206,
+   156,
+   181,
+   209,
+   195,
+   192,
+   213,
+   197,
+   205,
+   212,
+   212,
+   215,
+   209,
+   206,
+   210,
+   210,
+   210,
+   210,
+   210
+  ],
+  "cumulative": [
+   198,
+   202,
+   208,
+   214,
+   225,
+   226,
+   227,
+   233,
+   237,
+   238,
+   238,
+   239,
+   240,
+   240,
+   240,
+   241,
+   242,
+   244,
+   245,
+   245,
+   245,
+   246,
+   246,
+   246,
+   246,
+   246,
+   246,
+   246,
+   246,
+   246
+  ],
+  "total_territories": 246
+ },
+ "format_year": [
+  {
+   "label": "News and Press Release",
+   "values": [
+    1875,
+    3936,
+    4504,
+    8616,
+    9167,
+    12250,
+    14193,
+    15357,
+    15132,
+    27154,
+    27281,
+    22178,
+    29767,
+    34778,
+    30206,
+    29229,
+    31601,
+    26549,
+    30859,
+    32469,
+    27462,
+    31157,
+    27903,
+    23947,
+    24475,
+    20811,
+    21748,
+    20033,
+    20453,
+    14387
+   ]
+  },
+  {
+   "label": "Situation Report",
+   "values": [
+    823,
+    1111,
+    1351,
+    2727,
+    2592,
+    2918,
+    2514,
+    2621,
+    2954,
+    4704,
+    4606,
+    4962,
+    5420,
+    5793,
+    5029,
+    4803,
+    5185,
+    6062,
+    7924,
+    8996,
+    8817,
+    10017,
+    9219,
+    9197,
+    13562,
+    11070,
+    11109,
+    10381,
+    10304,
+    7591
+   ]
+  },
+  {
+   "label": "Infographic",
+   "values": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    1,
+    7,
+    55,
+    163,
+    369,
+    1115,
+    2190,
+    2976,
+    4224,
+    5075,
+    4815,
+    5487,
+    7091,
+    6907,
+    7252,
+    6000,
+    6005,
+    7644
+   ]
+  },
+  {
+   "label": "Map",
+   "values": [
+    117,
+    163,
+    67,
+    76,
+    243,
+    338,
+    433,
+    726,
+    771,
+    1072,
+    1713,
+    2644,
+    3168,
+    2977,
+    3506,
+    2154,
+    2969,
+    3106,
+    4888,
+    6702,
+    5167,
+    5202,
+    4413,
+    3791,
+    4161,
+    3226,
+    3322,
+    2958,
+    2714,
+    1981
+   ]
+  },
+  {
+   "label": "Analysis",
+   "values": [
+    73,
+    156,
+    134,
+    475,
+    630,
+    877,
+    884,
+    726,
+    560,
+    828,
+    994,
+    953,
+    950,
+    1721,
+    1884,
+    2231,
+    2452,
+    2240,
+    2726,
+    2926,
+    2945,
+    3111,
+    3278,
+    3348,
+    4124,
+    3881,
+    4350,
+    4816,
+    4929,
+    3436
+   ]
+  },
+  {
+   "label": "Other",
+   "values": [
+    244,
+    764,
+    640,
+    1176,
+    1244,
+    1832,
+    2332,
+    2063,
+    1762,
+    2197,
+    2176,
+    1662,
+    2047,
+    2654,
+    2403,
+    2128,
+    2335,
+    2175,
+    3009,
+    3492,
+    3512,
+    4038,
+    4153,
+    4408,
+    5828,
+    5813,
+    7448,
+    7179,
+    6889,
+    5976
+   ]
+  }
+ ],
+ "concentration": {
+  "total_countries": 246,
+  "total_docs": 1029778,
+  "top": [
+   {
+    "label": "Democratic Republic of the Congo",
+    "value": 53407
+   },
+   {
+    "label": "Afghanistan",
+    "value": 46856
+   },
+   {
+    "label": "Sudan",
+    "value": 40045
+   },
+   {
+    "label": "Iraq",
+    "value": 32285
+   },
+   {
+    "label": "occupied Palestinian territory",
+    "value": 32008
+   },
+   {
+    "label": "Philippines",
+    "value": 29599
+   },
+   {
+    "label": "Somalia",
+    "value": 28519
+   },
+   {
+    "label": "Pakistan",
+    "value": 26642
+   },
+   {
+    "label": "Syrian Arab Republic",
+    "value": 26527
+   },
+   {
+    "label": "Haiti",
+    "value": 26525
+   },
+   {
+    "label": "South Sudan",
+    "value": 24252
+   },
+   {
+    "label": "Colombia",
+    "value": 24100
+   },
+   {
+    "label": "Yemen",
+    "value": 21122
+   },
+   {
+    "label": "Myanmar",
+    "value": 19499
+   },
+   {
+    "label": "Indonesia",
+    "value": 19296
+   },
+   {
+    "label": "Ethiopia",
+    "value": 18186
+   },
+   {
+    "label": "Ukraine",
+    "value": 18064
+   },
+   {
+    "label": "Central African Republic",
+    "value": 17726
+   },
+   {
+    "label": "Bangladesh",
+    "value": 17595
+   },
+   {
+    "label": "Kenya",
+    "value": 17242
+   }
+  ],
+  "rest_value": 490283,
+  "rest_countries": 222,
+  "cum": {
+   "top5": 19.9,
+   "top10": 33.3,
+   "top25": 59.8
+  }
+ },
+ "theme_years": [
+  "2011",
+  "2012",
+  "2013",
+  "2014",
+  "2015",
+  "2016",
+  "2017",
+  "2018",
+  "2019",
+  "2020",
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "themes_year": [
+  {
+   "label": "Protection and Human Rights",
+   "values": [
+    38.0,
+    36.2,
+    31.3,
+    31.8,
+    33.3,
+    39.6,
+    40.5,
+    44.0,
+    45.1,
+    45.2,
+    49.0,
+    48.6,
+    48.3,
+    51.3,
+    54.3
+   ]
+  },
+  {
+   "label": "Health",
+   "values": [
+    27.1,
+    29.1,
+    31.1,
+    33.7,
+    30.5,
+    28.2,
+    28.7,
+    31.3,
+    35.5,
+    51.5,
+    44.6,
+    39.8,
+    37.9,
+    36.2,
+    32.3
+   ]
+  },
+  {
+   "label": "Food and Nutrition",
+   "values": [
+    26.9,
+    30.3,
+    31.9,
+    27.1,
+    25.3,
+    27.5,
+    26.7,
+    25.7,
+    26.4,
+    30.0,
+    30.1,
+    32.6,
+    31.4,
+    30.6,
+    23.7
+   ]
+  },
+  {
+   "label": "Coordination",
+   "values": [
+    17.5,
+    8.5,
+    7.9,
+    9.9,
+    10.2,
+    9.9,
+    9.5,
+    8.0,
+    10.4,
+    12.2,
+    10.0,
+    11.6,
+    14.9,
+    15.2,
+    14.6
+   ]
+  },
+  {
+   "label": "Agriculture",
+   "values": [
+    15.4,
+    18.6,
+    18.7,
+    15.0,
+    14.2,
+    14.8,
+    13.0,
+    11.6,
+    12.2,
+    11.9,
+    12.4,
+    13.2,
+    12.6,
+    12.9,
+    8.5
+   ]
+  },
+  {
+   "label": "Climate Change and Environment",
+   "values": [
+    2.2,
+    2.4,
+    2.2,
+    2.4,
+    2.8,
+    2.4,
+    2.6,
+    2.8,
+    3.4,
+    2.2,
+    3.5,
+    4.2,
+    5.1,
+    5.6,
+    3.4
+   ]
+  }
+ ],
+ "still_worth": {
+  "window": [
+   "2025-08",
+   "2026-08"
+  ],
+  "excluded_months": [
+   "2025-12",
+   "2026-03"
+  ],
+  "read_min": 3,
+  "measure": "documents with 3 or more engaged visits",
+  "by_year": [
+   {
+    "year": 1996,
+    "docs": 3132,
+    "read": 1110,
+    "read_rate": 35.4
+   },
+   {
+    "year": 1997,
+    "docs": 6130,
+    "read": 1536,
+    "read_rate": 25.1
+   },
+   {
+    "year": 1998,
+    "docs": 6696,
+    "read": 1237,
+    "read_rate": 18.5
+   },
+   {
+    "year": 1999,
+    "docs": 13071,
+    "read": 1925,
+    "read_rate": 14.7
+   },
+   {
+    "year": 2000,
+    "docs": 13876,
+    "read": 2084,
+    "read_rate": 15.0
+   },
+   {
+    "year": 2001,
+    "docs": 18217,
+    "read": 2109,
+    "read_rate": 11.6
+   },
+   {
+    "year": 2002,
+    "docs": 20356,
+    "read": 2333,
+    "read_rate": 11.5
+   },
+   {
+    "year": 2003,
+    "docs": 21493,
+    "read": 2872,
+    "read_rate": 13.4
+   },
+   {
+    "year": 2004,
+    "docs": 21179,
+    "read": 2914,
+    "read_rate": 13.8
+   },
+   {
+    "year": 2005,
+    "docs": 35955,
+    "read": 4230,
+    "read_rate": 11.8
+   },
+   {
+    "year": 2006,
+    "docs": 36772,
+    "read": 3488,
+    "read_rate": 9.5
+   },
+   {
+    "year": 2007,
+    "docs": 32401,
+    "read": 3393,
+    "read_rate": 10.5
+   },
+   {
+    "year": 2008,
+    "docs": 41353,
+    "read": 3761,
+    "read_rate": 9.1
+   },
+   {
+    "year": 2009,
+    "docs": 47930,
+    "read": 4326,
+    "read_rate": 9.0
+   },
+   {
+    "year": 2010,
+    "docs": 43083,
+    "read": 3965,
+    "read_rate": 9.2
+   },
+   {
+    "year": 2011,
+    "docs": 40708,
+    "read": 3588,
+    "read_rate": 8.8
+   },
+   {
+    "year": 2012,
+    "docs": 44911,
+    "read": 4135,
+    "read_rate": 9.2
+   },
+   {
+    "year": 2013,
+    "docs": 41247,
+    "read": 4332,
+    "read_rate": 10.5
+   },
+   {
+    "year": 2014,
+    "docs": 51596,
+    "read": 6213,
+    "read_rate": 12.0
+   },
+   {
+    "year": 2015,
+    "docs": 57561,
+    "read": 7267,
+    "read_rate": 12.6
+   },
+   {
+    "year": 2016,
+    "docs": 52127,
+    "read": 7153,
+    "read_rate": 13.7
+   },
+   {
+    "year": 2017,
+    "docs": 58600,
+    "read": 8460,
+    "read_rate": 14.4
+   },
+   {
+    "year": 2018,
+    "docs": 53781,
+    "read": 8241,
+    "read_rate": 15.3
+   },
+   {
+    "year": 2019,
+    "docs": 50178,
+    "read": 9238,
+    "read_rate": 18.4
+   },
+   {
+    "year": 2020,
+    "docs": 59241,
+    "read": 11429,
+    "read_rate": 19.3
+   },
+   {
+    "year": 2021,
+    "docs": 51708,
+    "read": 12419,
+    "read_rate": 24.0
+   },
+   {
+    "year": 2022,
+    "docs": 55229,
+    "read": 16145,
+    "read_rate": 29.2
+   },
+   {
+    "year": 2023,
+    "docs": 51367,
+    "read": 21640,
+    "read_rate": 42.1
+   },
+   {
+    "year": 2024,
+    "docs": 51294,
+    "read": 33459,
+    "read_rate": 65.2
+   },
+   {
+    "year": 2025,
+    "docs": 41015,
+    "read": 35550,
+    "read_rate": 86.7
+   }
+  ],
+  "by_format": [
+   {
+    "label": "Manual and Guideline",
+    "docs": 13064,
+    "read": 7525,
+    "read_rate": 57.6
+   },
+   {
+    "label": "Evaluation and Lessons Learned",
+    "docs": 7387,
+    "read": 3567,
+    "read_rate": 48.3
+   },
+   {
+    "label": "Assessment",
+    "docs": 22359,
+    "read": 10404,
+    "read_rate": 46.5
+   },
+   {
+    "label": "Appeal",
+    "docs": 9157,
+    "read": 3863,
+    "read_rate": 42.2
+   },
+   {
+    "label": "Analysis",
+    "docs": 62638,
+    "read": 25540,
+    "read_rate": 40.8
+   },
+   {
+    "label": "UN Document",
+    "docs": 8734,
+    "read": 2672,
+    "read_rate": 30.6
+   },
+   {
+    "label": "Infographic",
+    "docs": 67383,
+    "read": 16314,
+    "read_rate": 24.2
+   },
+   {
+    "label": "Situation Report",
+    "docs": 184362,
+    "read": 41209,
+    "read_rate": 22.4
+   },
+   {
+    "label": "Other",
+    "docs": 32661,
+    "read": 7165,
+    "read_rate": 21.9
+   },
+   {
+    "label": "Map",
+    "docs": 74768,
+    "read": 16289,
+    "read_rate": 21.8
+   },
+   {
+    "label": "News and Press Release",
+    "docs": 639477,
+    "read": 95984,
+    "read_rate": 15.0
+   }
+  ],
+  "by_format_year": {
+   "Analysis": [
+    {
+     "year": 1999,
+     "docs": 475,
+     "read": 141,
+     "read_rate": 29.7
+    },
+    {
+     "year": 2000,
+     "docs": 630,
+     "read": 185,
+     "read_rate": 29.4
+    },
+    {
+     "year": 2001,
+     "docs": 877,
+     "read": 174,
+     "read_rate": 19.8
+    },
+    {
+     "year": 2002,
+     "docs": 884,
+     "read": 217,
+     "read_rate": 24.5
+    },
+    {
+     "year": 2003,
+     "docs": 726,
+     "read": 212,
+     "read_rate": 29.2
+    },
+    {
+     "year": 2004,
+     "docs": 560,
+     "read": 160,
+     "read_rate": 28.6
+    },
+    {
+     "year": 2005,
+     "docs": 828,
+     "read": 212,
+     "read_rate": 25.6
+    },
+    {
+     "year": 2006,
+     "docs": 994,
+     "read": 197,
+     "read_rate": 19.8
+    },
+    {
+     "year": 2007,
+     "docs": 953,
+     "read": 224,
+     "read_rate": 23.5
+    },
+    {
+     "year": 2008,
+     "docs": 950,
+     "read": 201,
+     "read_rate": 21.2
+    },
+    {
+     "year": 2009,
+     "docs": 1721,
+     "read": 364,
+     "read_rate": 21.2
+    },
+    {
+     "year": 2010,
+     "docs": 1884,
+     "read": 341,
+     "read_rate": 18.1
+    },
+    {
+     "year": 2011,
+     "docs": 2231,
+     "read": 364,
+     "read_rate": 16.3
+    },
+    {
+     "year": 2012,
+     "docs": 2452,
+     "read": 386,
+     "read_rate": 15.7
+    },
+    {
+     "year": 2013,
+     "docs": 2240,
+     "read": 507,
+     "read_rate": 22.6
+    },
+    {
+     "year": 2014,
+     "docs": 2726,
+     "read": 692,
+     "read_rate": 25.4
+    },
+    {
+     "year": 2015,
+     "docs": 2926,
+     "read": 827,
+     "read_rate": 28.3
+    },
+    {
+     "year": 2016,
+     "docs": 2945,
+     "read": 907,
+     "read_rate": 30.8
+    },
+    {
+     "year": 2017,
+     "docs": 3111,
+     "read": 1074,
+     "read_rate": 34.5
+    },
+    {
+     "year": 2018,
+     "docs": 3278,
+     "read": 1067,
+     "read_rate": 32.6
+    },
+    {
+     "year": 2019,
+     "docs": 3348,
+     "read": 1226,
+     "read_rate": 36.6
+    },
+    {
+     "year": 2020,
+     "docs": 4124,
+     "read": 1535,
+     "read_rate": 37.2
+    },
+    {
+     "year": 2021,
+     "docs": 3881,
+     "read": 1732,
+     "read_rate": 44.6
+    },
+    {
+     "year": 2022,
+     "docs": 4350,
+     "read": 2232,
+     "read_rate": 51.3
+    },
+    {
+     "year": 2023,
+     "docs": 4816,
+     "read": 2920,
+     "read_rate": 60.6
+    },
+    {
+     "year": 2024,
+     "docs": 4929,
+     "read": 4020,
+     "read_rate": 81.6
+    },
+    {
+     "year": 2025,
+     "docs": 3436,
+     "read": 3291,
+     "read_rate": 95.8
+    }
+   ],
+   "Appeal": [
+    {
+     "year": 2000,
+     "docs": 378,
+     "read": 96,
+     "read_rate": 25.4
+    },
+    {
+     "year": 2001,
+     "docs": 526,
+     "read": 140,
+     "read_rate": 26.6
+    },
+    {
+     "year": 2002,
+     "docs": 545,
+     "read": 125,
+     "read_rate": 22.9
+    },
+    {
+     "year": 2003,
+     "docs": 471,
+     "read": 104,
+     "read_rate": 22.1
+    },
+    {
+     "year": 2014,
+     "docs": 321,
+     "read": 90,
+     "read_rate": 28.0
+    },
+    {
+     "year": 2016,
+     "docs": 316,
+     "read": 135,
+     "read_rate": 42.7
+    },
+    {
+     "year": 2018,
+     "docs": 304,
+     "read": 133,
+     "read_rate": 43.8
+    },
+    {
+     "year": 2019,
+     "docs": 381,
+     "read": 198,
+     "read_rate": 52.0
+    },
+    {
+     "year": 2020,
+     "docs": 493,
+     "read": 264,
+     "read_rate": 53.5
+    },
+    {
+     "year": 2021,
+     "docs": 382,
+     "read": 248,
+     "read_rate": 64.9
+    },
+    {
+     "year": 2022,
+     "docs": 339,
+     "read": 250,
+     "read_rate": 73.7
+    },
+    {
+     "year": 2023,
+     "docs": 454,
+     "read": 365,
+     "read_rate": 80.4
+    },
+    {
+     "year": 2024,
+     "docs": 434,
+     "read": 424,
+     "read_rate": 97.7
+    }
+   ],
+   "Assessment": [
+    {
+     "year": 2001,
+     "docs": 395,
+     "read": 130,
+     "read_rate": 32.9
+    },
+    {
+     "year": 2006,
+     "docs": 338,
+     "read": 58,
+     "read_rate": 17.2
+    },
+    {
+     "year": 2014,
+     "docs": 633,
+     "read": 237,
+     "read_rate": 37.4
+    },
+    {
+     "year": 2015,
+     "docs": 666,
+     "read": 246,
+     "read_rate": 36.9
+    },
+    {
+     "year": 2016,
+     "docs": 753,
+     "read": 285,
+     "read_rate": 37.8
+    },
+    {
+     "year": 2017,
+     "docs": 991,
+     "read": 344,
+     "read_rate": 34.7
+    },
+    {
+     "year": 2018,
+     "docs": 1253,
+     "read": 380,
+     "read_rate": 30.3
+    },
+    {
+     "year": 2019,
+     "docs": 1427,
+     "read": 483,
+     "read_rate": 33.8
+    },
+    {
+     "year": 2020,
+     "docs": 1828,
+     "read": 596,
+     "read_rate": 32.6
+    },
+    {
+     "year": 2021,
+     "docs": 2495,
+     "read": 943,
+     "read_rate": 37.8
+    },
+    {
+     "year": 2022,
+     "docs": 2796,
+     "read": 1277,
+     "read_rate": 45.7
+    },
+    {
+     "year": 2023,
+     "docs": 1978,
+     "read": 1127,
+     "read_rate": 57.0
+    },
+    {
+     "year": 2024,
+     "docs": 2149,
+     "read": 1683,
+     "read_rate": 78.3
+    },
+    {
+     "year": 2025,
+     "docs": 1757,
+     "read": 1654,
+     "read_rate": 94.1
+    }
+   ],
+   "Evaluation and Lessons Learned": [
+    {
+     "year": 2015,
+     "docs": 336,
+     "read": 128,
+     "read_rate": 38.1
+    },
+    {
+     "year": 2016,
+     "docs": 377,
+     "read": 158,
+     "read_rate": 41.9
+    },
+    {
+     "year": 2017,
+     "docs": 408,
+     "read": 141,
+     "read_rate": 34.6
+    },
+    {
+     "year": 2018,
+     "docs": 444,
+     "read": 178,
+     "read_rate": 40.1
+    },
+    {
+     "year": 2019,
+     "docs": 457,
+     "read": 194,
+     "read_rate": 42.5
+    },
+    {
+     "year": 2020,
+     "docs": 514,
+     "read": 235,
+     "read_rate": 45.7
+    },
+    {
+     "year": 2021,
+     "docs": 554,
+     "read": 274,
+     "read_rate": 49.5
+    },
+    {
+     "year": 2022,
+     "docs": 638,
+     "read": 336,
+     "read_rate": 52.7
+    },
+    {
+     "year": 2023,
+     "docs": 600,
+     "read": 371,
+     "read_rate": 61.8
+    },
+    {
+     "year": 2024,
+     "docs": 628,
+     "read": 515,
+     "read_rate": 82.0
+    },
+    {
+     "year": 2025,
+     "docs": 482,
+     "read": 452,
+     "read_rate": 93.8
+    }
+   ],
+   "Infographic": [
+    {
+     "year": 2012,
+     "docs": 369,
+     "read": 68,
+     "read_rate": 18.4
+    },
+    {
+     "year": 2013,
+     "docs": 1115,
+     "read": 148,
+     "read_rate": 13.3
+    },
+    {
+     "year": 2014,
+     "docs": 2190,
+     "read": 256,
+     "read_rate": 11.7
+    },
+    {
+     "year": 2015,
+     "docs": 2976,
+     "read": 339,
+     "read_rate": 11.4
+    },
+    {
+     "year": 2016,
+     "docs": 4224,
+     "read": 395,
+     "read_rate": 9.4
+    },
+    {
+     "year": 2017,
+     "docs": 5075,
+     "read": 570,
+     "read_rate": 11.2
+    },
+    {
+     "year": 2018,
+     "docs": 4815,
+     "read": 522,
+     "read_rate": 10.8
+    },
+    {
+     "year": 2019,
+     "docs": 5487,
+     "read": 553,
+     "read_rate": 10.1
+    },
+    {
+     "year": 2020,
+     "docs": 7091,
+     "read": 783,
+     "read_rate": 11.0
+    },
+    {
+     "year": 2021,
+     "docs": 6907,
+     "read": 893,
+     "read_rate": 12.9
+    },
+    {
+     "year": 2022,
+     "docs": 7252,
+     "read": 1335,
+     "read_rate": 18.4
+    },
+    {
+     "year": 2023,
+     "docs": 6000,
+     "read": 1775,
+     "read_rate": 29.6
+    },
+    {
+     "year": 2024,
+     "docs": 6005,
+     "read": 2868,
+     "read_rate": 47.8
+    },
+    {
+     "year": 2025,
+     "docs": 7644,
+     "read": 5764,
+     "read_rate": 75.4
+    }
+   ],
+   "Manual and Guideline": [
+    {
+     "year": 2014,
+     "docs": 367,
+     "read": 176,
+     "read_rate": 48.0
+    },
+    {
+     "year": 2015,
+     "docs": 510,
+     "read": 230,
+     "read_rate": 45.1
+    },
+    {
+     "year": 2016,
+     "docs": 515,
+     "read": 230,
+     "read_rate": 44.7
+    },
+    {
+     "year": 2017,
+     "docs": 704,
+     "read": 331,
+     "read_rate": 47.0
+    },
+    {
+     "year": 2018,
+     "docs": 786,
+     "read": 378,
+     "read_rate": 48.1
+    },
+    {
+     "year": 2019,
+     "docs": 731,
+     "read": 385,
+     "read_rate": 52.7
+    },
+    {
+     "year": 2020,
+     "docs": 1546,
+     "read": 620,
+     "read_rate": 40.1
+    },
+    {
+     "year": 2021,
+     "docs": 1084,
+     "read": 637,
+     "read_rate": 58.8
+    },
+    {
+     "year": 2022,
+     "docs": 1357,
+     "read": 765,
+     "read_rate": 56.4
+    },
+    {
+     "year": 2023,
+     "docs": 1340,
+     "read": 948,
+     "read_rate": 70.7
+    },
+    {
+     "year": 2024,
+     "docs": 1252,
+     "read": 1094,
+     "read_rate": 87.4
+    },
+    {
+     "year": 2025,
+     "docs": 1102,
+     "read": 1018,
+     "read_rate": 92.4
+    }
+   ],
+   "Map": [
+    {
+     "year": 2001,
+     "docs": 338,
+     "read": 76,
+     "read_rate": 22.5
+    },
+    {
+     "year": 2002,
+     "docs": 433,
+     "read": 102,
+     "read_rate": 23.6
+    },
+    {
+     "year": 2003,
+     "docs": 726,
+     "read": 153,
+     "read_rate": 21.1
+    },
+    {
+     "year": 2004,
+     "docs": 771,
+     "read": 197,
+     "read_rate": 25.6
+    },
+    {
+     "year": 2005,
+     "docs": 1072,
+     "read": 236,
+     "read_rate": 22.0
+    },
+    {
+     "year": 2006,
+     "docs": 1713,
+     "read": 302,
+     "read_rate": 17.6
+    },
+    {
+     "year": 2007,
+     "docs": 2644,
+     "read": 398,
+     "read_rate": 15.1
+    },
+    {
+     "year": 2008,
+     "docs": 3168,
+     "read": 348,
+     "read_rate": 11.0
+    },
+    {
+     "year": 2009,
+     "docs": 2977,
+     "read": 350,
+     "read_rate": 11.8
+    },
+    {
+     "year": 2010,
+     "docs": 3506,
+     "read": 540,
+     "read_rate": 15.4
+    },
+    {
+     "year": 2011,
+     "docs": 2154,
+     "read": 300,
+     "read_rate": 13.9
+    },
+    {
+     "year": 2012,
+     "docs": 2969,
+     "read": 453,
+     "read_rate": 15.3
+    },
+    {
+     "year": 2013,
+     "docs": 3106,
+     "read": 534,
+     "read_rate": 17.2
+    },
+    {
+     "year": 2014,
+     "docs": 4888,
+     "read": 647,
+     "read_rate": 13.2
+    },
+    {
+     "year": 2015,
+     "docs": 6702,
+     "read": 788,
+     "read_rate": 11.8
+    },
+    {
+     "year": 2016,
+     "docs": 5167,
+     "read": 663,
+     "read_rate": 12.8
+    },
+    {
+     "year": 2017,
+     "docs": 5202,
+     "read": 776,
+     "read_rate": 14.9
+    },
+    {
+     "year": 2018,
+     "docs": 4413,
+     "read": 660,
+     "read_rate": 15.0
+    },
+    {
+     "year": 2019,
+     "docs": 3791,
+     "read": 607,
+     "read_rate": 16.0
+    },
+    {
+     "year": 2020,
+     "docs": 4161,
+     "read": 1036,
+     "read_rate": 24.9
+    },
+    {
+     "year": 2021,
+     "docs": 3226,
+     "read": 801,
+     "read_rate": 24.8
+    },
+    {
+     "year": 2022,
+     "docs": 3322,
+     "read": 1057,
+     "read_rate": 31.8
+    },
+    {
+     "year": 2023,
+     "docs": 2958,
+     "read": 1468,
+     "read_rate": 49.6
+    },
+    {
+     "year": 2024,
+     "docs": 2714,
+     "read": 1763,
+     "read_rate": 65.0
+    },
+    {
+     "year": 2025,
+     "docs": 1981,
+     "read": 1765,
+     "read_rate": 89.1
+    }
+   ],
+   "News and Press Release": [
+    {
+     "year": 1997,
+     "docs": 3936,
+     "read": 821,
+     "read_rate": 20.9
+    },
+    {
+     "year": 1998,
+     "docs": 4504,
+     "read": 623,
+     "read_rate": 13.8
+    },
+    {
+     "year": 1999,
+     "docs": 8616,
+     "read": 883,
+     "read_rate": 10.2
+    },
+    {
+     "year": 2000,
+     "docs": 9167,
+     "read": 937,
+     "read_rate": 10.2
+    },
+    {
+     "year": 2001,
+     "docs": 12250,
+     "read": 957,
+     "read_rate": 7.8
+    },
+    {
+     "year": 2002,
+     "docs": 14193,
+     "read": 1087,
+     "read_rate": 7.7
+    },
+    {
+     "year": 2003,
+     "docs": 15357,
+     "read": 1468,
+     "read_rate": 9.6
+    },
+    {
+     "year": 2004,
+     "docs": 15132,
+     "read": 1506,
+     "read_rate": 10.0
+    },
+    {
+     "year": 2005,
+     "docs": 27154,
+     "read": 2424,
+     "read_rate": 8.9
+    },
+    {
+     "year": 2006,
+     "docs": 27281,
+     "read": 1921,
+     "read_rate": 7.0
+    },
+    {
+     "year": 2007,
+     "docs": 22178,
+     "read": 1684,
+     "read_rate": 7.6
+    },
+    {
+     "year": 2008,
+     "docs": 29767,
+     "read": 2163,
+     "read_rate": 7.3
+    },
+    {
+     "year": 2009,
+     "docs": 34778,
+     "read": 2552,
+     "read_rate": 7.3
+    },
+    {
+     "year": 2010,
+     "docs": 30206,
+     "read": 2215,
+     "read_rate": 7.3
+    },
+    {
+     "year": 2011,
+     "docs": 29229,
+     "read": 2098,
+     "read_rate": 7.2
+    },
+    {
+     "year": 2012,
+     "docs": 31601,
+     "read": 2383,
+     "read_rate": 7.5
+    },
+    {
+     "year": 2013,
+     "docs": 26549,
+     "read": 2156,
+     "read_rate": 8.1
+    },
+    {
+     "year": 2014,
+     "docs": 30859,
+     "read": 3080,
+     "read_rate": 10.0
+    },
+    {
+     "year": 2015,
+     "docs": 32469,
+     "read": 3388,
+     "read_rate": 10.4
+    },
+    {
+     "year": 2016,
+     "docs": 27462,
+     "read": 3086,
+     "read_rate": 11.2
+    },
+    {
+     "year": 2017,
+     "docs": 31157,
+     "read": 3511,
+     "read_rate": 11.3
+    },
+    {
+     "year": 2018,
+     "docs": 27903,
+     "read": 3429,
+     "read_rate": 12.3
+    },
+    {
+     "year": 2019,
+     "docs": 23947,
+     "read": 3851,
+     "read_rate": 16.1
+    },
+    {
+     "year": 2020,
+     "docs": 24475,
+     "read": 3991,
+     "read_rate": 16.3
+    },
+    {
+     "year": 2021,
+     "docs": 20811,
+     "read": 4462,
+     "read_rate": 21.4
+    },
+    {
+     "year": 2022,
+     "docs": 21748,
+     "read": 5501,
+     "read_rate": 25.3
+    },
+    {
+     "year": 2023,
+     "docs": 20033,
+     "read": 7667,
+     "read_rate": 38.3
+    },
+    {
+     "year": 2024,
+     "docs": 20453,
+     "read": 12909,
+     "read_rate": 63.1
+    },
+    {
+     "year": 2025,
+     "docs": 14387,
+     "read": 12627,
+     "read_rate": 87.8
+    }
+   ],
+   "Other": [
+    {
+     "year": 1997,
+     "docs": 494,
+     "read": 108,
+     "read_rate": 21.9
+    },
+    {
+     "year": 1999,
+     "docs": 499,
+     "read": 86,
+     "read_rate": 17.2
+    },
+    {
+     "year": 2001,
+     "docs": 501,
+     "read": 78,
+     "read_rate": 15.6
+    },
+    {
+     "year": 2002,
+     "docs": 995,
+     "read": 174,
+     "read_rate": 17.5
+    },
+    {
+     "year": 2003,
+     "docs": 992,
+     "read": 202,
+     "read_rate": 20.4
+    },
+    {
+     "year": 2004,
+     "docs": 1039,
+     "read": 172,
+     "read_rate": 16.6
+    },
+    {
+     "year": 2005,
+     "docs": 1243,
+     "read": 176,
+     "read_rate": 14.2
+    },
+    {
+     "year": 2006,
+     "docs": 1087,
+     "read": 150,
+     "read_rate": 13.8
+    },
+    {
+     "year": 2007,
+     "docs": 845,
+     "read": 111,
+     "read_rate": 13.1
+    },
+    {
+     "year": 2008,
+     "docs": 1131,
+     "read": 127,
+     "read_rate": 11.2
+    },
+    {
+     "year": 2009,
+     "docs": 1457,
+     "read": 164,
+     "read_rate": 11.3
+    },
+    {
+     "year": 2010,
+     "docs": 1328,
+     "read": 145,
+     "read_rate": 10.9
+    },
+    {
+     "year": 2011,
+     "docs": 917,
+     "read": 122,
+     "read_rate": 13.3
+    },
+    {
+     "year": 2012,
+     "docs": 1036,
+     "read": 124,
+     "read_rate": 12.0
+    },
+    {
+     "year": 2013,
+     "docs": 992,
+     "read": 127,
+     "read_rate": 12.8
+    },
+    {
+     "year": 2014,
+     "docs": 1188,
+     "read": 144,
+     "read_rate": 12.1
+    },
+    {
+     "year": 2015,
+     "docs": 1424,
+     "read": 189,
+     "read_rate": 13.3
+    },
+    {
+     "year": 2016,
+     "docs": 1213,
+     "read": 112,
+     "read_rate": 9.2
+    },
+    {
+     "year": 2017,
+     "docs": 1271,
+     "read": 119,
+     "read_rate": 9.4
+    },
+    {
+     "year": 2018,
+     "docs": 1085,
+     "read": 118,
+     "read_rate": 10.9
+    },
+    {
+     "year": 2019,
+     "docs": 1037,
+     "read": 134,
+     "read_rate": 12.9
+    },
+    {
+     "year": 2020,
+     "docs": 1140,
+     "read": 160,
+     "read_rate": 14.0
+    },
+    {
+     "year": 2021,
+     "docs": 920,
+     "read": 166,
+     "read_rate": 18.0
+    },
+    {
+     "year": 2022,
+     "docs": 1956,
+     "read": 431,
+     "read_rate": 22.0
+    },
+    {
+     "year": 2023,
+     "docs": 2254,
+     "read": 677,
+     "read_rate": 30.0
+    },
+    {
+     "year": 2024,
+     "docs": 1905,
+     "read": 1043,
+     "read_rate": 54.8
+    },
+    {
+     "year": 2025,
+     "docs": 2035,
+     "read": 1647,
+     "read_rate": 80.9
+    }
+   ],
+   "Situation Report": [
+    {
+     "year": 1997,
+     "docs": 1111,
+     "read": 374,
+     "read_rate": 33.7
+    },
+    {
+     "year": 1998,
+     "docs": 1351,
+     "read": 335,
+     "read_rate": 24.8
+    },
+    {
+     "year": 1999,
+     "docs": 2727,
+     "read": 578,
+     "read_rate": 21.2
+    },
+    {
+     "year": 2000,
+     "docs": 2592,
+     "read": 528,
+     "read_rate": 20.4
+    },
+    {
+     "year": 2001,
+     "docs": 2918,
+     "read": 467,
+     "read_rate": 16.0
+    },
+    {
+     "year": 2002,
+     "docs": 2514,
+     "read": 403,
+     "read_rate": 16.0
+    },
+    {
+     "year": 2003,
+     "docs": 2621,
+     "read": 548,
+     "read_rate": 20.9
+    },
+    {
+     "year": 2004,
+     "docs": 2954,
+     "read": 670,
+     "read_rate": 22.7
+    },
+    {
+     "year": 2005,
+     "docs": 4704,
+     "read": 896,
+     "read_rate": 19.0
+    },
+    {
+     "year": 2006,
+     "docs": 4606,
+     "read": 700,
+     "read_rate": 15.2
+    },
+    {
+     "year": 2007,
+     "docs": 4962,
+     "read": 782,
+     "read_rate": 15.8
+    },
+    {
+     "year": 2008,
+     "docs": 5420,
+     "read": 712,
+     "read_rate": 13.1
+    },
+    {
+     "year": 2009,
+     "docs": 5793,
+     "read": 626,
+     "read_rate": 10.8
+    },
+    {
+     "year": 2010,
+     "docs": 5029,
+     "read": 477,
+     "read_rate": 9.5
+    },
+    {
+     "year": 2011,
+     "docs": 4803,
+     "read": 396,
+     "read_rate": 8.2
+    },
+    {
+     "year": 2012,
+     "docs": 5185,
+     "read": 417,
+     "read_rate": 8.0
+    },
+    {
+     "year": 2013,
+     "docs": 6062,
+     "read": 533,
+     "read_rate": 8.8
+    },
+    {
+     "year": 2014,
+     "docs": 7924,
+     "read": 750,
+     "read_rate": 9.5
+    },
+    {
+     "year": 2015,
+     "docs": 8996,
+     "read": 987,
+     "read_rate": 11.0
+    },
+    {
+     "year": 2016,
+     "docs": 8817,
+     "read": 1084,
+     "read_rate": 12.3
+    },
+    {
+     "year": 2017,
+     "docs": 10017,
+     "read": 1350,
+     "read_rate": 13.5
+    },
+    {
+     "year": 2018,
+     "docs": 9219,
+     "read": 1285,
+     "read_rate": 13.9
+    },
+    {
+     "year": 2019,
+     "docs": 9197,
+     "read": 1486,
+     "read_rate": 16.2
+    },
+    {
+     "year": 2020,
+     "docs": 13562,
+     "read": 2106,
+     "read_rate": 15.5
+    },
+    {
+     "year": 2021,
+     "docs": 11070,
+     "read": 2099,
+     "read_rate": 19.0
+    },
+    {
+     "year": 2022,
+     "docs": 11109,
+     "read": 2766,
+     "read_rate": 24.9
+    },
+    {
+     "year": 2023,
+     "docs": 10381,
+     "read": 4035,
+     "read_rate": 38.9
+    },
+    {
+     "year": 2024,
+     "docs": 10304,
+     "read": 6711,
+     "read_rate": 65.1
+    },
+    {
+     "year": 2025,
+     "docs": 7591,
+     "read": 6778,
+     "read_rate": 89.3
+    }
+   ],
+   "UN Document": [
+    {
+     "year": 2001,
+     "docs": 306,
+     "read": 60,
+     "read_rate": 19.6
+    },
+    {
+     "year": 2002,
+     "docs": 394,
+     "read": 70,
+     "read_rate": 17.8
+    },
+    {
+     "year": 2003,
+     "docs": 304,
+     "read": 73,
+     "read_rate": 24.0
+    },
+    {
+     "year": 2008,
+     "docs": 303,
+     "read": 29,
+     "read_rate": 9.6
+    },
+    {
+     "year": 2009,
+     "docs": 450,
+     "read": 55,
+     "read_rate": 12.2
+    },
+    {
+     "year": 2012,
+     "docs": 308,
+     "read": 28,
+     "read_rate": 9.1
+    },
+    {
+     "year": 2016,
+     "docs": 338,
+     "read": 98,
+     "read_rate": 29.0
+    },
+    {
+     "year": 2017,
+     "docs": 386,
+     "read": 112,
+     "read_rate": 29.0
+    },
+    {
+     "year": 2019,
+     "docs": 375,
+     "read": 121,
+     "read_rate": 32.3
+    },
+    {
+     "year": 2020,
+     "docs": 307,
+     "read": 103,
+     "read_rate": 33.6
+    },
+    {
+     "year": 2021,
+     "docs": 378,
+     "read": 164,
+     "read_rate": 43.4
+    },
+    {
+     "year": 2022,
+     "docs": 362,
+     "read": 195,
+     "read_rate": 53.9
+    },
+    {
+     "year": 2023,
+     "docs": 553,
+     "read": 287,
+     "read_rate": 51.9
+    },
+    {
+     "year": 2024,
+     "docs": 521,
+     "read": 429,
+     "read_rate": 82.3
+    },
+    {
+     "year": 2025,
+     "docs": 343,
+     "read": 297,
+     "read_rate": 86.6
+    }
+   ]
+  },
+  "form_year_min_docs": 300,
+  "top_by_year": {
+   "1996": [
+    {
+     "title": "Somali Warlord Aideed Dies of Gunshot Wounds",
+     "url": "https://reliefweb.int/report/somalia/somali-warlord-aideed-dies-gunshot-wounds",
+     "source": "Reuters",
+     "visits": 150
+    },
+    {
+     "title": "Six Red Cross Staffers Killed in Chechnya",
+     "url": "https://reliefweb.int/report/russian-federation/six-red-cross-staffers-killed-chechnya",
+     "source": "Reuters",
+     "visits": 136
+    },
+    {
+     "title": "Carte Administrative du Congo",
+     "url": "https://reliefweb.int/map/congo/carte-administrative-du-congo",
+     "source": "FAO",
+     "visits": 120
+    }
+   ],
+   "1997": [
+    {
+     "title": "Provinces of Philippines",
+     "url": "https://reliefweb.int/map/philippines/provinces-philippines",
+     "source": "ReliefWeb",
+     "visits": 701
+    },
+    {
+     "title": "Active Volcanoes - Plate Tectonics and the \"Ring of Fire\"",
+     "url": "https://reliefweb.int/map/world/active-volcanoes-plate-tectonics-and-ring-fire",
+     "source": "USGS",
+     "visits": 374
+    },
+    {
+     "title": "Philippines: Volcanoes (last updated: 3 Jul 1997)",
+     "url": "https://reliefweb.int/map/philippines/philippines-volcanoes-last-updated-3-jul-1997",
+     "source": "ReliefWeb",
+     "visits": 337
+    }
+   ],
+   "1998": [
+    {
+     "title": "When women are the spoils of war",
+     "url": "https://reliefweb.int/report/bosnia-and-herzegovina/when-women-are-spoils-war",
+     "source": "UNESCO",
+     "visits": 144
+    },
+    {
+     "title": "Rwanda: The Protestant Churches and the Genocide: press release",
+     "url": "https://reliefweb.int/report/rwanda/rwanda-protestant-churches-and-genocide-press-release",
+     "source": "AR",
+     "visits": 102
+    },
+    {
+     "title": "Final Report on 1998 Floods in the People's Republic of China",
+     "url": "https://reliefweb.int/report/china/final-report-1998-floods-peoples-republic-china",
+     "source": "OCHA",
+     "visits": 81
+    }
+   ],
+   "1999": [
+    {
+     "title": "Report of the independent inquiry into the actions of the United Nations during the 1994 genocide in Rwanda",
+     "url": "https://reliefweb.int/report/rwanda/report-independent-inquiry-actions-united-nations-during-1994-genocide-rwanda",
+     "source": "UN",
+     "visits": 864
+    },
+    {
+     "title": "In debt to disaster: What happened to Honduras after Hurricane Mitch",
+     "url": "https://reliefweb.int/report/honduras/debt-disaster-what-happened-honduras-after-hurricane-mitch",
+     "source": "Christian Aid",
+     "visits": 452
+    },
+    {
+     "title": "Mudslide survivors tell stories of loss, horror, hope",
+     "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/mudslide-survivors-tell-stories-loss-horror-hope",
+     "source": "D.Relief.org",
+     "visits": 217
+    }
+   ],
+   "2000": [
+    {
+     "title": "The Baia Mare Gold Mine Cyanide Spill: Causes, Impacts and Liability",
+     "url": "https://reliefweb.int/report/hungary/baia-mare-gold-mine-cyanide-spill-causes-impacts-and-liability",
+     "source": "Greenpeace",
+     "visits": 1231
+    },
+    {
+     "title": "The Kosovo Report",
+     "url": "https://reliefweb.int/report/albania/kosovo-report",
+     "source": "IICK",
+     "visits": 530
+    },
+    {
+     "title": "One Year Later: Venezuelans still recovering from Mudslides",
+     "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/one-year-later-venezuelans-still-recovering-mudslides",
+     "source": "D.Relief.org",
+     "visits": 298
+    }
+   ],
+   "2001": [
+    {
+     "title": "Report of the Panel of Experts on the Illegal Exploitation of Natural Resources and Other Forms of Wealth of DR Congo",
+     "url": "https://reliefweb.int/report/democratic-republic-congo/report-panel-experts-illegal-exploitation-natural-resources-and",
+     "source": "UN SC",
+     "visits": 258
+    },
+    {
+     "title": "El Salvador - Earthquakes Final Fact Sheet, Fiscal Year (FY) 2001",
+     "url": "https://reliefweb.int/report/el-salvador/el-salvador-earthquakes-final-fact-sheet-fiscal-year-fy-2001",
+     "source": "USAID",
+     "visits": 151
+    },
+    {
+     "title": "Sierra Leone: Chiefdom Names & Geo-Codes (20 April 2001)",
+     "url": "https://reliefweb.int/map/sierra-leone/sierra-leone-chiefdom-names-geo-codes-20-april-2001",
+     "source": "SLIS",
+     "visits": 137
+    }
+   ],
+   "2002": [
+    {
+     "title": "DR Congo: Carte des Territoires du Sud Kivu",
+     "url": "https://reliefweb.int/map/democratic-republic-congo/dr-congo-carte-des-territoires-du-sud-kivu",
+     "source": "OCHA",
+     "visits": 1517
+    },
+    {
+     "title": "DR Congo: Carte des Territoires du Nord Kivu",
+     "url": "https://reliefweb.int/map/democratic-republic-congo/dr-congo-carte-des-territoires-du-nord-kivu",
+     "source": "OCHA",
+     "visits": 909
+    },
+    {
+     "title": "DR Congo: Carte des Districts et Territoires du Katanga",
+     "url": "https://reliefweb.int/map/democratic-republic-congo/dr-congo-carte-des-districts-et-territoires-du-katanga",
+     "source": "OCHA",
+     "visits": 655
+    }
+   ],
+   "2003": [
+    {
+     "title": "India: River Map of Assam (5 August 2003)",
+     "url": "https://reliefweb.int/map/india/india-river-map-assam-5-august-2003",
+     "source": "UNDP",
+     "visits": 881
+    },
+    {
+     "title": "Ethiopia: Regions and Zones",
+     "url": "https://reliefweb.int/map/ethiopia/ethiopia-regions-and-zones",
+     "source": "OCHA",
+     "visits": 726
+    },
+    {
+     "title": "General guidance for the interaction between humanitarian organizations and military forces operating in Liberia",
+     "url": "https://reliefweb.int/report/liberia/general-guidance-interaction-between-humanitarian-organizations-and-military-forces",
+     "source": "OCHA",
+     "visits": 574
+    }
+   ],
+   "2004": [
+    {
+     "title": "Liberia Humanitarian Situation Update No. 84",
+     "url": "https://reliefweb.int/report/liberia/liberia-humanitarian-situation-update-no-84",
+     "source": "OCHA",
+     "visits": 1346
+    },
+    {
+     "title": "Liberia Humanitarian Situation Report No. 105",
+     "url": "https://reliefweb.int/report/liberia/liberia-humanitarian-situation-report-no-105",
+     "source": "OCHA",
+     "visits": 944
+    },
+    {
+     "title": "South Africa: Drought - Situation map",
+     "url": "https://reliefweb.int/map/south-africa/south-africa-drought-situation-map",
+     "source": "ReliefWeb",
+     "visits": 477
+    }
+   ],
+   "2005": [
+    {
+     "title": "Understanding Darfur conflict",
+     "url": "https://reliefweb.int/report/sudan/understanding-darfur-conflict",
+     "source": "Govt. Sudan",
+     "visits": 1406
+    },
+    {
+     "title": "Colombia: Mapa Fisico",
+     "url": "https://reliefweb.int/map/colombia/colombia-mapa-fisico",
+     "source": "Govt. Colombia",
+     "visits": 589
+    },
+    {
+     "title": "Colombia: Mapa Politico",
+     "url": "https://reliefweb.int/map/colombia/colombia-mapa-politico",
+     "source": "Govt. Colombia",
+     "visits": 433
+    }
+   ],
+   "2006": [
+    {
+     "title": "Map of Uganda - Including New Districts by Region (as of Jul 2006",
+     "url": "https://reliefweb.int/map/uganda/map-uganda-including-new-districts-region-jul-2006",
+     "source": "OCHA",
+     "visits": 4317
+    },
+    {
+     "title": "Reference map of Syria",
+     "url": "https://reliefweb.int/map/syrian-arab-republic/reference-map-syria",
+     "source": "CIA",
+     "visits": 1004
+    },
+    {
+     "title": "Policy Brief: Food Security - Issue 2, June 2006",
+     "url": "https://reliefweb.int/report/world/policy-brief-food-security-issue-2-june-2006",
+     "source": "FAO",
+     "visits": 510
+    }
+   ],
+   "2007": [
+    {
+     "title": "Chad: Should the new international force be 'neutral' or 'impartial'?",
+     "url": "https://reliefweb.int/report/chad/chad-should-new-international-force-be-neutral-or-impartial",
+     "source": "TNH",
+     "visits": 586
+    },
+    {
+     "title": "Myanmar: States/Divisions & Townships Overview Map",
+     "url": "https://reliefweb.int/map/myanmar/myanmar-statesdivisions-townships-overview-map",
+     "source": "MIMU",
+     "visits": 241
+    },
+    {
+     "title": "Thailand: Population Density within and outside of a 10m Low Elevation Coastal Zone",
+     "url": "https://reliefweb.int/map/thailand/thailand-population-density-within-and-outside-10m-low-elevation-coastal-zone",
+     "source": "Columbia University",
+     "visits": 168
+    }
+   ],
+   "2008": [
+    {
+     "title": "Chad: Aid groups face dilemma over EU protection",
+     "url": "https://reliefweb.int/report/chad/chad-aid-groups-face-dilemma-over-eu-protection",
+     "source": "TNH",
+     "visits": 2821
+    },
+    {
+     "title": "Church massacre pushes Kenya death toll near 250",
+     "url": "https://reliefweb.int/report/kenya/church-massacre-pushes-kenya-death-toll-near-250",
+     "source": "Reuters",
+     "visits": 667
+    },
+    {
+     "title": "World: Access to safe drinking water",
+     "url": "https://reliefweb.int/map/world/world-access-safe-drinking-water",
+     "source": "UNEP",
+     "visits": 634
+    }
+   ],
+   "2009": [
+    {
+     "title": "Situation report Philippines - Typhoon Ondoy",
+     "url": "https://reliefweb.int/report/philippines/situation-report-philippines-typhoon-ondoy",
+     "source": "PDA",
+     "visits": 491
+    },
+    {
+     "title": "Pakistan: Reference Map of Buner District (as of 4 Aug 2009)",
+     "url": "https://reliefweb.int/map/pakistan/pakistan-reference-map-buner-district-4-aug-2009",
+     "source": "WFP",
+     "visits": 393
+    },
+    {
+     "title": "RD Congo : Province du Sud-Kivu - Carte administrative - Septembre 2009",
+     "url": "https://reliefweb.int/map/democratic-republic-congo/rd-congo-province-du-sud-kivu-carte-administrative-septembre-2009",
+     "source": "OCHA",
+     "visits": 304
+    }
+   ],
+   "2010": [
+    {
+     "title": "Philippines: Natural Hazard Profile (as of 23 Oct 2010)",
+     "url": "https://reliefweb.int/map/philippines/philippines-natural-hazard-profile-23-oct-2010",
+     "source": "OCHA",
+     "visits": 1374
+    },
+    {
+     "title": "PAKISTAN: Putting a stop to kidney sales",
+     "url": "https://reliefweb.int/report/pakistan/pakistan-putting-stop-kidney-sales",
+     "source": "TNH",
+     "visits": 1315
+    },
+    {
+     "title": "National Education Policy 2010 [EN/BN]",
+     "url": "https://reliefweb.int/report/bangladesh/national-education-policy-2010-enbn",
+     "source": "Govt. Bangladesh",
+     "visits": 695
+    }
+   ],
+   "2011": [
+    {
+     "title": "FEATURE-Anger still raw a year after Pakistani floods",
+     "url": "https://reliefweb.int/report/pakistan/feature-anger-still-raw-year-after-pakistani-floods",
+     "source": "Reuters",
+     "visits": 791
+    },
+    {
+     "title": "Analysis: Should child soldiers be prosecuted for their crimes?",
+     "url": "https://reliefweb.int/report/world/analysis-should-child-soldiers-be-prosecuted-their-crimes",
+     "source": "TNH",
+     "visits": 337
+    },
+    {
+     "title": "Global Food Losses and Food Waste: Extent, Causes and Prevention",
+     "url": "https://reliefweb.int/report/world/global-food-losses-and-food-waste-extent-causes-and-prevention",
+     "source": "FAO",
+     "visits": 326
+    }
+   ],
+   "2012": [
+    {
+     "title": "Sexual Abuse Keeps Girls Out of School in PNG",
+     "url": "https://reliefweb.int/report/papua-new-guinea/sexual-abuse-keeps-girls-out-school-png",
+     "source": "IPS",
+     "visits": 7128
+    },
+    {
+     "title": "Road Distance Map - Punjab Province - Pakistan (as of 23 May 2012)",
+     "url": "https://reliefweb.int/map/pakistan/road-distance-map-punjab-province-pakistan-23-may-2012",
+     "source": "Logistics Cluster",
+     "visits": 815
+    },
+    {
+     "title": "World: Humanitarian and Country Icons 2012",
+     "url": "https://reliefweb.int/report/world/world-humanitarian-and-country-icons-2012",
+     "source": "ReliefWeb",
+     "visits": 702
+    }
+   ],
+   "2013": [
+    {
+     "title": "The history of foreign aid",
+     "url": "https://reliefweb.int/report/world/history-foreign-aid",
+     "source": "ABC",
+     "visits": 796
+    },
+    {
+     "title": "Phases of Disaster Recovery: Emergency Response for the Long Term",
+     "url": "https://reliefweb.int/report/world/phases-disaster-recovery-emergency-response-long-term",
+     "source": "UMCOR",
+     "visits": 513
+    },
+    {
+     "title": "Myanmar: Yangon City Townships ( as of 5 Apr 2013)",
+     "url": "https://reliefweb.int/map/myanmar/myanmar-yangon-city-townships-5-apr-2013",
+     "source": "MIMU",
+     "visits": 440
+    }
+   ],
+   "2014": [
+    {
+     "title": "Pakistani village gives girls pioneering sex education class",
+     "url": "https://reliefweb.int/report/pakistan/pakistani-village-gives-girls-pioneering-sex-education-class",
+     "source": "Reuters",
+     "visits": 6225
+    },
+    {
+     "title": "NDRRMC Update Sitrep No. 108 Effects of Typhoon \"Yolanda\" (Haiyan)",
+     "url": "https://reliefweb.int/report/philippines/ndrrmc-update-sitrep-no-108-effects-typhoon-yolanda-haiyan",
+     "source": "Govt. Philippines",
+     "visits": 744
+    },
+    {
+     "title": "Islamic law and the rules of war",
+     "url": "https://reliefweb.int/report/world/islamic-law-and-rules-war",
+     "source": "TNH",
+     "visits": 607
+    }
+   ],
+   "2015": [
+    {
+     "title": "The Valley Fault System in Greater Metro Manila Area | Atlas (as of June 2014)",
+     "url": "https://reliefweb.int/map/philippines/valley-fault-system-greater-metro-manila-area-atlas-june-2014",
+     "source": "PHIVOLCS",
+     "visits": 1620
+    },
+    {
+     "title": "Humanitarian Needs Assessment \u2013 The Good Enough Guide",
+     "url": "https://reliefweb.int/report/world/humanitarian-needs-assessment-good-enough-guide-0",
+     "source": "ECB",
+     "visits": 1595
+    },
+    {
+     "title": "\u00c1lvaro Uribe, las Convivir y los ej\u00e9rcitos paramilitares",
+     "url": "https://reliefweb.int/report/colombia/lvaro-uribe-las-convivir-y-los-ej-rcitos-paramilitares",
+     "source": "IPC",
+     "visits": 1491
+    }
+   ],
+   "2016": [
+    {
+     "title": "Japan \u2013 Earthquake/Tsunami - ECHO Daily Map | 22/11/2016",
+     "url": "https://reliefweb.int/map/japan/japan-earthquaketsunami-echo-daily-map-22112016",
+     "source": "ECHO",
+     "visits": 598
+    },
+    {
+     "title": "World Bank approves US$100 million in financing to create 100,000 jobs for Jordanians, Syrian refugees",
+     "url": "https://reliefweb.int/report/jordan/world-bank-approves-us100-million-financing-create-100000-jobs-jordanians-syrian",
+     "source": "World Bank",
+     "visits": 582
+    },
+    {
+     "title": "As Libyan parties delay naming unity government, UN urges steps to end political divisions",
+     "url": "https://reliefweb.int/report/libya/libyan-parties-delay-naming-unity-government-un-urges-steps-end-political-divisions",
+     "source": "UN News",
+     "visits": 469
+    }
+   ],
+   "2017": [
+    {
+     "title": "10 countries where child soldiers are still recruited in armed conflicts",
+     "url": "https://reliefweb.int/report/central-african-republic/10-countries-where-child-soldiers-are-still-recruited-armed",
+     "source": "Theirworld",
+     "visits": 3125
+    },
+    {
+     "title": "Boys Sold for Sex in Afghan Province",
+     "url": "https://reliefweb.int/report/afghanistan/boys-sold-sex-afghan-province",
+     "source": "IWPR",
+     "visits": 1020
+    },
+    {
+     "title": "Editor\u2019s Pick: 10 Violent Water Conflicts",
+     "url": "https://reliefweb.int/report/world/editor-s-pick-10-violent-water-conflicts",
+     "source": "adelphi",
+     "visits": 941
+    }
+   ],
+   "2018": [
+    {
+     "title": "The Sphere Handbook: Humanitarian Charter and Minimum Standards in Humanitarian Response - 2018 edition [EN/AR]",
+     "url": "https://reliefweb.int/report/world/sphere-handbook-humanitarian-charter-and-minimum-standards-humanitarian-response-2018",
+     "source": "Sphere",
+     "visits": 1316
+    },
+    {
+     "title": "Which countries have the highest rates of modern slavery and most victims?",
+     "url": "https://reliefweb.int/report/world/which-countries-have-highest-rates-modern-slavery-and-most-victims",
+     "source": "Thomson Reuters Foundation",
+     "visits": 861
+    },
+    {
+     "title": "Humanitarian and Country Icons 2018",
+     "url": "https://reliefweb.int/report/world/humanitarian-and-country-icons-2018",
+     "source": "OCHA",
+     "visits": 857
+    }
+   ],
+   "2019": [
+    {
+     "title": "WFP Aviation Annual Report 2018",
+     "url": "https://reliefweb.int/report/world/wfp-aviation-annual-report-2018",
+     "source": "WFP",
+     "visits": 605
+    },
+    {
+     "title": "Global Drought Risk and Water Stress \u2013 DG ECHO Daily Map | 11/10/2019",
+     "url": "https://reliefweb.int/map/world/global-drought-risk-and-water-stress-dg-echo-daily-map-11102019",
+     "source": "ECHO",
+     "visits": 452
+    },
+    {
+     "title": "Reporting on Atrocity: Two grainy videos shed light on the perplexing terrain where media and mass atrocity meet",
+     "url": "https://reliefweb.int/report/world/reporting-atrocity-two-grainy-videos-shed-light-perplexing-terrain-where-media-and-mass-atrocity-meet",
+     "source": "CIGI",
+     "visits": 448
+    }
+   ],
+   "2020": [
+    {
+     "title": "Programme national d\u2019approvisionnement en eau potable (PN-AEP) - Rapport National Bilan Annuel 2019 (Mars 2020)",
+     "url": "https://reliefweb.int/report/burkina-faso/programme-national-d-approvisionnement-en-eau-potable-pn-aep-rapport-national",
+     "source": "Govt. Burkina Faso",
+     "visits": 1945
+    },
+    {
+     "title": "11 Top Causes of Global Poverty",
+     "url": "https://reliefweb.int/report/world/11-top-causes-global-poverty",
+     "source": "Concern",
+     "visits": 1841
+    },
+    {
+     "title": "WFP Bangladesh: Rohingya Refugee Response | Situation Report #38 (May 2020)",
+     "url": "https://reliefweb.int/report/bangladesh/wfp-bangladesh-rohingya-refugee-response-situation-report-38-may-2020",
+     "source": "WFP",
+     "visits": 1264
+    }
+   ],
+   "2021": [
+    {
+     "title": "The Nexus Environmental Assessment Tool (NEAT+) [EN/ES/FR]",
+     "url": "https://reliefweb.int/report/world/nexus-environmental-assessment-tool-neat-enesfr",
+     "source": "IUCN",
+     "visits": 5532
+    },
+    {
+     "title": "Philippines: Super Typhoon Rai (Odette) Humanitarian Needs and Priorities (Dec 2021 - Jun 2022)",
+     "url": "https://reliefweb.int/report/philippines/philippines-super-typhoon-rai-odette-humanitarian-needs-and-priorities-dec-2021",
+     "source": "OCHA",
+     "visits": 853
+    },
+    {
+     "title": "United Nations University: Annual Report 2020",
+     "url": "https://reliefweb.int/report/world/united-nations-university-annual-report-2020",
+     "source": "UNU",
+     "visits": 715
+    }
+   ],
+   "2022": [
+    {
+     "title": "South Africa, Africa: KwaZulu-Natal Floods and Landslides - Operation update #1, Emergency appeal No. MDRZA012",
+     "url": "https://reliefweb.int/report/south-africa/south-africa-africa-kwazulu-natal-floods-and-landslides-operation-update-1-emergency-appeal-no-mdrza012",
+     "source": "IFRC",
+     "visits": 2045
+    },
+    {
+     "title": "Burkina Rapport d'\u00e9valuation de projet : Projet d'am\u00e9lioration des services d'eau potable et d'assainissement pour le renforcement de la r\u00e9silience (PASEPA- 2R)",
+     "url": "https://reliefweb.int/report/burkina-faso/burkina-rapport-devaluation-de-projet-projet-damelioration-des-services-deau-potable-et-dassainissement-pour-le-renforcement-de-la-resilience-pasepa-2r",
+     "source": "AfDB",
+     "visits": 2028
+    },
+    {
+     "title": "Landslide and flash floods impact analysis West of Durban, eThekwini Metropolitan Municipality, KwaZulu-Natal Provincce, South Africa as of 14 April 2022",
+     "url": "https://reliefweb.int/map/south-africa/landslide-and-flash-floods-impact-analysis-west-durban-ethekwini-metropolitan",
+     "source": "UNOSAT",
+     "visits": 1825
+    }
+   ],
+   "2023": [
+    {
+     "title": "Rapport de recherche, novembre 2022: Quelle perennite financiere des services publics d\u2019eau potable en temps de crise? Recherche du projet Nex'eau, au Burkina Faso",
+     "url": "https://reliefweb.int/report/burkina-faso/rapport-de-recherche-novembre-2022-quelle-perennite-financiere-des-services-publics-deau-potable-en-temps-de-crise-recherche-du-projet-nexeau-au-burkina-faso",
+     "source": "Groupe URD",
+     "visits": 1928
+    },
+    {
+     "title": "Philippines: Super Typhoon Haiyan (Yolanda) - In Retrospect - Humanitarian Impact and Response Achievements of the Humanitarian Country Team (as of 26 October 2023)",
+     "url": "https://reliefweb.int/report/philippines/philippines-super-typhoon-haiyan-yolanda-retrospect-humanitarian-impact-and-response-achievements-humanitarian-country-team-26-october-2023",
+     "source": "OCHA",
+     "visits": 1688
+    },
+    {
+     "title": "For Palestinians in the West Bank, 2023 was the deadliest year on record",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/palestinians-west-bank-2023-was-deadliest-year-record",
+     "source": "MSF",
+     "visits": 1333
+    }
+   ],
+   "2024": [
+    {
+     "title": "The WorldRiskReport 2024 - Focus: Multiple Crises",
+     "url": "https://reliefweb.int/report/world/worldriskreport-2024-focus-multiple-crises",
+     "source": "CBM",
+     "visits": 3432
+    },
+    {
+     "title": "World Population Prospects 2024: Summary of Results",
+     "url": "https://reliefweb.int/report/world/world-population-prospects-2024-summary-results",
+     "source": "UN DESA",
+     "visits": 2696
+    },
+    {
+     "title": "Republic of the Philippines: Survey on Disaster Preparedness and Climate Change Perceptions, 06 November 2024",
+     "url": "https://reliefweb.int/report/philippines/republic-philippines-survey-disaster-preparedness-and-climate-change-perceptions-06-november-2024",
+     "source": "Harvard Univ.",
+     "visits": 1665
+    }
+   ],
+   "2025": [
+    {
+     "title": "Flash Update: No. 1 \u2013 Tropical Cyclone Verbena \u2013 24 November 2025",
+     "url": "https://reliefweb.int/report/philippines/flash-update-no-1-tropical-cyclone-verbena-24-november-2025",
+     "source": "AHA Centre",
+     "visits": 16502
+    },
+    {
+     "title": "Global Terrorism Index 2025",
+     "url": "https://reliefweb.int/report/world/global-terrorism-index-2025",
+     "source": "IEP",
+     "visits": 16157
+    },
+    {
+     "title": "Philippines: 6.9M Cebu Earthquake Flash Update No.2 (as of 03 October 2025, 8:00 p.m. local time)",
+     "url": "https://reliefweb.int/report/philippines/philippines-69m-cebu-earthquake-flash-update-no2-03-october-2025-800-pm-local-time",
+     "source": "OCHA",
+     "visits": 12562
+    }
+   ]
+  },
+  "top_by_format": {
+   "Analysis": [
+    {
+     "title": "Global Terrorism Index 2025",
+     "url": "https://reliefweb.int/report/world/global-terrorism-index-2025",
+     "source": "IEP",
+     "visits": 16157
+    },
+    {
+     "title": "The WorldRiskReport 2024 - Focus: Multiple Crises",
+     "url": "https://reliefweb.int/report/world/worldriskreport-2024-focus-multiple-crises",
+     "source": "CBM",
+     "visits": 3432
+    },
+    {
+     "title": "2024 Disasters in Numbers",
+     "url": "https://reliefweb.int/report/world/2024-disasters-numbers",
+     "source": "CRED",
+     "visits": 3163
+    }
+   ],
+   "Appeal": [
+    {
+     "title": "Ukraine Humanitarian Needs and Response Plan 2025 (April 2025) [EN/UK]",
+     "url": "https://reliefweb.int/report/ukraine/ukraine-humanitarian-needs-and-response-plan-2025-april-2025-enuk",
+     "source": "OCHA",
+     "visits": 2888
+    },
+    {
+     "title": "Philippines, Asia-Pacific | Cebu Earthquake - Emergency Appeal (MDRPH057)",
+     "url": "https://reliefweb.int/report/philippines/philippines-asia-pacific-cebu-earthquake-emergency-appeal-mdrph057",
+     "source": "IFRC",
+     "visits": 2864
+    },
+    {
+     "title": "Somalia 2025 Humanitarian Needs and Response Plan (HNRP)",
+     "url": "https://reliefweb.int/report/somalia/somalia-2025-humanitarian-needs-and-response-plan-hnrp",
+     "source": "OCHA",
+     "visits": 1388
+    }
+   ],
+   "Assessment": [
+    {
+     "title": "Punjab Floods: Secondary Data Analysis Report (September 2025)",
+     "url": "https://reliefweb.int/report/india/punjab-floods-secondary-data-analysis-report-september-2025",
+     "source": "Sphere India",
+     "visits": 5387
+    },
+    {
+     "title": "Philippines: Super Typhoon Uwan/Fung-wong Consolidated Rapid Assessment Report - 20 November 2025",
+     "url": "https://reliefweb.int/report/philippines/philippines-super-typhoon-uwanfung-wong-consolidated-rapid-assessment-report-20-november-2025",
+     "source": "HCT Philippines",
+     "visits": 4268
+    },
+    {
+     "title": "Philippines Earthquake Situation Assessment (1 October 2025)",
+     "url": "https://reliefweb.int/report/philippines/philippines-earthquake-situation-assessment-1-october-2025",
+     "source": "DFS",
+     "visits": 2160
+    }
+   ],
+   "Evaluation and Lessons Learned": [
+    {
+     "title": "Burkina Rapport d'\u00e9valuation de projet : Projet d'am\u00e9lioration des services d'eau potable et d'assainissement pour le renforcement de la r\u00e9silience (PASEPA- 2R)",
+     "url": "https://reliefweb.int/report/burkina-faso/burkina-rapport-devaluation-de-projet-projet-damelioration-des-services-deau-potable-et-dassainissement-pour-le-renforcement-de-la-resilience-pasepa-2r",
+     "source": "AfDB",
+     "visits": 2028
+    },
+    {
+     "title": "Kenya Refugee Response Under Strain: Funding Cuts, Differentiated Assistance, and the Rising Social Cohesion Crisis (August 2025)",
+     "url": "https://reliefweb.int/report/kenya/kenya-refugee-response-under-strain-funding-cuts-differentiated-assistance-and-rising-social-cohesion-crisis-august-2025",
+     "source": "NRG",
+     "visits": 351
+    },
+    {
+     "title": "Post-Disaster Needs Assessment PDNA - Lessons from a Decade of Experience 2018",
+     "url": "https://reliefweb.int/report/world/post-disaster-needs-assessment-pdna-lessons-decade-experience-2018",
+     "source": "World Bank",
+     "visits": 279
+    }
+   ],
+   "Infographic": [
+    {
+     "title": "Philippines: Super Typhoon Haiyan (Yolanda) - In Retrospect - Humanitarian Impact and Response Achievements of the Humanitarian Country Team (as of 26 October 2023)",
+     "url": "https://reliefweb.int/report/philippines/philippines-super-typhoon-haiyan-yolanda-retrospect-humanitarian-impact-and-response-achievements-humanitarian-country-team-26-october-2023",
+     "source": "OCHA",
+     "visits": 1688
+    },
+    {
+     "title": "Pakistan Flood Situation Update - 11 September 2025",
+     "url": "https://reliefweb.int/report/pakistan/pakistan-flood-situation-update-11-september-2025",
+     "source": "OCHA",
+     "visits": 1639
+    },
+    {
+     "title": "Jamaica: Hurricane Melissa - Response Snapshot No. 1 (as of 2 November 2025)",
+     "url": "https://reliefweb.int/report/jamaica/jamaica-hurricane-melissa-response-snapshot-no-1-2-november-2025",
+     "source": "OCHA",
+     "visits": 1309
+    }
+   ],
+   "Manual and Guideline": [
+    {
+     "title": "The Nexus Environmental Assessment Tool (NEAT+) [EN/ES/FR]",
+     "url": "https://reliefweb.int/report/world/nexus-environmental-assessment-tool-neat-enesfr",
+     "source": "IUCN",
+     "visits": 5532
+    },
+    {
+     "title": "Humanitarian Needs Assessment \u2013 The Good Enough Guide",
+     "url": "https://reliefweb.int/report/world/humanitarian-needs-assessment-good-enough-guide-0",
+     "source": "ECB",
+     "visits": 1595
+    },
+    {
+     "title": "Philippines: National Disaster Risk Reduction and Management Plan 2020-2030",
+     "url": "https://reliefweb.int/report/philippines/philippines-national-disaster-risk-reduction-and-management-plan-2020-2030",
+     "source": "Govt. Philippines",
+     "visits": 1369
+    }
+   ],
+   "Map": [
+    {
+     "title": "France | Wildfires - DG ECHO Daily Map | 06/08/2025",
+     "url": "https://reliefweb.int/map/france/france-wildfires-dg-echo-daily-map-06082025",
+     "source": "ECHO",
+     "visits": 4655
+    },
+    {
+     "title": "Map of Uganda - Including New Districts by Region (as of Jul 2006",
+     "url": "https://reliefweb.int/map/uganda/map-uganda-including-new-districts-region-jul-2006",
+     "source": "OCHA",
+     "visits": 4317
+    },
+    {
+     "title": "Hurricane Melissa: Damage Assessment - Buildings, Negril, Jamaica, 31 October 2025",
+     "url": "https://reliefweb.int/map/jamaica/hurricane-melissa-damage-assessment-buildings-negril-jamaica-31-october-2025",
+     "source": "PDC",
+     "visits": 3475
+    }
+   ],
+   "News and Press Release": [
+    {
+     "title": "Sexual Abuse Keeps Girls Out of School in PNG",
+     "url": "https://reliefweb.int/report/papua-new-guinea/sexual-abuse-keeps-girls-out-school-png",
+     "source": "IPS",
+     "visits": 7128
+    },
+    {
+     "title": "Philippines \u2013 Spike of 58% in child pregnancies should be a \u2018wakeup call\u2019 for better education and health services",
+     "url": "https://reliefweb.int/report/philippines/philippines-spike-58-child-pregnancies-should-be-wakeup-call-better-education-and-health-services",
+     "source": "Save the Children",
+     "visits": 6535
+    },
+    {
+     "title": "Pakistani village gives girls pioneering sex education class",
+     "url": "https://reliefweb.int/report/pakistan/pakistani-village-gives-girls-pioneering-sex-education-class",
+     "source": "Reuters",
+     "visits": 6225
+    }
+   ],
+   "Other": [
+    {
+     "title": "Programme national d\u2019approvisionnement en eau potable (PN-AEP) - Rapport National Bilan Annuel 2019 (Mars 2020)",
+     "url": "https://reliefweb.int/report/burkina-faso/programme-national-d-approvisionnement-en-eau-potable-pn-aep-rapport-national",
+     "source": "Govt. Burkina Faso",
+     "visits": 1945
+    },
+    {
+     "title": "Understanding Darfur conflict",
+     "url": "https://reliefweb.int/report/sudan/understanding-darfur-conflict",
+     "source": "Govt. Sudan",
+     "visits": 1406
+    },
+    {
+     "title": "PSEA at the Frontline: Together We Say No (Phase 2)",
+     "url": "https://reliefweb.int/report/world/psea-frontline-together-we-say-no-phase-2",
+     "source": "WFP",
+     "visits": 1049
+    }
+   ],
+   "Situation Report": [
+    {
+     "title": "Flash Update: No. 1 \u2013 Tropical Cyclone Verbena \u2013 24 November 2025",
+     "url": "https://reliefweb.int/report/philippines/flash-update-no-1-tropical-cyclone-verbena-24-november-2025",
+     "source": "AHA Centre",
+     "visits": 16502
+    },
+    {
+     "title": "Philippines: 6.9M Cebu Earthquake Flash Update No.2 (as of 03 October 2025, 8:00 p.m. local time)",
+     "url": "https://reliefweb.int/report/philippines/philippines-69m-cebu-earthquake-flash-update-no2-03-october-2025-800-pm-local-time",
+     "source": "OCHA",
+     "visits": 12562
+    },
+    {
+     "title": "Pakistan: Monsoon Floods 2025 Flash Update #3 (As of 26 August 2025)",
+     "url": "https://reliefweb.int/report/pakistan/pakistan-monsoon-floods-2025-flash-update-3-26-august-2025",
+     "source": "OCHA",
+     "visits": 7182
+    }
+   ],
+   "UN Document": [
+    {
+     "title": "Conflict-related sexual violence - Report of the Secretary-General (S/2025/389) [EN/AR/RU/ZH]",
+     "url": "https://reliefweb.int/report/world/conflict-related-sexual-violence-report-secretary-general-s2025389-enarruzh",
+     "source": "UN SC",
+     "visits": 1432
+    },
+    {
+     "title": "Final report of the Group of Experts on the Democratic Republic of the Congo (S/2024/432) [EN/AR/RU/ZH]",
+     "url": "https://reliefweb.int/report/democratic-republic-congo/final-report-group-experts-democratic-republic-congo-s2024432-enarruzh",
+     "source": "UN SC",
+     "visits": 826
+    },
+    {
+     "title": "A/80/492: \"Gaza Genocide: a collective crime\" \u2013 Report of the Special Rapporteur on the situation of human rights in the Palestinian territories occupied since 1967 - Advance unedited version",
+     "url": "https://reliefweb.int/report/world/a80492-gaza-genocide-collective-crime-report-special-rapporteur-situation-human-rights-palestinian-territories-occupied-1967-advance-unedited-version",
+     "source": "OHCHR",
+     "visits": 779
+    }
+   ]
+  }
+ }
+}

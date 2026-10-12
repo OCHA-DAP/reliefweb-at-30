@@ -1,0 +1,2504 @@
+{
+ "years": [
+  "1996",
+  "1997",
+  "1998",
+  "1999",
+  "2000",
+  "2001",
+  "2002",
+  "2003",
+  "2004",
+  "2005",
+  "2006",
+  "2007",
+  "2008",
+  "2009",
+  "2010",
+  "2011",
+  "2012",
+  "2013",
+  "2014",
+  "2015",
+  "2016",
+  "2017",
+  "2018",
+  "2019",
+  "2020",
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025",
+  "2026"
+ ],
+ "total_reports": 1142425,
+ "by_year": [
+  3132,
+  6130,
+  6696,
+  13071,
+  13876,
+  18217,
+  20356,
+  21493,
+  21179,
+  35955,
+  36772,
+  32401,
+  41353,
+  47930,
+  43083,
+  40708,
+  44911,
+  41247,
+  51596,
+  57561,
+  52125,
+  58600,
+  53781,
+  50177,
+  59241,
+  51708,
+  55229,
+  51367,
+  51294,
+  41017,
+  18884
+ ],
+ "top_format": [
+  {
+   "label": "News and Press Release",
+   "value": 644765
+  },
+  {
+   "label": "Situation Report",
+   "value": 189515
+  },
+  {
+   "label": "Map",
+   "value": 75916
+  },
+  {
+   "label": "Infographic",
+   "value": 71272
+  },
+  {
+   "label": "Analysis",
+   "value": 64504
+  },
+  {
+   "label": "Other",
+   "value": 33841
+  },
+  {
+   "label": "Assessment",
+   "value": 23130
+  },
+  {
+   "label": "Manual and Guideline",
+   "value": 13549
+  },
+  {
+   "label": "Appeal",
+   "value": 9310
+  },
+  {
+   "label": "UN Document",
+   "value": 8798
+  },
+  {
+   "label": "Evaluation and Lessons Learned",
+   "value": 7605
+  }
+ ],
+ "top_disaster_type": [
+  {
+   "label": "Flood",
+   "value": 148643
+  },
+  {
+   "label": "Epidemic",
+   "value": 131790
+  },
+  {
+   "label": "Drought",
+   "value": 81577
+  },
+  {
+   "label": "Tropical Cyclone",
+   "value": 68534
+  },
+  {
+   "label": "Earthquake",
+   "value": 64385
+  },
+  {
+   "label": "Land Slide",
+   "value": 60494
+  },
+  {
+   "label": "Flash Flood",
+   "value": 48527
+  },
+  {
+   "label": "Other",
+   "value": 32900
+  },
+  {
+   "label": "Severe Local Storm",
+   "value": 15228
+  },
+  {
+   "label": "Tsunami",
+   "value": 14372
+  },
+  {
+   "label": "Volcano",
+   "value": 12842
+  },
+  {
+   "label": "Insect Infestation",
+   "value": 6971
+  },
+  {
+   "label": "Cold Wave",
+   "value": 6237
+  },
+  {
+   "label": "Mud Slide",
+   "value": 5213
+  },
+  {
+   "label": "Wild Fire",
+   "value": 5163
+  },
+  {
+   "label": "Storm Surge",
+   "value": 4974
+  },
+  {
+   "label": "Technological Disaster",
+   "value": 4071
+  },
+  {
+   "label": "Heat Wave",
+   "value": 2084
+  },
+  {
+   "label": "Fire",
+   "value": 1494
+  },
+  {
+   "label": "Snow Avalanche",
+   "value": 1151
+  },
+  {
+   "label": "Extratropical Cyclone",
+   "value": 322
+  }
+ ],
+ "top_theme": [
+  {
+   "label": "Protection and Human Rights",
+   "value": 344547
+  },
+  {
+   "label": "Health",
+   "value": 295732
+  },
+  {
+   "label": "Food and Nutrition",
+   "value": 239846
+  },
+  {
+   "label": "Shelter and Non-Food Items",
+   "value": 170519
+  },
+  {
+   "label": "Water Sanitation Hygiene",
+   "value": 165661
+  },
+  {
+   "label": "Agriculture",
+   "value": 114470
+  },
+  {
+   "label": "Coordination",
+   "value": 111990
+  },
+  {
+   "label": "Education",
+   "value": 105311
+  },
+  {
+   "label": "Contributions",
+   "value": 84948
+  },
+  {
+   "label": "Recovery and Reconstruction",
+   "value": 76557
+  },
+  {
+   "label": "Peacekeeping and Peacebuilding",
+   "value": 53628
+  },
+  {
+   "label": "Logistics and Telecommunications",
+   "value": 45309
+  },
+  {
+   "label": "Disaster Management",
+   "value": 39885
+  },
+  {
+   "label": "Safety and Security",
+   "value": 31232
+  },
+  {
+   "label": "Climate Change and Environment",
+   "value": 22950
+  },
+  {
+   "label": "Gender",
+   "value": 19807
+  },
+  {
+   "label": "Mine Action",
+   "value": 17390
+  },
+  {
+   "label": "Camp Coordination and Camp Management",
+   "value": 17309
+  },
+  {
+   "label": "HIV/Aids",
+   "value": 9762
+  },
+  {
+   "label": "Humanitarian Financing",
+   "value": 7994
+  }
+ ],
+ "top_country": [
+  {
+   "label": "World",
+   "value": 94468
+  },
+  {
+   "label": "Democratic Republic of the Congo",
+   "value": 54614
+  },
+  {
+   "label": "Afghanistan",
+   "value": 47617
+  },
+  {
+   "label": "Sudan",
+   "value": 40844
+  },
+  {
+   "label": "occupied Palestinian territory",
+   "value": 32696
+  },
+  {
+   "label": "Iraq",
+   "value": 32393
+  },
+  {
+   "label": "Philippines",
+   "value": 30084
+  },
+  {
+   "label": "Somalia",
+   "value": 28990
+  },
+  {
+   "label": "Syrian Arab Republic",
+   "value": 27143
+  },
+  {
+   "label": "Haiti",
+   "value": 27005
+  },
+  {
+   "label": "Pakistan",
+   "value": 26903
+  },
+  {
+   "label": "South Sudan",
+   "value": 24793
+  },
+  {
+   "label": "Colombia",
+   "value": 24421
+  },
+  {
+   "label": "Yemen",
+   "value": 21601
+  },
+  {
+   "label": "Myanmar",
+   "value": 19773
+  },
+  {
+   "label": "Indonesia",
+   "value": 19437
+  },
+  {
+   "label": "Ukraine",
+   "value": 18831
+  },
+  {
+   "label": "Ethiopia",
+   "value": 18495
+  },
+  {
+   "label": "Bangladesh",
+   "value": 17990
+  },
+  {
+   "label": "Central African Republic",
+   "value": 17989
+  }
+ ],
+ "top_source": [
+  {
+   "label": "UN High Commissioner for Refugees",
+   "value": 82728
+  },
+  {
+   "label": "UN Office for the Coordination of Humanitarian Affairs",
+   "value": 81628
+  },
+  {
+   "label": "World Food Programme",
+   "value": 47679
+  },
+  {
+   "label": "World Health Organization",
+   "value": 45842
+  },
+  {
+   "label": "UN Children's Fund",
+   "value": 41383
+  },
+  {
+   "label": "The New Humanitarian",
+   "value": 39089
+  },
+  {
+   "label": "International Organization for Migration",
+   "value": 35709
+  },
+  {
+   "label": "International Federation of Red Cross and Red Crescent Societies",
+   "value": 26957
+  },
+  {
+   "label": "Reuters - Thomson Reuters Foundation",
+   "value": 24783
+  },
+  {
+   "label": "Food and Agriculture Organization of the United Nations",
+   "value": 19302
+  },
+  {
+   "label": "European Commission's Directorate-General for European Civil Protection and Humanitarian Aid Operations",
+   "value": 18083
+  },
+  {
+   "label": "US Agency for International Development",
+   "value": 17402
+  },
+  {
+   "label": "UN News Centre",
+   "value": 17313
+  },
+  {
+   "label": "Famine Early Warning System Network",
+   "value": 17204
+  },
+  {
+   "label": "Government of the Philippines",
+   "value": 13985
+  },
+  {
+   "label": "UN Security Council",
+   "value": 12371
+  },
+  {
+   "label": "International Committee of the Red Cross",
+   "value": 11580
+  },
+  {
+   "label": "REACH Initiative",
+   "value": 11440
+  },
+  {
+   "label": "UN Development Programme",
+   "value": 10902
+  },
+  {
+   "label": "Human Rights Watch",
+   "value": 9736
+  }
+ ],
+ "source_type": [
+  {
+   "label": "International Organization",
+   "values": [
+    1081,
+    2018,
+    2326,
+    4377,
+    5062,
+    6547,
+    6514,
+    6843,
+    7651,
+    10504,
+    11714,
+    12053,
+    15063,
+    19094,
+    17039,
+    16282,
+    18983,
+    19072,
+    25853,
+    30840,
+    30389,
+    32475,
+    29852,
+    29725,
+    39504,
+    35891,
+    37052,
+    32881,
+    32439,
+    28561,
+    13268
+   ]
+  },
+  {
+   "label": "Non-governmental Organization",
+   "values": [
+    721,
+    1040,
+    1716,
+    3108,
+    2976,
+    4272,
+    4805,
+    4995,
+    4600,
+    8719,
+    8857,
+    7216,
+    9266,
+    9982,
+    8981,
+    7608,
+    7208,
+    6303,
+    7814,
+    8120,
+    6949,
+    7677,
+    7092,
+    6510,
+    8082,
+    7114,
+    8120,
+    8851,
+    9331,
+    7167,
+    2926
+   ]
+  },
+  {
+   "label": "Government",
+   "values": [
+    250,
+    526,
+    400,
+    1191,
+    1123,
+    1822,
+    2411,
+    2612,
+    3020,
+    6059,
+    6560,
+    5494,
+    7701,
+    8908,
+    8129,
+    8514,
+    8912,
+    7448,
+    9744,
+    10335,
+    8819,
+    12043,
+    10893,
+    9659,
+    8518,
+    7401,
+    8082,
+    6914,
+    6839,
+    3056,
+    1324
+   ]
+  },
+  {
+   "label": "Media",
+   "values": [
+    774,
+    2098,
+    1733,
+    3321,
+    3767,
+    4351,
+    4994,
+    5521,
+    4277,
+    8036,
+    6704,
+    5149,
+    6907,
+    7044,
+    5944,
+    5294,
+    6827,
+    5961,
+    5884,
+    5683,
+    3201,
+    4092,
+    3666,
+    2257,
+    942,
+    216,
+    175,
+    145,
+    183,
+    26,
+    0
+   ]
+  },
+  {
+   "label": "Red Cross/Red Crescent Movement",
+   "values": [
+    208,
+    331,
+    420,
+    740,
+    731,
+    990,
+    1235,
+    1174,
+    1353,
+    1939,
+    2093,
+    1927,
+    2449,
+    2377,
+    2354,
+    2241,
+    2307,
+    2230,
+    2312,
+    2471,
+    2148,
+    2050,
+    1814,
+    1839,
+    1991,
+    1620,
+    2098,
+    2112,
+    1962,
+    1737,
+    1056
+   ]
+  },
+  {
+   "label": "Academic and Research Institution",
+   "values": [
+    83,
+    49,
+    88,
+    301,
+    197,
+    213,
+    360,
+    306,
+    260,
+    634,
+    799,
+    717,
+    890,
+    1105,
+    1284,
+    1329,
+    1569,
+    1422,
+    2090,
+    2339,
+    2456,
+    2942,
+    3551,
+    2928,
+    3320,
+    3169,
+    3455,
+    2788,
+    2790,
+    2117,
+    860
+   ]
+  }
+ ],
+ "language": [
+  {
+   "label": "English",
+   "values": [
+    3106,
+    5864,
+    6233,
+    12096,
+    12759,
+    16563,
+    19291,
+    19902,
+    19421,
+    31566,
+    31070,
+    25815,
+    33993,
+    39082,
+    33921,
+    33022,
+    35815,
+    32315,
+    41581,
+    46606,
+    41806,
+    45019,
+    43060,
+    42360,
+    48552,
+    41835,
+    46179,
+    42867,
+    41785,
+    32012,
+    15203
+   ]
+  },
+  {
+   "label": "French",
+   "values": [
+    25,
+    255,
+    436,
+    747,
+    888,
+    1286,
+    619,
+    999,
+    977,
+    2200,
+    2932,
+    2784,
+    4129,
+    5718,
+    5524,
+    4144,
+    5619,
+    5507,
+    5300,
+    5839,
+    4993,
+    5543,
+    5197,
+    5082,
+    6548,
+    6948,
+    6035,
+    5547,
+    6217,
+    5580,
+    2441
+   ]
+  },
+  {
+   "label": "Spanish",
+   "values": [
+    0,
+    9,
+    25,
+    209,
+    173,
+    278,
+    310,
+    277,
+    423,
+    1441,
+    1243,
+    1806,
+    2640,
+    3160,
+    3664,
+    3649,
+    3718,
+    3611,
+    4921,
+    5299,
+    5510,
+    8207,
+    5709,
+    2894,
+    4289,
+    3007,
+    3102,
+    3030,
+    3267,
+    2732,
+    1019
+   ]
+  },
+  {
+   "label": "Arabic",
+   "values": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    13,
+    14,
+    13,
+    16,
+    14,
+    13,
+    19,
+    87,
+    140,
+    399,
+    501,
+    880,
+    1270,
+    1368,
+    1166,
+    1107,
+    1405,
+    1651,
+    1859,
+    2283,
+    2698,
+    1643,
+    473
+   ]
+  }
+ ],
+ "format_year": [
+  {
+   "label": "News and Press Release",
+   "values": [
+    1875,
+    3936,
+    4504,
+    8616,
+    9167,
+    12250,
+    14193,
+    15357,
+    15132,
+    27154,
+    27281,
+    22178,
+    29767,
+    34778,
+    30206,
+    29229,
+    31601,
+    26549,
+    30859,
+    32469,
+    27462,
+    31157,
+    27903,
+    23947,
+    24475,
+    20811,
+    21748,
+    20033,
+    20453,
+    14387,
+    5263
+   ]
+  },
+  {
+   "label": "Situation Report",
+   "values": [
+    823,
+    1111,
+    1351,
+    2727,
+    2592,
+    2918,
+    2514,
+    2621,
+    2954,
+    4704,
+    4606,
+    4962,
+    5420,
+    5793,
+    5029,
+    4803,
+    5185,
+    6062,
+    7924,
+    8996,
+    8817,
+    10017,
+    9219,
+    9197,
+    13562,
+    11070,
+    11109,
+    10381,
+    10304,
+    7592,
+    4265
+   ]
+  },
+  {
+   "label": "Infographic",
+   "values": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    1,
+    7,
+    55,
+    163,
+    369,
+    1115,
+    2190,
+    2976,
+    4224,
+    5075,
+    4815,
+    5487,
+    7092,
+    6907,
+    7252,
+    6000,
+    6005,
+    7654,
+    3878
+   ]
+  },
+  {
+   "label": "Map",
+   "values": [
+    117,
+    163,
+    67,
+    76,
+    243,
+    338,
+    433,
+    726,
+    771,
+    1072,
+    1713,
+    2644,
+    3168,
+    2977,
+    3506,
+    2154,
+    2969,
+    3106,
+    4888,
+    6702,
+    5167,
+    5202,
+    4413,
+    3791,
+    4161,
+    3226,
+    3322,
+    2958,
+    2714,
+    1981,
+    960
+   ]
+  },
+  {
+   "label": "Analysis",
+   "values": [
+    73,
+    156,
+    134,
+    475,
+    630,
+    877,
+    884,
+    726,
+    560,
+    828,
+    994,
+    953,
+    950,
+    1721,
+    1884,
+    2231,
+    2452,
+    2240,
+    2726,
+    2926,
+    2943,
+    3111,
+    3278,
+    3347,
+    4124,
+    3881,
+    4350,
+    4816,
+    4927,
+    3436,
+    1819
+   ]
+  },
+  {
+   "label": "Assessment",
+   "values": [
+    24,
+    34,
+    45,
+    239,
+    286,
+    395,
+    288,
+    192,
+    118,
+    257,
+    338,
+    128,
+    143,
+    225,
+    215,
+    229,
+    213,
+    264,
+    633,
+    666,
+    753,
+    991,
+    1253,
+    1427,
+    1827,
+    2495,
+    2796,
+    1978,
+    2149,
+    1747,
+    779
+   ]
+  }
+ ],
+ "orgs": [
+  {
+   "label": "UN High Commissioner for Refugees",
+   "values": [
+    90,
+    158,
+    197,
+    380,
+    185,
+    287,
+    390,
+    472,
+    648,
+    791,
+    876,
+    1016,
+    1001,
+    784,
+    658,
+    994,
+    1184,
+    1947,
+    3626,
+    4414,
+    5371,
+    5674,
+    5398,
+    5310,
+    6414,
+    6053,
+    6958,
+    5341,
+    5614,
+    7005,
+    3647
+   ]
+  },
+  {
+   "label": "UN Office for the Coordination of Humanitarian Affairs",
+   "values": [
+    3,
+    13,
+    493,
+    644,
+    785,
+    930,
+    915,
+    1100,
+    1004,
+    1119,
+    1683,
+    2174,
+    2509,
+    2589,
+    2871,
+    2753,
+    3434,
+    3761,
+    4327,
+    4596,
+    4393,
+    4161,
+    3507,
+    3798,
+    4870,
+    4176,
+    4313,
+    4556,
+    4398,
+    3776,
+    2114
+   ]
+  },
+  {
+   "label": "World Food Programme",
+   "values": [
+    188,
+    313,
+    489,
+    339,
+    288,
+    381,
+    364,
+    428,
+    405,
+    614,
+    682,
+    560,
+    651,
+    816,
+    1000,
+    978,
+    1282,
+    1446,
+    2068,
+    2798,
+    3158,
+    2829,
+    2515,
+    2701,
+    3602,
+    2990,
+    3356,
+    3072,
+    2675,
+    3014,
+    1816
+   ]
+  },
+  {
+   "label": "World Health Organization",
+   "values": [
+    6,
+    23,
+    36,
+    131,
+    282,
+    304,
+    247,
+    258,
+    293,
+    708,
+    593,
+    666,
+    866,
+    1654,
+    941,
+    764,
+    1029,
+    910,
+    1560,
+    1965,
+    1714,
+    2502,
+    2486,
+    2544,
+    4418,
+    4514,
+    4460,
+    3574,
+    3126,
+    2296,
+    1052
+   ]
+  },
+  {
+   "label": "UN Children's Fund",
+   "values": [
+    12,
+    59,
+    38,
+    158,
+    236,
+    351,
+    305,
+    373,
+    446,
+    731,
+    678,
+    690,
+    796,
+    934,
+    959,
+    1019,
+    1128,
+    1221,
+    1692,
+    2190,
+    2159,
+    2773,
+    2450,
+    2544,
+    3305,
+    2846,
+    3198,
+    2968,
+    2658,
+    1745,
+    773
+   ]
+  },
+  {
+   "label": "The New Humanitarian",
+   "values": [
+    125,
+    686,
+    1058,
+    1798,
+    2216,
+    2669,
+    2714,
+    3790,
+    2465,
+    3183,
+    2835,
+    2391,
+    2394,
+    2174,
+    1872,
+    1493,
+    1475,
+    1330,
+    789,
+    697,
+    371,
+    272,
+    220,
+    98,
+    2,
+    1,
+    0,
+    0,
+    0,
+    1,
+    2
+   ]
+  }
+ ],
+ "total_disasters": 3860,
+ "disasters_by_year": [
+  59,
+  65,
+  59,
+  73,
+  69,
+  69,
+  96,
+  89,
+  87,
+  108,
+  115,
+  135,
+  167,
+  193,
+  150,
+  130,
+  131,
+  120,
+  84,
+  108,
+  95,
+  101,
+  101,
+  117,
+  97,
+  102,
+  124,
+  141,
+  126,
+  90,
+  54
+ ],
+ "disaster_types": [
+  {
+   "label": "Flood",
+   "value": 1574
+  },
+  {
+   "label": "Tropical Cyclone",
+   "value": 556
+  },
+  {
+   "label": "Earthquake",
+   "value": 419
+  },
+  {
+   "label": "Epidemic",
+   "value": 333
+  },
+  {
+   "label": "Drought",
+   "value": 168
+  },
+  {
+   "label": "Severe Local Storm",
+   "value": 147
+  },
+  {
+   "label": "Flash Flood",
+   "value": 141
+  },
+  {
+   "label": "Volcano",
+   "value": 131
+  },
+  {
+   "label": "Cold Wave",
+   "value": 87
+  },
+  {
+   "label": "Wild Fire",
+   "value": 73
+  },
+  {
+   "label": "Land Slide",
+   "value": 72
+  },
+  {
+   "label": "Technological Disaster",
+   "value": 49
+  },
+  {
+   "label": "Mud Slide",
+   "value": 23
+  },
+  {
+   "label": "Snow Avalanche",
+   "value": 17
+  },
+  {
+   "label": "Insect Infestation",
+   "value": 16
+  },
+  {
+   "label": "Extratropical Cyclone",
+   "value": 12
+  },
+  {
+   "label": "Tsunami",
+   "value": 11
+  },
+  {
+   "label": "Fire",
+   "value": 10
+  },
+  {
+   "label": "Heat Wave",
+   "value": 8
+  },
+  {
+   "label": "Storm Surge",
+   "value": 8
+  }
+ ],
+ "total_sources": 7888,
+ "sources_by_year": [
+  3748,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  178,
+  437,
+  406,
+  261,
+  306,
+  529,
+  306,
+  248,
+  307,
+  504,
+  241,
+  232,
+  122,
+  63
+ ],
+ "source_types_all": [
+  {
+   "label": "Non-governmental Organization",
+   "value": 4359
+  },
+  {
+   "label": "Other",
+   "value": 1277
+  },
+  {
+   "label": "Academic and Research Institution",
+   "value": 784
+  },
+  {
+   "label": "International Organization",
+   "value": 691
+  },
+  {
+   "label": "Government",
+   "value": 374
+  },
+  {
+   "label": "Media",
+   "value": 247
+  },
+  {
+   "label": "Red Cross/Red Crescent Movement",
+   "value": 156
+  }
+ ],
+ "concentration": {
+  "total_countries": 246,
+  "total_docs": 1048883,
+  "top": [
+   {
+    "label": "Democratic Republic of the Congo",
+    "value": 54692
+   },
+   {
+    "label": "Afghanistan",
+    "value": 47650
+   },
+   {
+    "label": "Sudan",
+    "value": 40871
+   },
+   {
+    "label": "occupied Palestinian territory",
+    "value": 32728
+   },
+   {
+    "label": "Iraq",
+    "value": 32395
+   },
+   {
+    "label": "Philippines",
+    "value": 30087
+   },
+   {
+    "label": "Somalia",
+    "value": 29022
+   },
+   {
+    "label": "Syrian Arab Republic",
+    "value": 27178
+   },
+   {
+    "label": "Haiti",
+    "value": 27015
+   },
+   {
+    "label": "Pakistan",
+    "value": 26935
+   },
+   {
+    "label": "South Sudan",
+    "value": 24834
+   },
+   {
+    "label": "Colombia",
+    "value": 24487
+   },
+   {
+    "label": "Yemen",
+    "value": 21650
+   },
+   {
+    "label": "Myanmar",
+    "value": 19798
+   },
+   {
+    "label": "Indonesia",
+    "value": 19472
+   },
+   {
+    "label": "Ukraine",
+    "value": 18865
+   },
+   {
+    "label": "Ethiopia",
+    "value": 18516
+   },
+   {
+    "label": "Bangladesh",
+    "value": 18011
+   },
+   {
+    "label": "Central African Republic",
+    "value": 18006
+   },
+   {
+    "label": "Nigeria",
+    "value": 17542
+   }
+  ],
+  "cum": {
+   "top5": 19.9,
+   "top10": 33.2,
+   "top25": 59.8
+  },
+  "ranked": [
+   {
+    "label": "Democratic Republic of the Congo",
+    "value": 54692
+   },
+   {
+    "label": "Afghanistan",
+    "value": 47650
+   },
+   {
+    "label": "Sudan",
+    "value": 40871
+   },
+   {
+    "label": "occupied Palestinian territory",
+    "value": 32728
+   },
+   {
+    "label": "Iraq",
+    "value": 32395
+   },
+   {
+    "label": "Philippines",
+    "value": 30087
+   },
+   {
+    "label": "Somalia",
+    "value": 29022
+   },
+   {
+    "label": "Syrian Arab Republic",
+    "value": 27178
+   },
+   {
+    "label": "Haiti",
+    "value": 27015
+   },
+   {
+    "label": "Pakistan",
+    "value": 26935
+   },
+   {
+    "label": "South Sudan",
+    "value": 24834
+   },
+   {
+    "label": "Colombia",
+    "value": 24487
+   },
+   {
+    "label": "Yemen",
+    "value": 21650
+   },
+   {
+    "label": "Myanmar",
+    "value": 19798
+   },
+   {
+    "label": "Indonesia",
+    "value": 19472
+   },
+   {
+    "label": "Ukraine",
+    "value": 18865
+   },
+   {
+    "label": "Ethiopia",
+    "value": 18516
+   },
+   {
+    "label": "Bangladesh",
+    "value": 18011
+   },
+   {
+    "label": "Central African Republic",
+    "value": 18006
+   },
+   {
+    "label": "Nigeria",
+    "value": 17542
+   },
+   {
+    "label": "Kenya",
+    "value": 17400
+   },
+   {
+    "label": "Sri Lanka",
+    "value": 15734
+   },
+   {
+    "label": "Burundi",
+    "value": 15115
+   },
+   {
+    "label": "Lebanon",
+    "value": 14783
+   },
+   {
+    "label": "Mali",
+    "value": 14689
+   },
+   {
+    "label": "India",
+    "value": 13558
+   },
+   {
+    "label": "Uganda",
+    "value": 13511
+   },
+   {
+    "label": "Chad",
+    "value": 12968
+   },
+   {
+    "label": "Nepal",
+    "value": 12941
+   },
+   {
+    "label": "Angola",
+    "value": 11750
+   },
+   {
+    "label": "Niger",
+    "value": 11271
+   },
+   {
+    "label": "C\u00f4te d'Ivoire",
+    "value": 10692
+   },
+   {
+    "label": "Peru",
+    "value": 10460
+   },
+   {
+    "label": "Mozambique",
+    "value": 9999
+   },
+   {
+    "label": "Zimbabwe",
+    "value": 9951
+   },
+   {
+    "label": "Liberia",
+    "value": 9565
+   },
+   {
+    "label": "Guatemala",
+    "value": 9347
+   },
+   {
+    "label": "Serbia",
+    "value": 9006
+   },
+   {
+    "label": "Burkina Faso",
+    "value": 8744
+   },
+   {
+    "label": "Libya",
+    "value": 8711
+   },
+   {
+    "label": "Sierra Leone",
+    "value": 8608
+   },
+   {
+    "label": "Mexico",
+    "value": 7380
+   },
+   {
+    "label": "China",
+    "value": 6987
+   },
+   {
+    "label": "Ecuador",
+    "value": 6841
+   },
+   {
+    "label": "T\u00fcrkiye",
+    "value": 6586
+   },
+   {
+    "label": "Jordan",
+    "value": 6431
+   },
+   {
+    "label": "Cameroon",
+    "value": 6299
+   },
+   {
+    "label": "Bolivia (Plurinational State of)",
+    "value": 6216
+   },
+   {
+    "label": "Thailand",
+    "value": 5817
+   },
+   {
+    "label": "Honduras",
+    "value": 5448
+   },
+   {
+    "label": "Malawi",
+    "value": 5244
+   },
+   {
+    "label": "Madagascar",
+    "value": 5089
+   },
+   {
+    "label": "Rwanda",
+    "value": 4997
+   },
+   {
+    "label": "Israel",
+    "value": 4915
+   },
+   {
+    "label": "Russian Federation",
+    "value": 4837
+   },
+   {
+    "label": "El Salvador",
+    "value": 4560
+   },
+   {
+    "label": "Guinea",
+    "value": 4404
+   },
+   {
+    "label": "Venezuela (Bolivarian Republic of)",
+    "value": 4346
+   },
+   {
+    "label": "Eritrea",
+    "value": 4252
+   },
+   {
+    "label": "Georgia",
+    "value": 4176
+   },
+   {
+    "label": "Viet Nam",
+    "value": 4076
+   },
+   {
+    "label": "Greece",
+    "value": 3882
+   },
+   {
+    "label": "Timor-Leste",
+    "value": 3815
+   },
+   {
+    "label": "Democratic People's Republic of Korea",
+    "value": 3778
+   },
+   {
+    "label": "Iran (Islamic Republic of)",
+    "value": 3734
+   },
+   {
+    "label": "Chile",
+    "value": 3707
+   },
+   {
+    "label": "United Republic of Tanzania",
+    "value": 3555
+   },
+   {
+    "label": "United States of America",
+    "value": 3404
+   },
+   {
+    "label": "Tajikistan",
+    "value": 3105
+   },
+   {
+    "label": "Vanuatu",
+    "value": 3080
+   },
+   {
+    "label": "Fiji",
+    "value": 2999
+   },
+   {
+    "label": "Nicaragua",
+    "value": 2780
+   },
+   {
+    "label": "Dominican Republic",
+    "value": 2597
+   },
+   {
+    "label": "Mauritania",
+    "value": 2595
+   },
+   {
+    "label": "Congo",
+    "value": 2526
+   },
+   {
+    "label": "Egypt",
+    "value": 2507
+   },
+   {
+    "label": "Zambia",
+    "value": 2496
+   },
+   {
+    "label": "Albania",
+    "value": 2478
+   },
+   {
+    "label": "Paraguay",
+    "value": 2444
+   },
+   {
+    "label": "Djibouti",
+    "value": 2408
+   },
+   {
+    "label": "Papua New Guinea",
+    "value": 2369
+   },
+   {
+    "label": "Bosnia and Herzegovina",
+    "value": 2356
+   },
+   {
+    "label": "Brazil",
+    "value": 2317
+   },
+   {
+    "label": "Senegal",
+    "value": 2272
+   },
+   {
+    "label": "Argentina",
+    "value": 2257
+   },
+   {
+    "label": "Cambodia",
+    "value": 2231
+   },
+   {
+    "label": "Cuba",
+    "value": 2207
+   },
+   {
+    "label": "Armenia",
+    "value": 2199
+   },
+   {
+    "label": "Italy",
+    "value": 2128
+   },
+   {
+    "label": "Guinea-Bissau",
+    "value": 2019
+   },
+   {
+    "label": "Kyrgyzstan",
+    "value": 1996
+   },
+   {
+    "label": "Namibia",
+    "value": 1995
+   },
+   {
+    "label": "Costa Rica",
+    "value": 1972
+   },
+   {
+    "label": "Japan",
+    "value": 1866
+   },
+   {
+    "label": "Benin",
+    "value": 1826
+   },
+   {
+    "label": "South Africa",
+    "value": 1623
+   },
+   {
+    "label": "Algeria",
+    "value": 1615
+   },
+   {
+    "label": "Lesotho",
+    "value": 1539
+   },
+   {
+    "label": "Panama",
+    "value": 1501
+   },
+   {
+    "label": "Tonga",
+    "value": 1462
+   },
+   {
+    "label": "Solomon Islands",
+    "value": 1376
+   },
+   {
+    "label": "Ghana",
+    "value": 1303
+   },
+   {
+    "label": "the Republic of North Macedonia",
+    "value": 1295
+   },
+   {
+    "label": "Jamaica",
+    "value": 1279
+   },
+   {
+    "label": "Bahamas",
+    "value": 1267
+   },
+   {
+    "label": "Azerbaijan",
+    "value": 1195
+   },
+   {
+    "label": "Lao People's Democratic Republic (the)",
+    "value": 1164
+   },
+   {
+    "label": "Moldova",
+    "value": 1159
+   },
+   {
+    "label": "Australia",
+    "value": 1122
+   },
+   {
+    "label": "Mongolia",
+    "value": 1082
+   },
+   {
+    "label": "Tunisia",
+    "value": 1067
+   },
+   {
+    "label": "Togo",
+    "value": 987
+   },
+   {
+    "label": "Poland",
+    "value": 974
+   },
+   {
+    "label": "Romania",
+    "value": 921
+   },
+   {
+    "label": "Malaysia",
+    "value": 919
+   },
+   {
+    "label": "Spain",
+    "value": 915
+   },
+   {
+    "label": "Morocco",
+    "value": 846
+   },
+   {
+    "label": "Belize",
+    "value": 815
+   },
+   {
+    "label": "Uruguay",
+    "value": 791
+   },
+   {
+    "label": "Eswatini",
+    "value": 782
+   },
+   {
+    "label": "Gambia",
+    "value": 782
+   },
+   {
+    "label": "Dominica",
+    "value": 732
+   },
+   {
+    "label": "Samoa",
+    "value": 665
+   },
+   {
+    "label": "Maldives",
+    "value": 654
+   },
+   {
+    "label": "Uzbekistan",
+    "value": 653
+   },
+   {
+    "label": "Guyana",
+    "value": 651
+   },
+   {
+    "label": "Kazakhstan",
+    "value": 642
+   },
+   {
+    "label": "Puerto Rico (The United States of America)",
+    "value": 621
+   },
+   {
+    "label": "Botswana",
+    "value": 582
+   },
+   {
+    "label": "Hungary",
+    "value": 578
+   },
+   {
+    "label": "China - Taiwan Province",
+    "value": 532
+   },
+   {
+    "label": "Antigua and Barbuda",
+    "value": 512
+   },
+   {
+    "label": "United Kingdom of Great Britain and Northern Ireland",
+    "value": 465
+   },
+   {
+    "label": "Grenada",
+    "value": 439
+   },
+   {
+    "label": "Saint Vincent and the Grenadines",
+    "value": 423
+   },
+   {
+    "label": "Croatia",
+    "value": 402
+   },
+   {
+    "label": "Western Sahara",
+    "value": 391
+   },
+   {
+    "label": "Comoros",
+    "value": 383
+   },
+   {
+    "label": "Belarus",
+    "value": 377
+   },
+   {
+    "label": "France",
+    "value": 371
+   },
+   {
+    "label": "American Samoa",
+    "value": 366
+   },
+   {
+    "label": "Barbados",
+    "value": 366
+   },
+   {
+    "label": "Cabo Verde",
+    "value": 355
+   },
+   {
+    "label": "Bulgaria",
+    "value": 345
+   },
+   {
+    "label": "Bhutan",
+    "value": 340
+   },
+   {
+    "label": "Czechia",
+    "value": 333
+   },
+   {
+    "label": "Micronesia (Federated States of)",
+    "value": 331
+   },
+   {
+    "label": "Republic of Korea",
+    "value": 317
+   },
+   {
+    "label": "French Polynesia (France)",
+    "value": 311
+   },
+   {
+    "label": "Marshall Islands",
+    "value": 296
+   },
+   {
+    "label": "Trinidad and Tobago",
+    "value": 281
+   },
+   {
+    "label": "New Zealand",
+    "value": 275
+   },
+   {
+    "label": "Gabon",
+    "value": 260
+   },
+   {
+    "label": "Cayman Islands",
+    "value": 258
+   },
+   {
+    "label": "Cook Islands",
+    "value": 254
+   },
+   {
+    "label": "Germany",
+    "value": 242
+   },
+   {
+    "label": "Canada",
+    "value": 233
+   },
+   {
+    "label": "Slovakia",
+    "value": 227
+   },
+   {
+    "label": "Saint Lucia",
+    "value": 221
+   },
+   {
+    "label": "Tuvalu",
+    "value": 220
+   },
+   {
+    "label": "Mauritius",
+    "value": 218
+   },
+   {
+    "label": "British Virgin Islands",
+    "value": 216
+   },
+   {
+    "label": "Equatorial Guinea",
+    "value": 213
+   },
+   {
+    "label": "Kiribati",
+    "value": 207
+   },
+   {
+    "label": "Austria",
+    "value": 195
+   },
+   {
+    "label": "Anguilla",
+    "value": 188
+   },
+   {
+    "label": "Bahrain",
+    "value": 180
+   },
+   {
+    "label": "Republic of Naoero",
+    "value": 175
+   },
+   {
+    "label": "Northern Mariana Islands (The United States of America)",
+    "value": 170
+   },
+   {
+    "label": "Suriname",
+    "value": 166
+   },
+   {
+    "label": "Montserrat",
+    "value": 161
+   },
+   {
+    "label": "New Caledonia (France)",
+    "value": 157
+   },
+   {
+    "label": "Cyprus",
+    "value": 146
+   },
+   {
+    "label": "Montenegro",
+    "value": 145
+   },
+   {
+    "label": "Saudi Arabia",
+    "value": 139
+   },
+   {
+    "label": "Sao Tome and Principe",
+    "value": 137
+   },
+   {
+    "label": "Palau",
+    "value": 136
+   },
+   {
+    "label": "China - Hong Kong (Special Administrative Region)",
+    "value": 132
+   },
+   {
+    "label": "Portugal",
+    "value": 126
+   },
+   {
+    "label": "Seychelles",
+    "value": 119
+   },
+   {
+    "label": "Guam",
+    "value": 114
+   },
+   {
+    "label": "Slovenia",
+    "value": 110
+   },
+   {
+    "label": "Turkmenistan",
+    "value": 105
+   },
+   {
+    "label": "Malta",
+    "value": 96
+   },
+   {
+    "label": "Aruba (The Netherlands)",
+    "value": 94
+   },
+   {
+    "label": "Niue (New Zealand)",
+    "value": 94
+   },
+   {
+    "label": "Bermuda",
+    "value": 89
+   },
+   {
+    "label": "Belgium",
+    "value": 88
+   },
+   {
+    "label": "Turks and Caicos Islands",
+    "value": 81
+   },
+   {
+    "label": "United States Virgin Islands",
+    "value": 81
+   },
+   {
+    "label": "Wallis and Futuna (France)",
+    "value": 79
+   },
+   {
+    "label": "Sweden",
+    "value": 74
+   },
+   {
+    "label": "Switzerland",
+    "value": 74
+   },
+   {
+    "label": "Oman",
+    "value": 72
+   },
+   {
+    "label": "Finland",
+    "value": 68
+   },
+   {
+    "label": "Mayotte (France)",
+    "value": 67
+   },
+   {
+    "label": "Galapagos Islands (Ecuador)",
+    "value": 65
+   },
+   {
+    "label": "Lithuania",
+    "value": 64
+   },
+   {
+    "label": "Sint Maarten (The Netherlands)",
+    "value": 62
+   },
+   {
+    "label": "United Arab Emirates",
+    "value": 61
+   },
+   {
+    "label": "Canary Islands (Spain)",
+    "value": 53
+   },
+   {
+    "label": "Estonia",
+    "value": 48
+   },
+   {
+    "label": "Madeira (Portugal)",
+    "value": 47
+   },
+   {
+    "label": "Latvia",
+    "value": 45
+   },
+   {
+    "label": "Netherlands",
+    "value": 43
+   },
+   {
+    "label": "Qatar",
+    "value": 43
+   },
+   {
+    "label": "Saint Kitts and Nevis",
+    "value": 43
+   },
+   {
+    "label": "Saint Martin (France)",
+    "value": 42
+   },
+   {
+    "label": "Norway",
+    "value": 41
+   },
+   {
+    "label": "Ireland",
+    "value": 38
+   },
+   {
+    "label": "Kuwait",
+    "value": 38
+   },
+   {
+    "label": "Denmark",
+    "value": 33
+   },
+   {
+    "label": "R\u00e9union (France)",
+    "value": 33
+   },
+   {
+    "label": "Brunei Darussalam",
+    "value": 29
+   },
+   {
+    "label": "Cura\u00e7ao (The Netherlands)",
+    "value": 29
+   },
+   {
+    "label": "Guadeloupe (France)",
+    "value": 29
+   },
+   {
+    "label": "Iceland",
+    "value": 29
+   },
+   {
+    "label": "Martinique (France)",
+    "value": 29
+   },
+   {
+    "label": "Tokelau",
+    "value": 29
+   },
+   {
+    "label": "Luxembourg",
+    "value": 24
+   },
+   {
+    "label": "Singapore",
+    "value": 24
+   },
+   {
+    "label": "Christmas Island (Australia)",
+    "value": 16
+   },
+   {
+    "label": "French Guiana (France)",
+    "value": 14
+   },
+   {
+    "label": "China - Macau (Special Administrative Region)",
+    "value": 11
+   },
+   {
+    "label": "Saint Barth\u00e9lemy (France)",
+    "value": 9
+   },
+   {
+    "label": "Andorra",
+    "value": 8
+   },
+   {
+    "label": "Liechtenstein",
+    "value": 7
+   },
+   {
+    "label": "Monaco",
+    "value": 7
+   },
+   {
+    "label": "San Marino",
+    "value": 6
+   },
+   {
+    "label": "Bonaire, Saint Eustatius and Saba (The Netherlands)",
+    "value": 4
+   },
+   {
+    "label": "Easter Island (Chile)",
+    "value": 4
+   },
+   {
+    "label": "Falkland Islands (Malvinas)",
+    "value": 3
+   },
+   {
+    "label": "Greenland (Denmark)",
+    "value": 2
+   },
+   {
+    "label": "Pitcairn Islands",
+    "value": 2
+   },
+   {
+    "label": "Saint Helena",
+    "value": 2
+   },
+   {
+    "label": "Svalbard and Jan Mayen Islands",
+    "value": 2
+   },
+   {
+    "label": "Aland Islands (Finland)",
+    "value": 1
+   },
+   {
+    "label": "Azores Islands (Portugal)",
+    "value": 1
+   },
+   {
+    "label": "Cocos (Keeling) Islands (Australia)",
+    "value": 1
+   },
+   {
+    "label": "Faroe Islands (Denmark)",
+    "value": 1
+   },
+   {
+    "label": "Gibraltar",
+    "value": 1
+   },
+   {
+    "label": "Heard Island and McDonald Islands (Australia)",
+    "value": 1
+   },
+   {
+    "label": "Holy See",
+    "value": 1
+   },
+   {
+    "label": "Isle of Man (The United Kingdom of Great Britain and Northern Ireland)",
+    "value": 1
+   },
+   {
+    "label": "Norfolk Island (Australia)",
+    "value": 1
+   },
+   {
+    "label": "Saint Pierre and Miquelon (France)",
+    "value": 1
+   }
+  ]
+ }
+}

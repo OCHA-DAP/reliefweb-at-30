@@ -1,0 +1,76 @@
+{
+ "_source": "api-usage-findings.md (20 Aug 2026) and project-354-framework.md §6. Hand-curated: these figures come from the API usage logs and the GA4 Data API, not from a pipeline in rw30-data/.",
+ "external_share": [
+  {
+   "period": "21 Oct – 10 Nov 2023",
+   "span": "21 days",
+   "value": 12.6,
+   "all_ocha": 8.5,
+   "segments": [
+    [
+     "2023-10-21",
+     "2023-11-10"
+    ]
+   ]
+  },
+  {
+   "period": "June 2025",
+   "span": "1 month",
+   "value": 16.1,
+   "all_ocha": 5.6,
+   "segments": [
+    [
+     "2025-06-01",
+     "2025-06-30"
+    ]
+   ]
+  },
+  {
+   "period": "2025–26 logs",
+   "span": "10 months",
+   "value": 25.3,
+   "all_ocha": 13.6,
+   "segments": [
+    [
+     "2025-04-01",
+     "2025-08-31"
+    ],
+    [
+     "2026-02-01",
+     "2026-06-30"
+    ]
+   ]
+  }
+ ],
+ "stats": [
+  {
+   "k": "chatgpt.com referrals",
+   "v": "450,000",
+   "n": "Sessions from the chatgpt.com referrer, Jul 2025 – Aug 2026"
+  },
+  {
+   "k": "“AI Assistant” channel",
+   "v": "96,112",
+   "n": "Sessions in a GA4 channel group that did not exist before 2026"
+  },
+  {
+   "k": "ReliefWeb's own AI chat",
+   "v": "133,265",
+   "n": "Views of /ai/chat/popup, Aug 2025 – Jun 2026"
+  },
+  {
+   "k": "Unattributed API traffic",
+   "v": "96%",
+   "n": "Automated: python-requests 62.5%, Go-http-client 20.6%"
+  }
+ ],
+ "calls_audited": "219,870,745",
+ "appnames": "4,487",
+ "_denominator": "Share of API calls NOT made by reliefweb.int itself. This is NOT 'external to OCHA': response and unocha.org are OCHA properties and are counted here as non-reliefweb.int. Excluding all three OCHA properties gives the all_ocha values instead. api-usage-findings.md S1 (87.7% OCHA / 12.3% everyone else) and S3 (the trend table) use different denominators; these are S3's, recomputed from the source workbook 2026-08-25 and confirmed to reproduce.",
+ "_windows": "The three points are snapshots of whatever the log export covered, not equal periods: 21 days, 1 month, and a 10-month aggregate with 5 months missing. The third window contains the second, so the points are not independent. `segments` gives the dates each window actually covers, from api-usage-findings.md coverage: the third is two blocks, Apr-Aug 2025 and Feb-Jun 2026, with Sep 2025 to Jan 2026 absent.",
+ "new_user_pct": 96.9,
+ "_new_user_pct_note": "Share of GA4 users counted as new across the whole window. Browser identity does not persist on this property, so no loyalty or returning-visitor measure is used anywhere.",
+ "_chatgpt_note": "Re-derived from the GA4 Data API on 2026-09-06. The previous figure, 358,787 from project-354-framework.md S6, could not be reproduced under any definition tried: sessionSource=chatgpt.com over Jul 2025 - Aug 2026 gives 448,215, firstUserSource gives 335,964, totalUsers gives 212,686, and no contiguous month window sums to 358,787. Rounded to 450,000 because the same query returns 448,215 as one range and 452,448 as a sum of monthly rows; a precise figure would be false precision. chat.openai.com and openai.com contribute zero sessions, so hostname grouping makes no difference.",
+ "_aichat_note": "Re-derived from the GA4 Data API on 2026-10-05, one query per month, pagePath beginning /ai/chat/popup. The previous figure, 139,857 from project-354-framework.md S6, had no stated window and could not be reproduced: all months from 2024 on total 133,767, and no run of months sums to 139,857. Use runs from Aug 2025 (2,049) to Jun 2026 (9,304), with peaks in Sep 2025 (31,115) and Apr 2026 (37,341), then stops: 2 views in Jul 2026 and 8 in Aug 2026. Whether the chat was switched off, and what drove the two peaks, is a question for the ReliefWeb developers.",
+ "_unattributed_note": "From api-usage-findings.md S5: user agents of a sample of 595,823 API calls carrying no appname. The months the sample was drawn from are not recorded; the audited logs cover Apr–Aug 2025 and Feb–Jun 2026, plus snapshots from Oct–Nov 2023 and Jun 2025."
+}

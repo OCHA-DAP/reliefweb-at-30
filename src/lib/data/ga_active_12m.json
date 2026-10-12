@@ -1,0 +1,12 @@
+{
+ "metric": "GA4 activeUsers, deduplicated across the window",
+ "window": [
+  "2025-08-20",
+  "2026-08-19"
+ ],
+ "window_display": "Aug 2025 – Aug 2026",
+ "active_users": 7414275,
+ "scope": "Users with at least one event on a /report/ or /map/ page",
+ "active_users_all_pages": 14043651,
+ "generated": "2026-09-29"
+}

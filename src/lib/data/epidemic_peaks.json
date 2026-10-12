@@ -1,0 +1,366 @@
+{
+ "min_docs": 200,
+ "months": 24,
+ "onset_from": "1996",
+ "n": 57,
+ "within_month": 13,
+ "month6_or_later": 28,
+ "median_peak": 5,
+ "left_out_multi_year": [
+  "DR Congo: Cholera and Measles Outbreaks - 2013-2026",
+  "Haiti: Cholera Outbreak - 2010-2017",
+  "Somalia: Cholera Outbreak - 2016-2026",
+  "Pakistan: Polio Outbreak - 2014-2017",
+  "Somalia: Measles Outbreak - 2016-2026",
+  "Mozambique: Cholera Outbreak - 2022-2026",
+  "Bangladesh: Diphtheria Outbreak - 2017-2019",
+  "Pacific: Dengue Outbreak - 2025-2026",
+  "Central America: Dengue Outbreak - 2013-2014"
+ ],
+ "not_found": [],
+ "outbreaks": [
+  {
+   "name": "West Africa: Ebola Outbreak - Mar 2014",
+   "onset": "2014-03",
+   "total": 7967,
+   "peak_month": 7
+  },
+  {
+   "name": "DR Congo: Ebola Outbreak - Aug 2018",
+   "onset": "2018-08",
+   "total": 3520,
+   "peak_month": 11
+  },
+  {
+   "name": "Yemen: Cholera Outbreak - Oct 2016",
+   "onset": "2016-10",
+   "total": 2764,
+   "peak_month": 9
+  },
+  {
+   "name": "Influenza A (H1N1) Pandemic - Apr 2009",
+   "onset": "2009-04",
+   "total": 2319,
+   "peak_month": 1
+  },
+  {
+   "name": "Nigeria: Cholera Outbreak - Jun 2017",
+   "onset": "2017-06",
+   "total": 2174,
+   "peak_month": 16
+  },
+  {
+   "name": "Nigeria: Polio Outbreak - Aug 2016",
+   "onset": "2016-08",
+   "total": 1213,
+   "peak_month": 2
+  },
+  {
+   "name": "Nigeria: Measles Outbreak - Oct 2016",
+   "onset": "2016-10",
+   "total": 1082,
+   "peak_month": 4
+  },
+  {
+   "name": "Nigeria: Yellow Fever Outbreak - Sep 2017",
+   "onset": "2017-09",
+   "total": 828,
+   "peak_month": 5
+  },
+  {
+   "name": "Cameroon: Cholera Outbreak - Jul 2018",
+   "onset": "2018-07",
+   "total": 823,
+   "peak_month": 13
+  },
+  {
+   "name": "South Sudan: Cholera Outbreak - Jul 2016",
+   "onset": "2016-07",
+   "total": 806,
+   "peak_month": 1
+  },
+  {
+   "name": "Syria/Iraq: Polio Outbreak - Oct 2013",
+   "onset": "2013-10",
+   "total": 780,
+   "peak_month": 6
+  },
+  {
+   "name": "Horn of Africa: Polio Outbreak - Aug 2018",
+   "onset": "2018-08",
+   "total": 766,
+   "peak_month": 14
+  },
+  {
+   "name": "Sudan: Cholera Outbreak - Sep 2023",
+   "onset": "2023-09",
+   "total": 705,
+   "peak_month": 2
+  },
+  {
+   "name": "Ethiopia: Cholera Outbreak - Sep 2022",
+   "onset": "2022-09",
+   "total": 669,
+   "peak_month": 18
+  },
+  {
+   "name": "Sudan/South Sudan: Measles Outbreak - Mar 2015",
+   "onset": "2015-03",
+   "total": 664,
+   "peak_month": 16
+  },
+  {
+   "name": "Horn of Africa: Polio Outbreak - May 2013",
+   "onset": "2013-05",
+   "total": 642,
+   "peak_month": 12
+  },
+  {
+   "name": "Syria: Cholera Outbreak - Aug 2022",
+   "onset": "2022-08",
+   "total": 632,
+   "peak_month": 6
+  },
+  {
+   "name": "Congo River: Cholera Outbreak - May 2011",
+   "onset": "2011-05",
+   "total": 568,
+   "peak_month": 14
+  },
+  {
+   "name": "Haiti: Cholera Outbreak - Sep 2022",
+   "onset": "2022-10",
+   "total": 500,
+   "peak_month": 0
+  },
+  {
+   "name": "Syria: Polio Outbreak - Jun 2017",
+   "onset": "2017-06",
+   "total": 499,
+   "peak_month": 6
+  },
+  {
+   "name": "Kenya: Cholera Outbreak - Feb 2015",
+   "onset": "2015-02",
+   "total": 498,
+   "peak_month": 4
+  },
+  {
+   "name": "Pakistan: Polio Outbreak - May 2019",
+   "onset": "2019-05",
+   "total": 463,
+   "peak_month": 7
+  },
+  {
+   "name": "Malawi: Cholera Outbreak - Mar 2022",
+   "onset": "2022-03",
+   "total": 436,
+   "peak_month": 12
+  },
+  {
+   "name": "South Sudan: Measles - Dec 2022",
+   "onset": "2022-12",
+   "total": 435,
+   "peak_month": 8
+  },
+  {
+   "name": "DR Congo: Ebola Outbreak - May 2018",
+   "onset": "2018-05",
+   "total": 428,
+   "peak_month": 0
+  },
+  {
+   "name": "Nigeria: Lassa Fever Outbreak - Jan 2019",
+   "onset": "2019-01",
+   "total": 398,
+   "peak_month": 13
+  },
+  {
+   "name": "Pacific: Dengue Outbreak - Oct 2018",
+   "onset": "2018-10",
+   "total": 396,
+   "peak_month": 10
+  },
+  {
+   "name": "South Sudan: Cholera Outbreak - May 2014",
+   "onset": "2014-05",
+   "total": 394,
+   "peak_month": 2
+  },
+  {
+   "name": "DR Congo: Polio Outbreak - Feb 2018",
+   "onset": "2018-02",
+   "total": 393,
+   "peak_month": 21
+  },
+  {
+   "name": "Angola/DR Congo: Yellow Fever Outbreak - Jan 2016",
+   "onset": "2016-01",
+   "total": 383,
+   "peak_month": 7
+  },
+  {
+   "name": "DR Congo: Ebola Outbreak - Jun 2020",
+   "onset": "2020-06",
+   "total": 382,
+   "peak_month": 1
+  },
+  {
+   "name": "South America: Dengue Outbreak - Jan 2009",
+   "onset": "2009-01",
+   "total": 371,
+   "peak_month": 2
+  },
+  {
+   "name": "Nigeria: Lassa Fever Outbreak - Dec 2016",
+   "onset": "2016-12",
+   "total": 357,
+   "peak_month": 15
+  },
+  {
+   "name": "Mozambique: Cholera Outbreak - Mar 2019",
+   "onset": "2019-03",
+   "total": 327,
+   "peak_month": 1
+  },
+  {
+   "name": "Yemen: Polio Outbreak - Aug 2020",
+   "onset": "2020-08",
+   "total": 320,
+   "peak_month": 3
+  },
+  {
+   "name": "Ethiopia: Acute Watery Diarrhoea (AWD) Outbreak - May 2016",
+   "onset": "2016-06",
+   "total": 312,
+   "peak_month": 11
+  },
+  {
+   "name": "Burundi: Cholera Outbreak - Jan 2023",
+   "onset": "2023-01",
+   "total": 308,
+   "peak_month": 2
+  },
+  {
+   "name": "Pacific: Measles Outbreak - Oct 2019",
+   "onset": "2019-10",
+   "total": 306,
+   "peak_month": 2
+  },
+  {
+   "name": "South Sudan: Cholera Outbreak - Jun 2015",
+   "onset": "2015-06",
+   "total": 299,
+   "peak_month": 1
+  },
+  {
+   "name": "South Sudan: Measles Outbreak - Sep 2013",
+   "onset": "2013-09",
+   "total": 295,
+   "peak_month": 4
+  },
+  {
+   "name": "Uganda: Ebola Outbreak - Sep 2022",
+   "onset": "2022-09",
+   "total": 289,
+   "peak_month": 2
+  },
+  {
+   "name": "Zimbabwe: Cholera Outbreak - Feb 2023",
+   "onset": "2023-02",
+   "total": 280,
+   "peak_month": 11
+  },
+  {
+   "name": "Yemen: Diphtheria Outbreak - Nov 2017",
+   "onset": "2017-11",
+   "total": 277,
+   "peak_month": 1
+  },
+  {
+   "name": "Burundi/Tanzania: Cholera Outbreak - May 2015",
+   "onset": "2015-05",
+   "total": 275,
+   "peak_month": 1
+  },
+  {
+   "name": "Nigeria: Lassa Fever Outbreak - Jan 2023",
+   "onset": "2023-01",
+   "total": 274,
+   "peak_month": 20
+  },
+  {
+   "name": "DR Congo: Ebola Outbreak - Aug 2014",
+   "onset": "2014-08",
+   "total": 269,
+   "peak_month": 1
+  },
+  {
+   "name": "Chad: Measles Outbreak - May 2018",
+   "onset": "2018-05",
+   "total": 265,
+   "peak_month": 10
+  },
+  {
+   "name": "South Sudan: Measles Outbreak - Dec 2018",
+   "onset": "2018-12",
+   "total": 263,
+   "peak_month": 5
+  },
+  {
+   "name": "Guinea: Ebola Outbreak - Jan 2021",
+   "onset": "2021-01",
+   "total": 258,
+   "peak_month": 1
+  },
+  {
+   "name": "DR Congo: Ebola Outbreak - Feb 2021",
+   "onset": "2021-02",
+   "total": 250,
+   "peak_month": 0
+  },
+  {
+   "name": "Kenya: Cholera Outbreak - Oct 2022",
+   "onset": "2022-10",
+   "total": 237,
+   "peak_month": 5
+  },
+  {
+   "name": "Yemen: Cholera Outbreak - Mar 2024",
+   "onset": "2024-03",
+   "total": 224,
+   "peak_month": 10
+  },
+  {
+   "name": "Ethiopia: Measles Outbreak - May 2017",
+   "onset": "2017-05",
+   "total": 222,
+   "peak_month": 5
+  },
+  {
+   "name": "Central African Republic: Measles Outbreak - May 2013",
+   "onset": "2013-05",
+   "total": 219,
+   "peak_month": 9
+  },
+  {
+   "name": "Nigeria: Cholera Outbreak - Nov 2013",
+   "onset": "2013-11",
+   "total": 216,
+   "peak_month": 12
+  },
+  {
+   "name": "Madagascar: Plague Outbreak - Sep 2017",
+   "onset": "2017-09",
+   "total": 214,
+   "peak_month": 1
+  },
+  {
+   "name": "Sri Lanka: Dengue Outbreak - Jul 2019",
+   "onset": "2019-07",
+   "total": 210,
+   "peak_month": 5
+  }
+ ],
+ "generated": "2026-09-05"
+}

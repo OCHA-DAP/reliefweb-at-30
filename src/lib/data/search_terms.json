@@ -1,0 +1,745 @@
+{
+ "event": "view_search_results",
+ "page_path": "/updates",
+ "dimension": "searchTerm",
+ "metric": "engagedSessions",
+ "top_n": 25,
+ "fold": "lower case, trimmed, whitespace collapsed; blank, '(not set)', '(other)' and any term containing '@' or 'http' dropped; query syntax (field:value, quotes, OR/AND) dropped; re-aggregated, top 25 kept",
+ "window": [
+  "2023-01-01",
+  "2026-09-30"
+ ],
+ "years": [
+  "2023",
+  "2024",
+  "2025",
+  "2026"
+ ],
+ "sessions_total": {
+  "2023": 49045,
+  "2024": 142718,
+  "2025": 113035,
+  "2026": 163520,
+  "all": 459811
+ },
+ "events": {
+  "2023": {
+   "all_pages": 5790300,
+   "jobs": 5418384,
+   "updates": 192591
+  },
+  "2024": {
+   "all_pages": 11202858,
+   "jobs": 5149199,
+   "updates": 5353005
+  },
+  "2025": {
+   "all_pages": 5940572,
+   "jobs": 4037901,
+   "updates": 109370
+  },
+  "2026": {
+   "all_pages": 3983155,
+   "jobs": 3084740,
+   "updates": 628910
+  },
+  "all": {
+   "all_pages": 26916885,
+   "jobs": 16904287,
+   "updates": 6128678
+  }
+ },
+ "by_year": {
+  "2023": [
+   {
+    "term": "gaza",
+    "sessions": 2074,
+    "share": 4.23
+   },
+   {
+    "term": "somalia",
+    "sessions": 905,
+    "share": 1.85
+   },
+   {
+    "term": "yemen",
+    "sessions": 733,
+    "share": 1.49
+   },
+   {
+    "term": "afghanistan",
+    "sessions": 669,
+    "share": 1.36
+   },
+   {
+    "term": "sudan",
+    "sessions": 504,
+    "share": 1.03
+   },
+   {
+    "term": "myanmar",
+    "sessions": 452,
+    "share": 0.92
+   },
+   {
+    "term": "syria",
+    "sessions": 423,
+    "share": 0.86
+   },
+   {
+    "term": "palestine",
+    "sessions": 408,
+    "share": 0.83
+   },
+   {
+    "term": "libya",
+    "sessions": 396,
+    "share": 0.81
+   },
+   {
+    "term": "lebanon",
+    "sessions": 367,
+    "share": 0.75
+   },
+   {
+    "term": "pakistan",
+    "sessions": 347,
+    "share": 0.71
+   },
+   {
+    "term": "kenya",
+    "sessions": 300,
+    "share": 0.61
+   },
+   {
+    "term": "south sudan",
+    "sessions": 286,
+    "share": 0.58
+   },
+   {
+    "term": "ukraine",
+    "sessions": 284,
+    "share": 0.58
+   },
+   {
+    "term": "ethiopia",
+    "sessions": 264,
+    "share": 0.54
+   },
+   {
+    "term": "haiti",
+    "sessions": 250,
+    "share": 0.51
+   },
+   {
+    "term": "mali",
+    "sessions": 222,
+    "share": 0.45
+   },
+   {
+    "term": "flood",
+    "sessions": 210,
+    "share": 0.43
+   },
+   {
+    "term": "israel",
+    "sessions": 189,
+    "share": 0.39
+   },
+   {
+    "term": "cholera",
+    "sessions": 182,
+    "share": 0.37
+   },
+   {
+    "term": "armenia",
+    "sessions": 176,
+    "share": 0.36
+   },
+   {
+    "term": "niger",
+    "sessions": 163,
+    "share": 0.33
+   },
+   {
+    "term": "morocco",
+    "sessions": 154,
+    "share": 0.31
+   },
+   {
+    "term": "opt",
+    "sessions": 142,
+    "share": 0.29
+   },
+   {
+    "term": "wash",
+    "sessions": 130,
+    "share": 0.27
+   }
+  ],
+  "2024": [
+   {
+    "term": "gaza",
+    "sessions": 4390,
+    "share": 3.08
+   },
+   {
+    "term": "somalia",
+    "sessions": 3141,
+    "share": 2.2
+   },
+   {
+    "term": "sudan",
+    "sessions": 2450,
+    "share": 1.72
+   },
+   {
+    "term": "yemen",
+    "sessions": 2450,
+    "share": 1.72
+   },
+   {
+    "term": "lebanon",
+    "sessions": 2305,
+    "share": 1.62
+   },
+   {
+    "term": "syria",
+    "sessions": 2076,
+    "share": 1.45
+   },
+   {
+    "term": "afghanistan",
+    "sessions": 1735,
+    "share": 1.22
+   },
+   {
+    "term": "south sudan",
+    "sessions": 1667,
+    "share": 1.17
+   },
+   {
+    "term": "myanmar",
+    "sessions": 1658,
+    "share": 1.16
+   },
+   {
+    "term": "kenya",
+    "sessions": 1274,
+    "share": 0.89
+   },
+   {
+    "term": "haiti",
+    "sessions": 1097,
+    "share": 0.77
+   },
+   {
+    "term": "mpox",
+    "sessions": 915,
+    "share": 0.64
+   },
+   {
+    "term": "pakistan",
+    "sessions": 871,
+    "share": 0.61
+   },
+   {
+    "term": "ukraine",
+    "sessions": 854,
+    "share": 0.6
+   },
+   {
+    "term": "cholera",
+    "sessions": 849,
+    "share": 0.59
+   },
+   {
+    "term": "ethiopia",
+    "sessions": 744,
+    "share": 0.52
+   },
+   {
+    "term": "flood",
+    "sessions": 705,
+    "share": 0.49
+   },
+   {
+    "term": "mali",
+    "sessions": 564,
+    "share": 0.4
+   },
+   {
+    "term": "libya",
+    "sessions": 536,
+    "share": 0.38
+   },
+   {
+    "term": "nigeria",
+    "sessions": 483,
+    "share": 0.34
+   },
+   {
+    "term": "iraq",
+    "sessions": 464,
+    "share": 0.33
+   },
+   {
+    "term": "palestine",
+    "sessions": 459,
+    "share": 0.32
+   },
+   {
+    "term": "congo",
+    "sessions": 391,
+    "share": 0.27
+   },
+   {
+    "term": "drc",
+    "sessions": 332,
+    "share": 0.23
+   },
+   {
+    "term": "africa",
+    "sessions": 326,
+    "share": 0.23
+   }
+  ],
+  "2025": [
+   {
+    "term": "somalia",
+    "sessions": 2921,
+    "share": 2.58
+   },
+   {
+    "term": "syria",
+    "sessions": 2365,
+    "share": 2.09
+   },
+   {
+    "term": "gaza",
+    "sessions": 2219,
+    "share": 1.96
+   },
+   {
+    "term": "yemen",
+    "sessions": 1926,
+    "share": 1.7
+   },
+   {
+    "term": "sudan",
+    "sessions": 1795,
+    "share": 1.59
+   },
+   {
+    "term": "south sudan",
+    "sessions": 1619,
+    "share": 1.43
+   },
+   {
+    "term": "myanmar",
+    "sessions": 1390,
+    "share": 1.23
+   },
+   {
+    "term": "afghanistan",
+    "sessions": 1377,
+    "share": 1.22
+   },
+   {
+    "term": "lebanon",
+    "sessions": 1299,
+    "share": 1.15
+   },
+   {
+    "term": "pakistan",
+    "sessions": 1143,
+    "share": 1.01
+   },
+   {
+    "term": "cholera",
+    "sessions": 950,
+    "share": 0.84
+   },
+   {
+    "term": "kenya",
+    "sessions": 880,
+    "share": 0.78
+   },
+   {
+    "term": "ethiopia",
+    "sessions": 733,
+    "share": 0.65
+   },
+   {
+    "term": "flood",
+    "sessions": 589,
+    "share": 0.52
+   },
+   {
+    "term": "ukraine",
+    "sessions": 574,
+    "share": 0.51
+   },
+   {
+    "term": "haiti",
+    "sessions": 551,
+    "share": 0.49
+   },
+   {
+    "term": "nigeria",
+    "sessions": 492,
+    "share": 0.44
+   },
+   {
+    "term": "libya",
+    "sessions": 491,
+    "share": 0.43
+   },
+   {
+    "term": "mali",
+    "sessions": 421,
+    "share": 0.37
+   },
+   {
+    "term": "ocha",
+    "sessions": 385,
+    "share": 0.34
+   },
+   {
+    "term": "usaid",
+    "sessions": 384,
+    "share": 0.34
+   },
+   {
+    "term": "mpox",
+    "sessions": 373,
+    "share": 0.33
+   },
+   {
+    "term": "congo",
+    "sessions": 306,
+    "share": 0.27
+   },
+   {
+    "term": "opt",
+    "sessions": 299,
+    "share": 0.26
+   },
+   {
+    "term": "drc",
+    "sessions": 297,
+    "share": 0.26
+   }
+  ],
+  "2026": [
+   {
+    "term": "yemen",
+    "sessions": 1895,
+    "share": 1.16
+   },
+   {
+    "term": "somalia",
+    "sessions": 1856,
+    "share": 1.14
+   },
+   {
+    "term": "protection",
+    "sessions": 1654,
+    "share": 1.01
+   },
+   {
+    "term": "health",
+    "sessions": 1513,
+    "share": 0.93
+   },
+   {
+    "term": "water sanitation hygiene",
+    "sessions": 1463,
+    "share": 0.89
+   },
+   {
+    "term": "sudan",
+    "sessions": 1125,
+    "share": 0.69
+   },
+   {
+    "term": "flood",
+    "sessions": 1124,
+    "share": 0.69
+   },
+   {
+    "term": "bulletin",
+    "sessions": 1066,
+    "share": 0.65
+   },
+   {
+    "term": "lebanon",
+    "sessions": 1063,
+    "share": 0.65
+   },
+   {
+    "term": "education",
+    "sessions": 1048,
+    "share": 0.64
+   },
+   {
+    "term": "syria",
+    "sessions": 931,
+    "share": 0.57
+   },
+   {
+    "term": "south sudan",
+    "sessions": 913,
+    "share": 0.56
+   },
+   {
+    "term": "nutrition",
+    "sessions": 906,
+    "share": 0.55
+   },
+   {
+    "term": "ebola",
+    "sessions": 905,
+    "share": 0.55
+   },
+   {
+    "term": "floods",
+    "sessions": 902,
+    "share": 0.55
+   },
+   {
+    "term": "child protection",
+    "sessions": 901,
+    "share": 0.55
+   },
+   {
+    "term": "afghanistan",
+    "sessions": 764,
+    "share": 0.47
+   },
+   {
+    "term": "myanmar",
+    "sessions": 751,
+    "share": 0.46
+   },
+   {
+    "term": "gaza",
+    "sessions": 716,
+    "share": 0.44
+   },
+   {
+    "term": "humanitarian funding",
+    "sessions": 671,
+    "share": 0.41
+   },
+   {
+    "term": "shelter",
+    "sessions": 666,
+    "share": 0.41
+   },
+   {
+    "term": "venezuela",
+    "sessions": 663,
+    "share": 0.41
+   },
+   {
+    "term": "covid",
+    "sessions": 640,
+    "share": 0.39
+   },
+   {
+    "term": "reference",
+    "sessions": 572,
+    "share": 0.35
+   },
+   {
+    "term": "northern region",
+    "sessions": 561,
+    "share": 0.34
+   }
+  ]
+ },
+ "all_time": [
+  {
+   "term": "gaza",
+   "sessions": 9530,
+   "share": 2.07,
+   "country": "PSE",
+   "doc_share": 6.655
+  },
+  {
+   "term": "somalia",
+   "sessions": 8821,
+   "share": 1.92,
+   "country": "SOM",
+   "doc_share": 2.931
+  },
+  {
+   "term": "yemen",
+   "sessions": 6933,
+   "share": 1.51,
+   "country": "YEM",
+   "doc_share": 3.23
+  },
+  {
+   "term": "sudan",
+   "sessions": 5788,
+   "share": 1.26,
+   "country": "SDN",
+   "doc_share": 4.443
+  },
+  {
+   "term": "syria",
+   "sessions": 5727,
+   "share": 1.25,
+   "country": "SYR",
+   "doc_share": 3.579
+  },
+  {
+   "term": "lebanon",
+   "sessions": 5061,
+   "share": 1.1,
+   "country": "LBN",
+   "doc_share": 2.31
+  },
+  {
+   "term": "afghanistan",
+   "sessions": 4516,
+   "share": 0.98,
+   "country": "AFG",
+   "doc_share": 4.24
+  },
+  {
+   "term": "south sudan",
+   "sessions": 4411,
+   "share": 0.96,
+   "country": "SSD",
+   "doc_share": 2.413
+  },
+  {
+   "term": "myanmar",
+   "sessions": 4264,
+   "share": 0.93,
+   "country": "MMR",
+   "doc_share": 2.171
+  },
+  {
+   "term": "kenya",
+   "sessions": 2985,
+   "share": 0.65,
+   "country": "KEN",
+   "doc_share": 1.056
+  },
+  {
+   "term": "pakistan",
+   "sessions": 2891,
+   "share": 0.63,
+   "country": "PAK",
+   "doc_share": 1.913
+  },
+  {
+   "term": "flood",
+   "sessions": 2630,
+   "share": 0.57,
+   "country": null,
+   "doc_share": null
+  },
+  {
+   "term": "cholera",
+   "sessions": 2477,
+   "share": 0.54,
+   "country": null,
+   "doc_share": null
+  },
+  {
+   "term": "haiti",
+   "sessions": 2318,
+   "share": 0.5,
+   "country": "HTI",
+   "doc_share": 2.449
+  },
+  {
+   "term": "ethiopia",
+   "sessions": 2275,
+   "share": 0.49,
+   "country": "ETH",
+   "doc_share": 1.972
+  },
+  {
+   "term": "health",
+   "sessions": 2134,
+   "share": 0.46,
+   "country": null,
+   "doc_share": null
+  },
+  {
+   "term": "protection",
+   "sessions": 2013,
+   "share": 0.44,
+   "country": null,
+   "doc_share": null
+  },
+  {
+   "term": "ukraine",
+   "sessions": 1952,
+   "share": 0.42,
+   "country": "UKR",
+   "doc_share": 4.619
+  },
+  {
+   "term": "education",
+   "sessions": 1595,
+   "share": 0.35,
+   "country": null,
+   "doc_share": null
+  },
+  {
+   "term": "libya",
+   "sessions": 1581,
+   "share": 0.34,
+   "country": "LBY",
+   "doc_share": 0.718
+  },
+  {
+   "term": "water sanitation hygiene",
+   "sessions": 1493,
+   "share": 0.32,
+   "country": null,
+   "doc_share": null
+  },
+  {
+   "term": "nigeria",
+   "sessions": 1486,
+   "share": 0.32,
+   "country": "NGA",
+   "doc_share": 2.169
+  },
+  {
+   "term": "mali",
+   "sessions": 1460,
+   "share": 0.32,
+   "country": "MLI",
+   "doc_share": 1.452
+  },
+  {
+   "term": "bulletin",
+   "sessions": 1354,
+   "share": 0.29,
+   "country": null,
+   "doc_share": null
+  },
+  {
+   "term": "mpox",
+   "sessions": 1328,
+   "share": 0.29,
+   "country": null,
+   "doc_share": null
+  }
+ ],
+ "doc_share_window": [
+  "2023-01-01",
+  "2026-08-26"
+ ],
+ "doc_share_total": 146648,
+ "generated": "2026-10-07"
+}
