@@ -5,7 +5,7 @@
   import { fmt, completeCount } from '$lib/chart.js';
   import OrgsByTypeFigure, { ngoFacts } from '$lib/components/OrgsByTypeFigure.svelte';
   import TermShiftFigure from '$lib/components/TermShiftFigure.svelte';
-  import { settled, added, EDITORIAL } from '$lib/vocab.js';
+  import { BODY_WORDS } from '$lib/vocab.js';
   import Scrolly from './Scrolly.svelte';
   import Step from './Step.svelte';
   import { waffle, squareCounts, categoryCuts, categoryAt, PITCH, COL_W, COLS, SQ } from './layouts.js';
@@ -146,14 +146,8 @@
     if (sc) return sc.colors[categoryAt(sc.cuts[s.yi], s.k)];
     return years[s.yi] <= v.upto ? 'var(--b4)' : 'var(--b7)';
   };
-  // The words: the same terms the figure below charts (no editors' additions, plus
-  // the two later fallers), the biggest riser and faller quoted in the text.
+  // The words the figure below charts: its own terms plus the two later fallers.
   const TERM_EXTRA = ['reconstruction', 'victims'];
-  const termRows = [...settled.filter((r) => !EDITORIAL.has(r.label)), ...added.filter((r) => TERM_EXTRA.includes(r.label))].sort(
-    (a, b) => b.change - a.change
-  );
-  const riser = termRows[0];
-  const faller = termRows[termRows.length - 1];
 
   // One category at full strength, the rest faded behind it.
   const dim = (s, v, sc) => (sc && v.focusCat != null && categoryAt(sc.cuts[s.yi], s.k) !== v.focusCat ? 0.2 : 1);
@@ -211,37 +205,38 @@
       documents.
     </Step>
     <Step id="a1-s1" i={1}>
-      The biggest jump came in 2005: {fmt(byYear[yi(2005)])} documents, up from {fmt(byYear[yi(2004)])} the year
-      before. {fmt(tsunami2005)} of them were about the Indian Ocean tsunami of December 2004.
+      The biggest jump came in 2005, with {fmt(byYear[yi(2005)])} documents published, up from
+      {fmt(byYear[yi(2004)])} the year before. {fmt(tsunami2005)} of them were about the Indian Ocean tsunami of December 2004.
     </Step>
     <Step id="a1-s2" i={2}>
-      The next came in 2014, the year of the West Africa Ebola outbreak: {fmt(byYear[yi(2014)])} documents, up
+      The next jump came in 2014, the year of the West Africa Ebola outbreak: {fmt(byYear[yi(2014)])} documents, up
       from {fmt(byYear[yi(2013)])}. {fmt(ebola2014)} of them were about the outbreak.
     </Step>
     <Step id="a1-s3" i={3}>
-      {years[peakI]} was the peak with {fmt(byYear[peakI])} documents published in one year.
+      {years[peakI]} was the peak with {fmt(byYear[peakI])} documents published in one year. In {years[last]}, the
+      rate of publishing slowed due to resource constraints.
     </Step>
     <Step id="a1-s4" i={4}>
-      Over thirty years, news and press releases were the most common format, {pct(newsAll, total)}% of
-      everything ReliefWeb published.
+      Over thirty years, news and press releases were the most common format, accounting for
+      {pct(newsAll, total)}% of all documents published on ReliefWeb.
     </Step>
     <Step id="a1-s5" i={5}>
-      Infographics were rare on ReliefWeb until {infoFrom}, and by {years[last]} they were
-      {pct(info[last], byYear[last])}% of everything published.
+      Infographics emerged as a growing format on ReliefWeb around {infoFrom}, and by {years[last]} accounted for
+      {pct(info[last], byYear[last])}% of documents published.
     </Step>
     <Step id="a1-s6" i={6}>
       <!-- TODO(reason): add why newswire content stopped once ReliefWeb confirms it
            (project-354-framework.md §05, §09 ask 2). -->
-      Around {mediaGone} ReliefWeb stopped republishing newswire and media content. Among the other
-      organizations publishing, UN agencies and other international organizations wrote {ioShare(0)}% of
-      documents in 1996 and {ioShare(last)}% in {years[last]}.
+      UN agencies and other international organizations wrote {ioShare(0)}% of ReliefWeb's documents in 1996 and
+      {ioShare(last)}% in {years[last]}, not counting media. ReliefWeb stopped republishing newswire and media
+      content around {mediaGone}, which is why the gray band ends that year.
     </Step>
   </Scrolly>
 
   <div class="inflow">
     <p class="lede">
-      UN agencies and other international organizations write most of ReliefWeb's documents, but non-governmental
-      organizations (NGOs) are the largest group of publishers. They have outnumbered every other type every year
+      UN agencies and other international organizations produce most of ReliefWeb's documents, but non-governmental
+      organizations (NGOs) are the largest cohort of publishers. They have outnumbered every other type every year
       since {ngoFacts.since}, with {fmt(ngoFacts.count)} NGOs publishing in {ngoFacts.year}.
     </p>
     <OrgsByTypeFigure
@@ -254,9 +249,8 @@
 
     <h3 class="subhead">What the documents talk about</h3>
     <p class="lede">
-      In 2000, {Math.round(riser.from)} in every 100 documents mentioned {riser.label}; by
-      2025, {Math.round(riser.to)} did. {faller.label[0].toUpperCase() + faller.label.slice(1)} went the other way,
-      from {Math.round(faller.from)} in 100 to {Math.round(faller.to)}.
+      A review of {BODY_WORDS} million words in the archive shows changing attitudes, priorities and terminology in
+      the sector.
     </p>
     <TermShiftFigure id="a1-terms" num={null} plain editorial={false} scale={false} count={false} extra={TERM_EXTRA} intro="" />
   </div>

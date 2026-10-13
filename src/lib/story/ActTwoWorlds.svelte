@@ -17,10 +17,9 @@
   // Chapter 3: which countries the documents are about, then where their readers are. One
   // choropleth, two shares on the same classes, so the step between them is a
   // change of fill on the same paths. Countries whose traffic reads as data
-  // centers rather than people are left out of the visits view, and named.
+  // centers rather than people are left out of the visits view.
   const map = worldPaths(topo);
   const byIso = new Map(dots.countries.map((c) => [c.iso3, c]));
-  const flagged = dots.countries.filter((c) => c.not_readers);
   const by = (iso) => byIso.get(iso);
   const same = (iso) => byCountry.countries.find((c) => c.iso3 === iso);
   const COD = by('COD');
@@ -31,8 +30,9 @@
   const nameOf = (iso) => NAME[iso] ?? by(iso).rw_short;
   const labelOf = (iso) => LABEL[iso] ?? by(iso).rw_short;
   const capFirst = (t) => t[0].toUpperCase() + t.slice(1);
-  const flaggedNames = list(flagged.map((c) => nameOf(c.iso3)));
   // Whole percentages in the text, except where rounding would say 0%.
+  // Round shares said in words.
+  const PERCENT_WORDS = { 20: 'one fifth', 25: 'a quarter', 50: 'half' };
   const pct = (v) => (v >= 1 ? String(Math.round(v)) : v >= 0.1 ? v.toFixed(1) : 'under 0.1');
 
   // How concentrated the documents are, over the countries the map shades.
@@ -76,7 +76,7 @@
     },
     visits: {
       title: 'Which countries the readers are in',
-      sub: `Share of visits to documents, ${readWindowShort}, by the country the reader's browser was in`,
+      sub: `Share of visits to documents, ${readWindowShort}, by the country of the reader's browser`,
       key: 'Share of visits'
     }
   };
@@ -159,11 +159,8 @@
   // because searches spread thinly across terms.
   const topShare = Math.round(terms.reduce((a, t) => a + t.share, 0));
   const places = terms.filter((t) => t.country).length;
-  const jobsPct = Math.round((100 * search.events.all.jobs) / search.events.all.all_pages);
   const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-  const MONTH = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   const mon = (d) => `${MON[+d.slice(5, 7) - 1]} ${d.slice(0, 4)}`;
-  const day = (d) => `${+d.slice(8, 10)} ${MONTH[+d.slice(5, 7) - 1]} ${d.slice(0, 4)}`;
   const searchSpan = `${mon(search.window[0])} – ${mon(search.window[1])}`;
   const cap = (t) => t[0].toUpperCase() + t.slice(1);
 </script>
@@ -210,6 +207,10 @@
           {/if}
         {/each}
       </svg>
+      <p class="disclaimer">
+        The boundaries and names shown and the designations used on this map do not imply official endorsement or
+        acceptance by the United Nations.
+      </p>
       <div class="legend mkey">
         <span class="kcap">{TITLES[view.metric].key}</span>
         <span class="ramp" role="img" aria-label={rampLabel}>
@@ -222,15 +223,14 @@
         {#if view.metric === 'docs'}
           {fmt(dots.world_docs)} documents filed under no single country are not counted.
         {:else}
-          {capFirst(flaggedNames)} are excluded: their traffic reads as data centers rather than readers.
+          The map shows estimated usage by human readers, excluding automated bots and indexers.
         {/if}
-        Shares are not divided by population: the question is where attention goes, not attention per person.
       </p>
     {/snippet}
 
     <Step id="a3-s0" i={0}>
-      <b>This map shows which countries the documents are about.</b> ReliefWeb covers {placed} countries and territories,
-      but just 25 of them hold {cum(25)}% of the documents about a single country, and the top five hold {cum(5)}%.
+      Documents on ReliefWeb have covered {placed} countries and territories. Of the documents about a single country,
+      {cum(25)}% focus on just 25 of them, and {PERCENT_WORDS[cum(5)] ?? `${cum(5)}%`} are about five countries.
     </Step>
     <Step id="a3-s1" i={1}>
       DR Congo has the most documents of any country, {fmt(COD.docs)}; then {list(next4.map((c) => nameOf(c.iso3)))},
@@ -238,23 +238,23 @@
       {Math.ceil(Math.max(...next4.map((c) => c.doc_share)))}% of the archive.
     </Step>
     <Step id="a3-s2" i={2}>
-      <b>This map shows which countries the readers are in.</b> {millions(active.active_users)} people viewed ReliefWeb's
+      This map shows which countries the readers are in. {millions(active.active_users)} people viewed ReliefWeb's
       documents in the past year, {active.window_display.replace(' – ', ' to ')}. {capFirst(nameOf(top5Readers[0].iso3))} had the most visits,
       {pct(top5Readers[0].read_share)}%, followed by {list(top5Readers.slice(1).map((c) => nameOf(c.iso3)))}.{#if alsoWritten.length === 1}{' '}{capFirst(
           nameOf(alsoWritten[0].iso3)
-        )} is the one country among them that ReliefWeb also writes about often.{/if}
+        )} is frequently the subject of reports, as well as having a strong audience for ReliefWeb content in general.{/if}
     </Step>
     <Step id="a3-s3" i={3}>
-      <b>DR Congo and the United States are opposites.</b> In those same months, DR Congo was {pct(same('COD').doc_share)}% of
-      the documents and {pct(same('COD').read_share)}% of the readers. The United States was the reverse:
-      {pct(same('USA').doc_share)}% of documents, {pct(same('USA').read_share)}% of readers.
+      DR Congo and the United States are opposites. In those same months, DR Congo was {pct(same('COD').doc_share)}% of
+      the documents and {pct(same('COD').read_share)}% of the readers. In contrast, the United States represented
+      {pct(same('USA').doc_share)}% of documents but {pct(same('USA').read_share)}% of readers.
     </Step>
   </Scrolly>
 
   <div class="inflow">
     <p class="lede">
-      Documents are still viewed long after a crisis has passed. {Math.round(tsunami.read_rate)}% of the
-      {fmt(tsunami.docs_total)} documents about the 2004 tsunami were {readTimes} {readWindowText},
+      Documents are still viewed long after a crisis has passed. For example, {Math.round(tsunami.read_rate)}% of
+      documents about the 2004 tsunami were {readTimes} {readWindowText},
       {tsunami.age} years on.
     </p>
     <ArchiveAgeFigure
@@ -306,14 +306,14 @@
       title="What readers search for"
       sub="Top {search.top_n} searches of ReliefWeb's documents, by engaged visits, {searchSpan}"
       source="Google Analytics 4 and ReliefWeb full document export"
-      footnote="Search data begins in {search.years[0]}, the first year Google Analytics attributed engaged visits to searches, and runs to the last complete month, past the end of 2025 where the story's other series stop. Searches of the reports and maps listing only: job and training searches, {jobsPct}% of all searches, are left out. Ranked by engaged visits, those that lasted over 10 seconds or went on to a second page, because automated traffic inflates raw search counts and rarely does either. Share of docs counts documents by primary country from {mon(search.doc_share_window[0])} to {day(search.doc_share_window[1])}, where the document export ends; documents filed under no single country are left out."
+      footnote="Searches of job and training material are excluded. Documents are filed by primary country."
     >
       {#snippet chart()}
         <p class="tnote">
           Searches are spread thinly: together, the {search.top_n} most common terms make up {topShare}% of all
           searches.<br /><b>Share of searches</b>: how often this was searched, out of all searches of ReliefWeb's
-          documents.<br /><b>Share of docs</b>: for a country, how much of the archive is about it. Blank means the search is not a
-          country.
+          documents.<br /><b>Share of docs</b>: how much of the archive consists of documents about a given country. Blank means the
+          search is not a country.
         </p>
         <ol class="terms">
           <li class="thead" aria-hidden="true">
@@ -434,6 +434,13 @@
   .gnote {
     font-size: 12px;
     margin: 6px 0 0;
+  }
+  /* Lighter than the notes, but still 4.5:1 on white. */
+  .disclaimer {
+    font-size: 11px;
+    font-style: italic;
+    color: #767676;
+    margin: 2px 0 8px;
   }
   /* LineChart's plot runs from 46px in on the left to 20px in on the right when
      it has no end labels; the slider spans the same, less half its 18px thumb. */
@@ -641,6 +648,11 @@
     /* No room in half a phone screen; the methods text carries these notes. */
     .gnote {
       display: none;
+    }
+    .disclaimer {
+      font-size: 10px;
+      line-height: 1.35;
+      margin-top: 4px;
     }
     .msub {
       margin-bottom: 4px;

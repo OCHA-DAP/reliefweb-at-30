@@ -18,6 +18,10 @@ const addedShares = toShares(data.added ?? {});
 // sector talks, so the Vocabulary section leaves them out of its ranking.
 export const eventShares = toShares(data.event);
 export const totalReports = data.total_reports;
+// Words in the text of every document page created 1996–2025, in millions,
+// counted in the full document export (rw30-data corpus.docs). PDF attachments
+// are not included.
+export const BODY_WORDS = 560;
 
 // The four terms the derivation could not propose: two never reach minimum
 // support as bigrams, one sits below the charting floor, and localisation

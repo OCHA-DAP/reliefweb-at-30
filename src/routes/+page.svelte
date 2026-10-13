@@ -17,7 +17,7 @@
   const N = completeCount(rw30.years);
   const total = rw30.by_year.slice(0, N).reduce((a, b) => a + b, 0);
   const title = 'ReliefWeb’s 30th Anniversary';
-  const description = `Since 1996, more than ${fmt(Math.floor(sources.orgs_1996_2025 / 100) * 100)} organizations have published ${(total / 1e6).toFixed(1)} million reports and maps about crises on ReliefWeb. What they published, how disasters are covered, and where the readers are.`;
+  const description = `Since 1996, more than ${fmt(Math.floor(sources.orgs_1996_2025 / 100) * 100)} organizations have published ${(total / 1e6).toFixed(1)} million reports and maps about crises on ReliefWeb. This story explores the data behind the platform: what has been published, what we can learn about our readers, and how disasters have been covered over the last thirty years.`;
 </script>
 
 <svelte:head>
@@ -38,8 +38,9 @@
     <p class="standfirst">
       Since 1996, more than {fmt(Math.floor(sources.orgs_1996_2025 / 100) * 100)} organizations have published
       {(total / 1e6).toFixed(1)} million reports and maps
-      about crises on ReliefWeb. This story looks at what they published, how disasters are covered,
-      and where the readers are.
+      about crises on ReliefWeb. This story explores the data behind the platform — looking to understand what has
+      been published, what we can learn about our readers, and how disasters have been covered over the last thirty
+      years.
     </p>
     <p class="scroll">Scroll to begin</p>
   </header>

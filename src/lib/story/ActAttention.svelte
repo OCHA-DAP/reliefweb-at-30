@@ -176,6 +176,7 @@
     addEventListener('scroll', check, { passive: true });
     return () => removeEventListener('scroll', check);
   });
+  const NUM = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
 </script>
 
 <section class="act" id="disasters" aria-labelledby="h-a2">
@@ -233,16 +234,16 @@
     {/snippet}
 
     <Step id="a2-s0" i={0}>
-      ReliefWeb has tagged documents to {fmt(n)} disasters that began between {SW_FIRST} and {SW_LAST}. Each dot
-      represents a disaster.
+      ReliefWeb has tagged documents to {fmt(n)} disasters. Each dot represents a disaster that began between
+      {SW_FIRST} and {SW_LAST}.
     </Step>
     <Step id="a2-s1" i={1}>
-      Lined up by the year each began and colored by disaster type, the dots cluster more densely after 2005,
+      Lined up by the year each disaster began and colored by disaster type, the dots cluster more densely after 2005,
       with the most in one year, {busiest}, in {busiestYear}.
     </Step>
     <Step id="a2-s2" i={2}>
       Floods are the most common type of disaster: {fmt(nFlood)} in all{nFlood > nextThree && topTypes[0] === floodType
-        ? ', more than the next three types combined'
+        ? ', occurring more frequently than the next three types of disaster combined'
         : ''}.
     </Step>
     <Step id="a2-s3" i={3}>
@@ -271,7 +272,7 @@
     <Step id="a2-s5" i={1}>
       Coverage of a sudden disaster like an earthquake or storm peaks within a month of onset. Epidemics like Ebola
       usually build more slowly. Though some peak in the first month, coverage of epidemics typically peaks around
-      month {peaks.median_peak}.
+      month {NUM[peaks.median_peak] ?? peaks.median_peak}.
     </Step>
   </Scrolly>
 </section>

@@ -18,6 +18,6 @@ const round100 = (v) => fmt(Math.round(v / 100) * 100);
 const TIMES = ['', '', 'twice', 'three times', 'four times', 'five times', 'six times', 'seven times', 'eight times', 'nine times', 'ten times'];
 const times = (r) => TIMES[Math.round(r)] ?? `${Math.round(r)} times`;
 export const aiDocsBrief =
-  `AI assistants and chatbots sent about ${round100(aiTotals[aiNow])} visits to ReliefWeb documents in ${aiMonth(aiNow)}, ` +
+  `AI assistants and chatbots sent around ${round100(aiTotals[aiNow])} visits to ReliefWeb documents in ${aiMonth(aiNow)}, ` +
   `about ${times(aiTotals[aiNow] / aiTotals[0])} those in ${aiMonth(0)}, but down from a peak of ${round100(aiTotals[aiPeak])} in ${aiMonth(aiPeak)}.`;
 export const aiDocsSpan = `${mon(aiMonths[0])} – ${mon(aiMonths[aiNow])}`;

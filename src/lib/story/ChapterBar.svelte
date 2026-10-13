@@ -8,7 +8,7 @@
     { id: 'publishing', label: 'Publishing' },
     { id: 'disasters', label: 'Disasters' },
     { id: 'readers', label: 'Countries and readers', short: 'Countries' },
-    { id: 'close', label: 'Who reads it now', short: 'Readers now' }
+    { id: 'close', label: 'ReliefWeb readership today', short: 'Readers now' }
   ];
 
   let shown = $state(false);

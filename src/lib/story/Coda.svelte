@@ -2,13 +2,13 @@
   import rw30 from '$lib/data/rw30.json';
   import dots from '$lib/data/country_dots.json';
   import search from '$lib/data/search_terms.json';
-  import epilogue from '$lib/data/epilogue.json';
   import peaks from '$lib/data/epidemic_peaks.json';
   import active from '$lib/data/ga_active_12m.json';
   import fw from '$lib/data/firewall.json';
   import { fmt, completeCount } from '$lib/chart.js';
   import { aiDocsBrief, aiDocsSpan } from '$lib/machines.js';
   import { readWindowShort } from '$lib/readwindow.js';
+  import { BODY_WORDS } from '$lib/vocab.js';
   import AiDocsFigure from '$lib/components/AiDocsFigure.svelte';
   import Figure from '$lib/components/Figure.svelte';
   import Columns from '$lib/components/Columns.svelte';
@@ -40,38 +40,39 @@
   const METHODS = [
     {
       title: 'Chapter 1, Thirty years of publishing',
-      text: `Documents are reports and maps, counted by the year they were created, 1996–${last}; jobs and training listings are left out throughout, and every year series stops at ${last}, the last complete year. One square stands for 1,000 documents; squares are rounded on the running total, so they add up to the rounded total of ${fmt(Math.round(rw30.by_year.slice(0, N).reduce((a, b) => a + b, 0) / 1000))}. Format and publisher colors divide each year's column by that year's shares. A co-published document counts once for each type of publisher crediting it, so publisher shares are shares of credits. Media is drawn but left out of every share quoted: ReliefWeb stopped carrying newswire content around 2020–21, and that change alone would lift every other publisher's share. Publishing organizations are counted once a year each, by their registry type. Term shares are document frequency, the share of body-bearing documents mentioning the term at least once, never word frequency.`
+      text: `Documents are reports and maps, counted by the year they were created. Job and training listings are not included. Yearly figures end in ${last}, the last complete year, unless otherwise noted. One square is 1,000 documents, rounded so the ${fmt(Math.round(rw30.by_year.slice(0, N).reduce((a, b) => a + b, 0) / 1000))} squares match the total. A document published by more than one type of organization counts once for each type. Media appears in the chart but is left out of the percentages in the text, because ReliefWeb stopped carrying newswire content around 2020–21. Publishing organizations are counted once a year, by type. A term's share is the share of documents with page text that mention it at least once. The ${BODY_WORDS} million words are the page text of documents created 1996–${last}, from the full document export of 26 August 2026, not including PDF attachments.`
     },
     {
       title: 'Chapter 2, How disasters are covered',
-      text: `One dot per ReliefWeb disaster record with at least one document and an onset from 1996 to ${last}, placed by onset month and sized by the documents tagged to it; protracted crises collect documents for years, so the largest dots measure duration as much as attention. The half-of-all-documents count is taken over those disasters only. Coverage curves count documents per month from onset over 24 months, for crises with all 24 months complete. The sentence on epidemics counts every ReliefWeb epidemic with at least ${peaks.min_docs} documents, an onset from ${peaks.onset_from} and 24 complete months, ${peaks.n} in all, the same way; ${peaks.left_out_multi_year.length} records spanning several years, whose month 0 is when the record opened rather than when an outbreak began, are left out.`
+      text: `Each dot is a ReliefWeb disaster with at least one document and a start date from 1996 to ${last}, sized by its number of documents. Long-running crises collect documents for years, so the largest dots reflect duration as well as attention. The half-of-all-documents figure counts these disasters only. The coverage charts count documents per month for the first 24 months after a disaster began. The typical epidemic peak is measured the same way across all ${peaks.n} ReliefWeb epidemics with at least ${peaks.min_docs} documents that began in ${peaks.onset_from} or later and have 24 complete months. It leaves out ${peaks.left_out_multi_year.length} records covering several years, because their start date is when the record opened, not when an outbreak began.`
     },
     {
       title: 'Chapter 3, Which countries the documents cover, and where readers are',
-      text: `The first map counts documents by primary country, ${dots.docs_window[0]}–${dots.docs_window[1]}; ${fmt(dots.world_docs)} filed under no single country are not counted. The second counts visits that viewed at least one report or map, ${readWindowShort}, by the country Google Analytics places the browser in: VPNs and headquarters networks distort it, and reader country is never content country. ${flagged} are left out of the visits map: under one page per visit across the whole site, on over 100,000 visits, which is data-center traffic rather than an audience. Both maps shade each country by its share, on the same five classes, not divided by population. The ${(active.active_users / 1e6).toFixed(1)} million people are Google Analytics active users, ${active.window_display}: browser identities, so one person on two devices counts twice; no loyalty or returning-visitor measure is used, since ${epilogue.new_user_pct}% of users are counted as new. Boundaries are fieldmaps' Global International Boundaries from HDX, simplified, on Web Mercator cropped to 56°S–75°N; labels sit at centroids from the OCHA countries and territories vocabulary on HDX. Searches run from ${mon(search.window[0])} to ${mon(search.window[1])}, past the end of ${last}, an exception to the rule above; job and training searches, ${jobsPct}% of all searches, are left out, and terms are ranked by engaged visits (over 10 seconds, or on to a second page) because automated traffic inflates raw counts and rarely does either.`
+      text: `The documents map counts documents by primary country, ${dots.docs_window[0]}–${dots.docs_window[1]}; ${fmt(dots.world_docs)} documents with no single country are not counted. The readers map counts visits that viewed at least one report or map, ${readWindowShort}, by the country Google Analytics places the browser in. VPNs and office networks can make this inaccurate. ${flagged} are left out: their traffic averages under one page per visit across more than 100,000 visits, which points to automated traffic rather than readers. Both maps show each country's share on the same five color bands, not adjusted for population. The ${(active.active_users / 1e6).toFixed(1)} million people are Google Analytics active users, ${active.window_display}; one person on two devices counts twice. Boundaries are fieldmaps' Global International Boundaries from HDX, simplified, in the Web Mercator projection. Searches cover ${mon(search.window[0])} to ${mon(search.window[1])}. Job and training searches, ${jobsPct}% of all searches, are not included. Terms are ranked by engaged visits (over 10 seconds, or going on to a second page), because automated traffic inflates raw counts.`
     },
     {
-      title: 'Who reads it now',
-      text: `AI referrals are visits whose first page is a report or map, credited to ChatGPT, Perplexity, Gemini, Copilot or Claude by the session source Google Analytics records, ${aiDocsSpan}, complete months only. Firewall figures are the CategoryAI rule on the reliefweb.int tab of OCHA TSS's per-site firewall report, ${readWindowShort}: one blocked request is one HTTP request matched by the firewall's AI-crawler rule, not a visit or a reader.`
+      title: 'ReliefWeb Readership: Today',
+      text: `AI referrals are visits that start on a report or map and come from ChatGPT, Perplexity, Gemini, Copilot or Claude, as recorded by Google Analytics, ${aiDocsSpan}, complete months only. Firewall figures are requests to reliefweb.int blocked by the firewall's AI rule, from OCHA TSS's per-site firewall report, ${readWindowShort}. A blocked request is not a visit or a reader.`
     }
   ];
 </script>
 
 <section class="coda" id="close" aria-labelledby="h-coda">
-  <h2 id="h-coda">Who reads it now</h2>
+  <h2 id="h-coda">ReliefWeb Readership: Today</h2>
   <p class="lede">
-    Not every reader arrives through ReliefWeb's own pages. Software outside OCHA pulls documents through its API,
-    and AI crawlers are turned away in their millions: in {month(rwMonths[rwLast])}, OCHA's firewall blocked
-    {millions(rwAi[rwLast])} requests to reliefweb.int it classed as AI harvesting, up from {millions(rwAi[0])} in
-    {month(rwMonths[0])}. AI assistants, meanwhile, send people straight to ReliefWeb's documents.
+    As well as supplying ReliefWeb pages, the platform’s content powers other OCHA websites, alongside independent
+    sites and apps via an API. Documents on ReliefWeb are also frequently cited by generative AI platforms: for
+    example, Google search AI Overviews cites ReliefWeb 100,000 times a day. A growing number of readers arrive via
+    links inside private AI chats. Readers no longer have to visit the platform to access its information.
   </p>
   <Figure
     id="coda-firewall"
     title="AI crawlers blocked on reliefweb.int"
     sub="Requests blocked by the firewall's AI rule, per month, {readWindowShort}"
+    intro="AI platforms harvest ReliefWeb pages at scale to build up their databases. OCHA sometimes throttles access by AI crawlers to maintain site stability and control costs. In {month(rwMonths[rwLast])}, OCHA's firewall blocked {millions(rwAi[rwLast])} requests to ReliefWeb classed as AI harvesting, up from {millions(rwAi[0])} in {month(rwMonths[0])}."
     docsNote={false}
     source="OCHA TSS firewall logs"
-    footnote="A blocked request is one HTTP request matched by the firewall's AI-crawler rule, not a visit or a reader. Counts are from TSS's per-site firewall report."
+    footnote="A request is any HTTP request blocked by the firewall's AI crawler rule, not equivalent to a page or a reader."
   >
     {#snippet chart()}
       <Columns
@@ -98,14 +99,20 @@
   />
 
   <blockquote class="close">
-    For thirty years, ReliefWeb has built a record of humanitarian information that people can trust. Keeping that
-    record open and findable, for the people who read it and for the software that increasingly reads on their behalf,
-    is the work of ReliefWeb's next thirty years.
+    <p>For thirty years, ReliefWeb has built a record of humanitarian information that people can trust.</p>
+    <p>
+      In this moment of AI acceleration, ReliefWeb’s archive has never been more valuable. It provides an important
+      foundation for future humanitarian efforts, amidst a rising tide of hallucinated figures and disinformation.
+    </p>
+    <p>
+      ReliefWeb is committed to continuing to provide a public good for the sector, always evolving to better meet the
+      needs of humanitarians and to fuel analysis and insights for many years to come.
+    </p>
   </blockquote>
 
   <Logos small />
   <details class="method">
-    <summary>How we measured this</summary>
+    <summary>Notes and methodology</summary>
     {#each METHODS as m (m.title)}
       <p><b>{m.title}.</b> {m.text}</p>
     {/each}
@@ -129,6 +136,12 @@
     border-top: 4px solid var(--accent);
   }
   /* A pull quote: the step style, larger, in the display face. */
+  .close p {
+    margin: 0;
+  }
+  .close p + p {
+    margin-top: 16px;
+  }
   .close {
     font-family: 'Crimson Pro Variable', Crimson, Georgia, serif;
     font-size: 24px;
