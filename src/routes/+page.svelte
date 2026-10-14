@@ -9,6 +9,7 @@
   import ActAttention from '$lib/story/ActAttention.svelte';
   import ActTwoWorlds from '$lib/story/ActTwoWorlds.svelte';
   import Coda from '$lib/story/Coda.svelte';
+  import Close from '$lib/story/Close.svelte';
   import Logos from '$lib/story/Logos.svelte';
   import ChapterBar from '$lib/story/ChapterBar.svelte';
 
@@ -31,10 +32,10 @@
 
 <ChapterBar />
 
-<div class="wrap story">
-  <header class="mast">
-    <Logos />
-    <h1>{title}</h1>
+<header class="band">
+  <div class="wrap mast">
+    <Logos white />
+    <h1>ReliefWeb’s <span class="thirty">30th</span> Anniversary</h1>
     <p class="standfirst">
       Since 1996, more than {fmt(Math.floor(sources.orgs_1996_2025 / 100) * 100)} organizations have published
       {(total / 1e6).toFixed(1)} million reports and maps
@@ -42,39 +43,74 @@
       been published, what we can learn about our readers, and how disasters have been covered over the last thirty
       years.
     </p>
-    <p class="scroll">Scroll to begin</p>
-  </header>
+    <p class="scroll">Scroll to begin <span aria-hidden="true">↓</span></p>
+  </div>
+</header>
 
+<div class="wrap story">
   <ActArchive />
   <ActAttention layouts={data.swarm} />
   <ActTwoWorlds />
   <Coda />
 </div>
 
+<Close />
+
 <style>
-  /* The masthead fills the first screen: logos at the top, the title and
-     intro in the middle, the cue at the bottom. The first chapter and its chart
-     then arrive whole on the first scroll, never cut off at the fold. */
-  .story :global(.mast) {
-    box-sizing: border-box;
-    min-height: 100svh;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 32px;
+  /* The masthead: a full-width band in ReliefWeb's dark brand blue, as on
+     reliefweb.int's footer, with the logos, title and intro in white. */
+  .band {
+    background: var(--rw-band);
+    color: #fff;
   }
-  .story :global(.mast h1) {
-    margin-top: auto;
+  .mast {
+    max-width: 1180px;
+    padding: 40px 24px 56px;
+  }
+  .mast h1 {
+    margin-top: clamp(40px, 10svh, 112px);
+    font-size: clamp(44px, 5.6vw, 72px);
+    line-height: 1.02;
+    margin-bottom: 24px;
+    color: #fff;
+  }
+  .thirty {
+    color: var(--rw-cyan);
+  }
+  .mast .standfirst {
+    font-size: 19px;
+    margin-bottom: 32px;
+    color: #fff;
   }
   .scroll {
-    margin: auto 0 0;
+    margin: 0;
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: var(--accent-text);
+    color: #fff;
   }
+  .scroll span {
+    display: inline-block;
+    margin-left: 4px;
+    letter-spacing: 0;
+  }
+  @media (max-width: 699px) {
+    .mast {
+      padding: 28px 16px 40px;
+    }
+    .mast h1 {
+      margin-bottom: 16px;
+    }
+    .mast .standfirst {
+      font-size: 17px;
+    }
+  }
+  /* No padding below: the last figure's own margin is the gap before the
+     closing band. */
   .story {
     max-width: 1180px;
+    padding-bottom: 0;
   }
   .story :global(.act) {
     margin-top: 72px;
@@ -84,7 +120,7 @@
     scroll-margin-top: 48px;
   }
   .story :global(.ahead) {
-    border-top: 4px solid var(--accent);
+    border-top: 4px solid var(--rw-rule);
     padding-top: 20px;
   }
   .story :global(.anum) {
@@ -93,7 +129,7 @@
     font-weight: 700;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: var(--accent-text);
+    color: var(--rw-line);
   }
   .story :global(.ahead h2) {
     font-size: 34px;
@@ -121,7 +157,7 @@
   /* Lighter figures than the catalog's cards: a rule above, no box. */
   .story :global(figure.card) {
     border: 0;
-    border-top: 2px solid var(--b1);
+    border-top: 2px solid var(--rw-rule);
     border-radius: 0;
     padding: 20px 0 8px;
     margin: 0 0 64px;

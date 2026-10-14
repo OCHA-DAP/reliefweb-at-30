@@ -11,7 +11,7 @@
   let {
     labels,
     values,
-    color = 'var(--b1)',
+    color = 'var(--accent)',
     name = '',
     ariaLabel,
     height = 280,
@@ -37,7 +37,7 @@
   const x = $derived(scaleLinear().domain([-0.5, labels.length - 0.5]).range([0, iw]));
   const y = $derived(scaleLinear().domain([0, scaleY.top]).range([ih, 12]));
   const band = $derived(iw / labels.length);
-  const bw = $derived(band * 0.68);
+  const bw = $derived(band * 0.5);
   const showValues = $derived(band >= 44);
 
   const xStep = $derived(W < 480 ? tickEvery * 2 : tickEvery);

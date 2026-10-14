@@ -43,6 +43,13 @@
      small — eyebrow, section number, stat period, callout label, links, focus
      rings — takes --accent-text: one ramp step darker at 5.02:1, and
      unmistakably the same blue. */
+  /* ReliefWeb's brand blues from reliefweb.int: the dark one
+     (--cd-reliefweb-brand-blue--dark, its footer band) for the masthead and
+     closing bands; the bright one (--cd-reliefweb-brand-blue) for rules, above
+     chapters and figures and beside steps; the mid one (--cd-reliefweb-blue)
+     for small labels, where the bright one is too light to read. UN Blue
+     (--accent) is for data. */
+  --rw-band:#055372; --rw-rule:#0988BB; --rw-line:#076D96; --rw-cyan:#8FDBFA;
   --accent:#009EDB; --accent-text:#0074B7; --accent-ink:#004987; --accent-soft:#E3EDF6;
   --crit:var(--a-red);
 

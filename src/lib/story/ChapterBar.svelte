@@ -103,11 +103,11 @@
     white-space: nowrap;
   }
   a:hover {
-    color: var(--accent-text);
+    color: var(--rw-line);
   }
   a.on {
-    color: var(--accent-text);
-    border-bottom-color: var(--accent);
+    color: var(--rw-line);
+    border-bottom-color: var(--rw-rule);
   }
   .short {
     display: none;

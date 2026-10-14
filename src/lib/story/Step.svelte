@@ -30,7 +30,7 @@
     font-size: 19px;
     line-height: 1.5;
     background: #fff;
-    border-left: 3px solid var(--accent);
+    border-left: 3px solid var(--rw-rule);
     padding: 14px 18px;
   }
   @media (max-width: 699px) {
