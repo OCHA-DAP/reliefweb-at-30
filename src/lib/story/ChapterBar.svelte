@@ -3,7 +3,8 @@
 
   // A slim bar of chapter links that slides in when the reader scrolls up, the
   // usual sign they are looking for something, and slides away when they read
-  // on down. Hidden over the opening screen. The chapter being read is marked.
+  // on down. Hidden while any of the masthead band is on screen. The chapter
+  // being read is marked.
   const CHAPTERS = [
     { id: 'publishing', label: 'Publishing' },
     { id: 'disasters', label: 'Disasters' },
@@ -25,10 +26,10 @@
   onMount(() => {
     let lastY = scrollY;
     let raf = 0;
+    const mast = document.querySelector('header.band');
     const update = () => {
       const y = scrollY;
-      const firstTop = document.getElementById(CHAPTERS[0].id).getBoundingClientRect().top;
-      if (firstTop > innerHeight / 2) shown = false;
+      if (mast.getBoundingClientRect().bottom > 0) shown = false;
       else if (y < lastY - 4) shown = true;
       else if (y > lastY + 4) shown = false;
       lastY = y;
