@@ -49,8 +49,15 @@ export function hoverIndex(node, params) {
   }
 
   const onPointerMove = (ev) => set(nearestIndex(ev, p), ev.clientX, ev.clientY);
-  const onPointerLeave = () => { if (!focused) clear(); };
+  // A finger leaves when it lifts, so a tapped tooltip stays until the reader
+  // scrolls or taps elsewhere.
+  const onPointerLeave = (ev) => { if (!focused && ev.pointerType !== 'touch') clear(); };
+  // The tooltip is fixed to the screen, so it can't follow the chart on scroll.
+  const onScroll = () => { if (!focused && index >= 0) clear(); };
+  const onDocPointerDown = (ev) => { if (!focused && index >= 0 && !node.contains(ev.target)) clear(); };
+  // A tap or click also focuses the rect; only keyboard focus anchors the tooltip.
   const onFocus = () => {
+    if (!node.matches(':focus-visible')) return;
     focused = true;
     const i = index < 0 ? 0 : index;
     const { x, y } = anchor(i);
@@ -69,11 +76,15 @@ export function hoverIndex(node, params) {
     else if (ev.key === 'Escape') { node.blur(); return; }
     else return;
     ev.preventDefault();
+    focused = true;
     const { x, y } = anchor(next);
     set(next, x, y);
   }
 
   node.addEventListener('pointermove', onPointerMove);
+  node.addEventListener('pointerdown', onPointerMove);
+  addEventListener('scroll', onScroll, { passive: true });
+  document.addEventListener('pointerdown', onDocPointerDown);
   node.addEventListener('pointerleave', onPointerLeave);
   node.addEventListener('focus', onFocus);
   node.addEventListener('blur', onBlur);
@@ -84,6 +95,9 @@ export function hoverIndex(node, params) {
     update(next) { p = next; aria(); },
     destroy() {
       node.removeEventListener('pointermove', onPointerMove);
+      node.removeEventListener('pointerdown', onPointerMove);
+      removeEventListener('scroll', onScroll);
+      document.removeEventListener('pointerdown', onDocPointerDown);
       node.removeEventListener('pointerleave', onPointerLeave);
       node.removeEventListener('focus', onFocus);
       node.removeEventListener('blur', onBlur);
