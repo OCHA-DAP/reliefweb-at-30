@@ -265,9 +265,9 @@
     {/snippet}
 
     <Step id="a2-s4" i={0}>
-      The total number of documents says how much was written about a disaster, but not when. Counted month by month
-      over the first 24 months, the documents about three sudden disasters and three epidemics show how coverage
-      rises and falls.
+      As well as the total number of documents about a disaster, there are patterns that link the type of
+      disaster to the timing of its coverage. Counted month by month over the first 24 months, the documents
+      about three sudden disasters and three epidemics show how coverage rises and falls.
     </Step>
     <Step id="a2-s5" i={1}>
       Coverage of a sudden disaster like an earthquake or storm peaks within a month of onset. Epidemics like Ebola

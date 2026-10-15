@@ -230,30 +230,30 @@
 
     <Step id="a3-s0" i={0}>
       Documents on ReliefWeb have covered {placed} countries and territories. Of the documents about a single country,
-      {cum(25)}% focus on just 25 of them, and {PERCENT_WORDS[cum(5)] ?? `${cum(5)}%`} are about five countries.
+      {cum(25)} per&nbsp;cent focus on just 25 of them, and {PERCENT_WORDS[cum(5)] ?? `${cum(5)} per\u00a0cent`} are about five countries.
     </Step>
     <Step id="a3-s1" i={1}>
       DR Congo has the most documents of any country, {fmt(COD.docs)}; then {list(next4.map((c) => nameOf(c.iso3)))},
       each between {Math.floor(Math.min(...next4.map((c) => c.doc_share)))} and
-      {Math.ceil(Math.max(...next4.map((c) => c.doc_share)))}% of the archive.
+      {Math.ceil(Math.max(...next4.map((c) => c.doc_share)))} per&nbsp;cent of the archive.
     </Step>
     <Step id="a3-s2" i={2}>
       This map shows which countries the readers are in. {millions(active.active_users)} people viewed ReliefWeb's
       documents in the past year, {active.window_display.replace(' – ', ' to ')}. {capFirst(nameOf(top5Readers[0].iso3))} had the most visits,
-      {pct(top5Readers[0].read_share)}%, followed by {list(top5Readers.slice(1).map((c) => nameOf(c.iso3)))}.{#if alsoWritten.length === 1}{' '}{capFirst(
+      {pct(top5Readers[0].read_share)} per&nbsp;cent, followed by {list(top5Readers.slice(1).map((c) => nameOf(c.iso3)))}.{#if alsoWritten.length === 1}{' '}{capFirst(
           nameOf(alsoWritten[0].iso3)
         )} is frequently the subject of reports, as well as having a strong audience for ReliefWeb content in general.{/if}
     </Step>
     <Step id="a3-s3" i={3}>
-      DR Congo and the United States are opposites. In those same months, DR Congo was {pct(same('COD').doc_share)}% of
-      the documents and {pct(same('COD').read_share)}% of the readers. In contrast, the United States represented
-      {pct(same('USA').doc_share)}% of documents but {pct(same('USA').read_share)}% of readers.
+      DR Congo and the United States are opposites. In those same months, DR Congo was {pct(same('COD').doc_share)} per&nbsp;cent of
+      the documents and {pct(same('COD').read_share)} per&nbsp;cent of the readers. In contrast, the United States represented
+      {pct(same('USA').doc_share)} per&nbsp;cent of documents but {pct(same('USA').read_share)} per&nbsp;cent of readers.
     </Step>
   </Scrolly>
 
   <div class="inflow">
     <p class="lede">
-      Documents are still viewed long after a crisis has passed. For example, {Math.round(tsunami.read_rate)}% of
+      Documents are still viewed long after a crisis has passed. For example, {Math.round(tsunami.read_rate)} per&nbsp;cent of
       documents about the 2004 tsunami were {readTimes} {readWindowText},
       {tsunami.age} years on.
     </p>
@@ -310,7 +310,7 @@
     >
       {#snippet chart()}
         <p class="tnote">
-          Searches are spread thinly: together, the {search.top_n} most common terms make up {topShare}% of all
+          Searches are spread thinly: together, the {search.top_n} most common terms make up {topShare} per&nbsp;cent of all
           searches.<br /><b>Share of searches</b>: how often this was searched, out of all searches of ReliefWeb's
           documents.<br /><b>Share of docs</b>: how much of the archive consists of documents about a given country. Blank means the
           search is not a country.

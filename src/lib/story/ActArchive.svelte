@@ -75,7 +75,7 @@
   };
   const media = types[5].values;
   const ioShare = (i) => pct(types[0].values[i], types.slice(0, 5).reduce((a, t) => a + t.values[i], 0));
-  // The year ReliefWeb stopped republishing newswires: the first in which media
+  // The year ReliefWeb stopped republishing media organizations: the first in which media
   // fell below a tenth of its own peak.
   const mediaPeak = Math.max(...media.slice(0, N));
   const mediaGone = years[media.findIndex((v, i) => i < N && i > media.indexOf(mediaPeak) && v < mediaPeak / 10)];
@@ -113,7 +113,7 @@
     {
       upto: years[last],
       colour: 'source',
-      marks: [{ y: mediaGone, t: `ReliefWeb stopped carrying newswires, ${mediaGone}` }]
+      marks: [{ y: mediaGone, t: `ReliefWeb stopped carrying media content, ${mediaGone}` }]
     }
   ];
   let step = $state(0);
@@ -218,18 +218,18 @@
     </Step>
     <Step id="a1-s4" i={4}>
       Over thirty years, news and press releases were the most common format, accounting for
-      {pct(newsAll, total)}% of all documents published on ReliefWeb.
+      {pct(newsAll, total)} per&nbsp;cent of all documents published on ReliefWeb.
     </Step>
     <Step id="a1-s5" i={5}>
       Infographics emerged as a growing format on ReliefWeb around {infoFrom}, and by {years[last]} accounted for
-      {pct(info[last], byYear[last])}% of documents published.
+      {pct(info[last], byYear[last])} per&nbsp;cent of documents published.
     </Step>
     <Step id="a1-s6" i={6}>
-      <!-- TODO(reason): add why newswire content stopped once ReliefWeb confirms it
+      <!-- TODO(reason): add why media organization content stopped once ReliefWeb confirms it
            (project-354-framework.md §05, §09 ask 2). -->
-      UN agencies and other international organizations wrote {ioShare(0)}% of ReliefWeb's documents in 1996 and
-      {ioShare(last)}% in {years[last]}, not counting media. ReliefWeb stopped republishing newswire and media
-      content around {mediaGone}, which is why the gray band ends that year.
+      UN agencies and other international organizations wrote {ioShare(0)} per&nbsp;cent of ReliefWeb's documents in 1996 and
+      {ioShare(last)} per&nbsp;cent in {years[last]}, not counting media. ReliefWeb stopped republishing content from
+      media organizations around {mediaGone}, which is why the gray band ends that year.
     </Step>
   </Scrolly>
 
