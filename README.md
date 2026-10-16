@@ -34,8 +34,3 @@ Beyond `npm test`, three scripts check the built page in a headless Chrome. Star
 AUDIT_URL=http://localhost:4173/ SHOTS=/tmp/shots npm run shoot -- 1280 800   # every step syncs with its chart; screenshots
 AUDIT_URL=http://localhost:4173/ npm run audit                                # no chart rises above its top gridline; every figure has a source
 ```
-
-## Before launch
-
-- [ ] Remove `<meta name="robots" content="noindex">` from `src/app.html` and from `src/routes/+page.svelte`.
-- [ ] Add Google Tag Manager to `src/app.html`, the way ReliefWeb does (`reliefweb.int/gtm-load.js`, plus the `<noscript>` iframes), skipped on localhost. Use both containers, as TSS confirmed: GTM-TLKXSWT (managed by TSS) and GTM-LQCS (UN Secretariat, managed by OICT). Then check that Google Analytics records visits from the GitHub Pages hostname and the ReliefWeb redirect.

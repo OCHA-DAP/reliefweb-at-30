@@ -10,6 +10,7 @@
   import { readTimes, readWindowText, readWindowShort } from '$lib/readwindow.js';
   import Figure from '$lib/components/Figure.svelte';
   import ArchiveAgeFigure from '$lib/components/ArchiveAgeFigure.svelte';
+  import InfoTip from '$lib/components/InfoTip.svelte';
   import Scrolly from './Scrolly.svelte';
   import Step from './Step.svelte';
   import { worldPaths, shareClass, SHARE_BREAKS } from './layouts.js';
@@ -163,6 +164,9 @@
   const mon = (d) => `${MON[+d.slice(5, 7) - 1]} ${d.slice(0, 4)}`;
   const searchSpan = `${mon(search.window[0])} – ${mon(search.window[1])}`;
   const cap = (t) => t[0].toUpperCase() + t.slice(1);
+  // What the two share columns mean, behind an info button on each header.
+  const SHARE_SEARCHES = "How often this was searched, out of all searches of ReliefWeb's documents.";
+  const SHARE_DOCS = 'How much of the archive consists of documents about a given country. A dash means the search is not a country.';
 </script>
 
 <section class="act" id="readers" aria-labelledby="h-a3">
@@ -230,31 +234,31 @@
 
     <Step id="a3-s0" i={0}>
       Documents on ReliefWeb have covered {placed} countries and territories. Of the documents about a single country,
-      {cum(25)} per&nbsp;cent focus on just 25 of them, and {PERCENT_WORDS[cum(5)] ?? `${cum(5)} per\u00a0cent`} are about five countries.
+      {cum(25)} percent focus on just 25 of them, and {PERCENT_WORDS[cum(5)] ?? `${cum(5)} percent`} are about five countries.
     </Step>
     <Step id="a3-s1" i={1}>
-      DR Congo has the most documents of any country, {fmt(COD.docs)}; then {list(next4.map((c) => nameOf(c.iso3)))},
+      The Democratic Republic of the Congo (DR Congo) has the most documents of any country, {fmt(COD.docs)}; then {list(next4.map((c) => nameOf(c.iso3)))},
       each between {Math.floor(Math.min(...next4.map((c) => c.doc_share)))} and
-      {Math.ceil(Math.max(...next4.map((c) => c.doc_share)))} per&nbsp;cent of the archive.
+      {Math.ceil(Math.max(...next4.map((c) => c.doc_share)))} percent of the archive.
     </Step>
     <Step id="a3-s2" i={2}>
       This map shows which countries the readers are in. {millions(active.active_users)} people viewed ReliefWeb's
       documents in the past year, {active.window_display.replace(' – ', ' to ')}. {capFirst(nameOf(top5Readers[0].iso3))} had the most visits,
-      {pct(top5Readers[0].read_share)} per&nbsp;cent, followed by {list(top5Readers.slice(1).map((c) => nameOf(c.iso3)))}.{#if alsoWritten.length === 1}{' '}{capFirst(
+      {pct(top5Readers[0].read_share)} percent, followed by {list(top5Readers.slice(1).map((c) => nameOf(c.iso3)))}.{#if alsoWritten.length === 1}{' '}{capFirst(
           nameOf(alsoWritten[0].iso3)
-        )} is frequently the subject of reports, as well as having a strong audience for ReliefWeb content in general.{/if}
+        )} is frequently the subject of documents, as well as having a strong audience for ReliefWeb content in general.{/if}
     </Step>
     <Step id="a3-s3" i={3}>
-      DR Congo and the United States are opposites. In those same months, DR Congo was {pct(same('COD').doc_share)} per&nbsp;cent of
-      the documents and {pct(same('COD').read_share)} per&nbsp;cent of the readers. In contrast, the United States represented
-      {pct(same('USA').doc_share)} per&nbsp;cent of documents but {pct(same('USA').read_share)} per&nbsp;cent of readers.
+      DR Congo and the United States are opposites. In those same months, DR Congo was {pct(same('COD').doc_share)} percent of
+      the documents and {pct(same('COD').read_share)} percent of the readers. In contrast, the United States represented
+      {pct(same('USA').doc_share)} percent of documents but {pct(same('USA').read_share)} percent of readers.
     </Step>
   </Scrolly>
 
   <div class="inflow">
     <p class="lede">
-      Documents are still viewed long after a crisis has passed. For example, {Math.round(tsunami.read_rate)} per&nbsp;cent of
-      documents about the 2004 tsunami were {readTimes} {readWindowText},
+      Documents are still viewed long after a crisis has passed. For example, {Math.round(tsunami.read_rate)} percent of
+      documents about the 2004 Indian Ocean tsunami were {readTimes} {readWindowText},
       {tsunami.age} years on.
     </p>
     <ArchiveAgeFigure
@@ -306,25 +310,29 @@
       title="What readers search for"
       sub="Top {search.top_n} searches of ReliefWeb's documents, by engaged visits, {searchSpan}"
       source="Google Analytics 4 and ReliefWeb full document export"
-      footnote="Searches of job and training material are excluded. Documents are filed by primary country."
+      footnote="Searches of job and training material are excluded. Documents are filed by their primary country."
     >
       {#snippet chart()}
         <p class="tnote">
-          Searches are spread thinly: together, the {search.top_n} most common terms make up {topShare} per&nbsp;cent of all
-          searches.<br /><b>Share of searches</b>: how often this was searched, out of all searches of ReliefWeb's
-          documents.<br /><b>Share of docs</b>: how much of the archive consists of documents about a given country. Blank means the
-          search is not a country.
+          Searches are spread thinly: together, the {search.top_n} most common terms make up {topShare} percent of all
+          searches.
         </p>
         <ol class="terms">
-          <li class="thead" aria-hidden="true">
-            <span class="term">Search term</span><span class="bar"></span><span class="num">Share of searches</span><span class="ds">Share of docs</span>
+          <li class="thead">
+            <span class="term">Search term</span><span class="bar"></span><span class="num"
+              >Share of <span class="nw">searches<InfoTip label="share of searches" text={SHARE_SEARCHES} /></span></span
+            ><span class="ds">Share of <span class="nw">docs<InfoTip label="share of docs" text={SHARE_DOCS} /></span></span>
           </li>
           {#each terms as t (t.term)}
             <li>
               <span class="term">{t.term}</span>
               <span class="bar"><i style="width:{(100 * t.share) / maxShare}%"></i></span>
               <span class="num">{t.share.toFixed(1)}%</span>
-              <span class="ds">{t.doc_share != null ? `${t.doc_share.toFixed(1)}%` : ''}</span>
+              <span class="ds"
+                >{#if t.doc_share != null}{t.doc_share.toFixed(1)}%{:else}<span aria-hidden="true">–</span><span class="sr-only"
+                    >not a country</span
+                  >{/if}</span
+              >
             </li>
           {/each}
         </ol>
@@ -610,6 +618,13 @@
   .thead .num,
   .thead .ds {
     font-size: inherit;
+  }
+  /* Each info button stays on the line of the word before it, where the
+     columns are wide enough; on a phone it may drop below. */
+  @media (min-width: 700px) {
+    .nw {
+      white-space: nowrap;
+    }
   }
   @media (max-width: 699px) {
     .top li {

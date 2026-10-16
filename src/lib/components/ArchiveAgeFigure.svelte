@@ -3,7 +3,7 @@
   import Figure from './Figure.svelte';
   import LineChart from './LineChart.svelte';
   import { f1 } from '$lib/chart.js';
-  import { readDefinition, readWindowShort, readWindowText, readMinWord, readTimes } from '$lib/readwindow.js';
+  import { readWindowShort, readWindowText, readMinWord, readTimes } from '$lib/readwindow.js';
 
   // Read rate by year published; anything passed as children renders under the
   // chart.
@@ -40,7 +40,6 @@
   {title}
   sub="Share of a year's documents {readTimes}, by year published, {readWindowShort}"
   intro={intro ?? `Every year of the archive is still in use. The share viewed is a valley, not a slope: ${oldest.read_rate}% of ${oldest.year}'s documents were ${readTimes} ${readWindowText}, dropping to about ${Math.round(trough.read_rate)}% for documents from ${troughSpan}, then climbing to ${newest.read_rate}% for ${newest.year}. The newest material and the oldest are both viewed more than the twenty years in between.`}
-  footnote="{readDefinition}"
 >
   {#snippet chart()}
     <LineChart

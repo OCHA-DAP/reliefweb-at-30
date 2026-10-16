@@ -113,7 +113,7 @@
     {
       upto: years[last],
       colour: 'source',
-      marks: [{ y: mediaGone, t: `ReliefWeb stopped carrying media content, ${mediaGone}` }]
+      marks: [{ y: mediaGone, t: `ReliefWeb stopped republishing media content, ${mediaGone}` }]
     }
   ];
   let step = $state(0);
@@ -214,22 +214,22 @@
     </Step>
     <Step id="a1-s3" i={3}>
       {years[peakI]} was the peak with {fmt(byYear[peakI])} documents published in one year. In {years[last]}, the
-      rate of publishing slowed due to resource constraints.
+      rate of publishing slowed due to resource constraints on the ReliefWeb team.
     </Step>
     <Step id="a1-s4" i={4}>
       Over thirty years, news and press releases were the most common format, accounting for
-      {pct(newsAll, total)} per&nbsp;cent of all documents published on ReliefWeb.
+      {pct(newsAll, total)} percent of all documents published on ReliefWeb.
     </Step>
     <Step id="a1-s5" i={5}>
       Infographics emerged as a growing format on ReliefWeb around {infoFrom}, and by {years[last]} accounted for
-      {pct(info[last], byYear[last])} per&nbsp;cent of documents published.
+      {pct(info[last], byYear[last])} percent of documents published.
     </Step>
     <Step id="a1-s6" i={6}>
       <!-- TODO(reason): add why media organization content stopped once ReliefWeb confirms it
            (project-354-framework.md §05, §09 ask 2). -->
-      UN agencies and other international organizations wrote {ioShare(0)} per&nbsp;cent of ReliefWeb's documents in 1996 and
-      {ioShare(last)} per&nbsp;cent in {years[last]}, not counting media. ReliefWeb stopped republishing content from
-      media organizations around {mediaGone}, which is why the gray band ends that year.
+      Around {mediaGone}, ReliefWeb stopped republishing content from media organizations. Among the other sources
+      published, UN agencies and other international organizations published {ioShare(0)} percent of documents in 1996
+      and {ioShare(last)} percent in {years[last]}.
     </Step>
   </Scrolly>
 
@@ -247,7 +247,7 @@
       sub="Organizations publishing at least one document each year, by type, 1996–{years[last]}, labels show {years[last]}"
     />
 
-    <h3 class="subhead">What the documents talk about</h3>
+    <h3 class="subhead">What the documents cover</h3>
     <p class="lede">
       A review of {BODY_WORDS} million words in the archive shows changing attitudes, priorities and terminology in
       the sector.
