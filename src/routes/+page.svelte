@@ -18,7 +18,7 @@
   const N = completeCount(rw30.years);
   const total = rw30.by_year.slice(0, N).reduce((a, b) => a + b, 0);
   const title = 'ReliefWeb’s 30th Anniversary';
-  const description = `Since 1996, more than ${fmt(Math.floor(sources.orgs_1996_2025 / 100) * 100)} organizations have published ${(total / 1e6).toFixed(1)} million reports and maps about crises on ReliefWeb. This story explores the data behind the platform: what has been published, what we can learn about our readers, and how disasters have been covered over the last thirty years.`;
+  const description = `Since 1996, more than ${fmt(Math.floor(sources.orgs_1996_2025 / 100) * 100)} organizations have published ${(total / 1e6).toFixed(1)} million reports and maps about crises on ReliefWeb. This story explores the data behind the platform, including what has been published, what we can learn about our readers, and how disasters have been covered over the last thirty years.`;
 </script>
 
 <svelte:head>
@@ -43,13 +43,7 @@
   <div class="wrap mast">
     <Logos white />
     <h1>ReliefWeb’s <span class="thirty">30th</span> Anniversary</h1>
-    <p class="standfirst">
-      Since 1996, more than {fmt(Math.floor(sources.orgs_1996_2025 / 100) * 100)} organizations have published
-      {(total / 1e6).toFixed(1)} million reports and maps
-      about crises on ReliefWeb. This story explores the data behind the platform — looking to understand what has
-      been published, what we can learn about our readers, and how disasters have been covered over the last thirty
-      years.
-    </p>
+    <p class="standfirst">{description}</p>
     <p class="scroll">Scroll to begin <span aria-hidden="true">↓</span></p>
   </div>
 </header>
