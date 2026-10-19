@@ -27,6 +27,12 @@
   <meta property="og:type" content="article" />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
+  <!-- Absolute, since link previews ignore relative image paths. -->
+  <meta property="og:image" content="https://ocha-dap.github.io/reliefweb-at-30/share.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content={title} />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="robots" content="noindex" />
 </svelte:head>
 
