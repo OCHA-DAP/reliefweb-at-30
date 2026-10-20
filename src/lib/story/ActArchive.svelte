@@ -235,7 +235,7 @@
 
   <div class="inflow">
     <p class="lede">
-      UN agencies and other international organizations produce most of ReliefWeb's documents, but non-governmental
+      UN agencies and other international organizations produce most of ReliefWeb’s documents, but non-governmental
       organizations (NGOs) are the largest cohort of publishers. They have outnumbered every other type every year
       since {ngoFacts.since}, with {fmt(ngoFacts.count)} NGOs publishing in {ngoFacts.year}.
     </p>

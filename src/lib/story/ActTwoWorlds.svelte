@@ -77,7 +77,7 @@
     },
     visits: {
       title: 'Which countries the readers are in',
-      sub: `Share of visits to documents, ${readWindowShort}, by the country of the reader's browser`,
+      sub: `Share of visits to documents, ${readWindowShort}, by the country of the reader’s browser`,
       key: 'Share of visits'
     }
   };
@@ -165,7 +165,7 @@
   const searchSpan = `${mon(search.window[0])} – ${mon(search.window[1])}`;
   const cap = (t) => t[0].toUpperCase() + t.slice(1);
   // What the two share columns mean, behind an info button on each header.
-  const SHARE_SEARCHES = "How often this was searched, out of all searches of ReliefWeb's documents.";
+  const SHARE_SEARCHES = "How often this was searched, out of all searches of ReliefWeb’s documents.";
   const SHARE_DOCS = 'How much of the archive consists of documents about a given country. A dash means the search is not a country.';
 </script>
 
@@ -185,8 +185,8 @@
       <p class="mtitle">{TITLES[view.metric].title}</p>
       <p class="msub">{TITLES[view.metric].sub}</p>
       <svg class="map" viewBox="0 0 {map.W} {map.H}" width="100%" role="img" aria-label={view.metric === 'docs'
-        ? `World map shaded by each country's share of documents, ${dots.docs_window[0]}–${dots.docs_window[1]}.`
-        : `World map shaded by each country's share of visits to documents, ${readWindowShort}.`}>
+        ? `World map shaded by each country’s share of documents, ${dots.docs_window[0]}–${dots.docs_window[1]}.`
+        : `World map shaded by each country’s share of visits to documents, ${readWindowShort}.`}>
         {#each map.paths as p (p.iso3)}
           {@const t = tip(p.iso3)}
           <path class="ctry" class:dim={dim(p.iso3, view)} d={p.d} style="fill:{fill(p.iso3, view.metric)}">{#if t}<title>{t}</title>{/if}</path>
@@ -242,7 +242,7 @@
       {Math.ceil(Math.max(...next4.map((c) => c.doc_share)))} percent of the archive.
     </Step>
     <Step id="a3-s2" i={2}>
-      This map shows which countries the readers are in. {millions(active.active_users)} people viewed ReliefWeb's
+      This map shows which countries the readers are in. {millions(active.active_users)} people viewed ReliefWeb’s
       documents in the past year, {active.window_display.replace(' – ', ' to ')}. {capFirst(nameOf(top5Readers[0].iso3))} had the most visits,
       {pct(top5Readers[0].read_share)} percent, followed by {list(top5Readers.slice(1).map((c) => nameOf(c.iso3)))}.{#if alsoWritten.length === 1}{' '}{capFirst(
           nameOf(alsoWritten[0].iso3)
@@ -308,7 +308,7 @@
       id="a3-search"
       num={null}
       title="What readers search for"
-      sub="Top {search.top_n} searches of ReliefWeb's documents, by engaged visits, {searchSpan}"
+      sub="Top {search.top_n} searches of ReliefWeb’s documents, by engaged visits, {searchSpan}"
       source="Google Analytics 4 and ReliefWeb full document export"
       footnote="Searches of job and training material are excluded. Documents are filed by their primary country."
     >

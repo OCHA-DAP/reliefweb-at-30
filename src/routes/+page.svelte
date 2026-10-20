@@ -19,14 +19,16 @@
   const total = rw30.by_year.slice(0, N).reduce((a, b) => a + b, 0);
   const title = 'ReliefWeb’s 30th Anniversary';
   const description = `Since 1996, more than ${fmt(Math.floor(sources.orgs_1996_2025 / 100) * 100)} organizations have published ${(total / 1e6).toFixed(1)} million reports and maps about crises on ReliefWeb. This story explores the data behind the platform, including what has been published, what we can learn about our readers, and how disasters have been covered over the last thirty years.`;
+  // Shorter, for link previews.
+  const preview = `Since 1996, thousands of organizations have published ${(total / 1e6).toFixed(1)} million reports on ReliefWeb.`;
 </script>
 
 <svelte:head>
   <title>{title}</title>
-  <meta name="description" content={description} />
+  <meta name="description" content={preview} />
   <meta property="og:type" content="article" />
   <meta property="og:title" content={title} />
-  <meta property="og:description" content={description} />
+  <meta property="og:description" content={preview} />
   <!-- Absolute, since link previews ignore relative image paths. Bump ?v= when
        the image changes: Slack caches previews by image URL. -->
   <meta property="og:image" content="https://ocha-dap.github.io/reliefweb-at-30/share.png?v=3" />

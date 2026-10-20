@@ -25,7 +25,7 @@
   const METHODS = [
     {
       title: 'Chapter 1',
-      text: `Yearly figures end in ${last}, the last complete year, unless otherwise noted. A document published by more than one type of organization counts once for each type. Publishing organizations are counted once a year, by type. A term's share is the share of documents with page text that mention it at least once. The ${BODY_WORDS} million words are the text of documents published 1996–${last}, as of 26 August 2026, not including PDF attachments.`
+      text: `Yearly figures end in ${last}, the last complete year, unless otherwise noted. A document published by more than one type of organization counts once for each type. Publishing organizations are counted once a year, by type. A term’s share is the share of documents with page text that mention it at least once. The ${BODY_WORDS} million words are the text of documents published 1996–${last}, as of 26 August 2026, not including PDF attachments.`
     },
     {
       title: 'Chapter 2',
@@ -37,7 +37,7 @@
     },
     {
       title: 'ReliefWeb Readership',
-      text: `AI referrals are visits that start on a report or map and come from ChatGPT, Perplexity, Gemini, Copilot or Claude, as recorded by Google Analytics, ${aiDocsSpan}, complete months only. Firewall figures are requests to reliefweb.int blocked by the firewall's AI rule, from OCHA internal monitoring, ${readWindowShort}. A blocked request is not a visit or a reader. AI Overview citations are daily impressions of reliefweb.int in Google's AI Overviews, tracked from 18 May 2026, compared with engaged visits to reliefweb.int recorded by Google Analytics over the same days.`
+      text: `AI referrals are visits that start on a report or map and come from ChatGPT, Perplexity, Gemini, Copilot or Claude, as recorded by Google Analytics, ${aiDocsSpan}, complete months only. Firewall figures are requests to reliefweb.int blocked by the firewall’s AI rule, from OCHA internal monitoring, ${readWindowShort}. A blocked request is not a visit or a reader. AI Overview citations are daily impressions of reliefweb.int in Google’s AI Overviews, tracked from 18 May 2026, compared with engaged visits to reliefweb.int recorded by Google Analytics over the same days.`
     }
   ];
 </script>

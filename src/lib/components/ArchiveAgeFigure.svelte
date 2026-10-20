@@ -38,14 +38,14 @@
   {num}
   source="Google Analytics and ReliefWeb full-text export"
   {title}
-  sub="Share of a year's documents {readTimes}, by year published, {readWindowShort}"
+  sub="Share of a year’s documents {readTimes}, by year published, {readWindowShort}"
   intro={intro ?? `Every year of the archive is still in use. The share viewed is a valley, not a slope: ${oldest.read_rate}% of ${oldest.year}'s documents were ${readTimes} ${readWindowText}, dropping to about ${Math.round(trough.read_rate)}% for documents from ${troughSpan}, then climbing to ${newest.read_rate}% for ${newest.year}. The newest material and the oldest are both viewed more than the twenty years in between.`}
 >
   {#snippet chart()}
     <LineChart
       labels={years}
       series={[{ name: `Viewed ${readMinWord} or more times`, values: readRate, color: 'var(--accent)' }]}
-      ariaLabel="Line chart of the share of each year's documents {readTimes} {readWindowText}, forming a valley from {oldest.read_rate}% in {oldest.year} down to about {Math.round(trough.read_rate)}% for {troughSpan} and back up to {newest.read_rate}% in {newest.year}."
+      ariaLabel="Line chart of the share of each year’s documents {readTimes} {readWindowText}, forming a valley from {oldest.read_rate}% in {oldest.year} down to about {Math.round(trough.read_rate)}% for {troughSpan} and back up to {newest.read_rate}% in {newest.year}."
       format={(v) => v.toFixed(0) + '%'}
       tipFormat={f1}
       yMax={100}

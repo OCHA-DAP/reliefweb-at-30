@@ -87,7 +87,7 @@
         alignEndLabels
         endLabelSize={13}
         endLabelMinWidth={0}
-        ariaLabel="Line chart of weekly citations of reliefweb.int in Google's AI Overviews and weekly engaged visits to reliefweb.int, {aioSpan}. Citations ran at {fmt(Math.min(...aioWeeks[0].values))} to {fmt(Math.max(...aioWeeks[0].values))} a week, engaged visits at {fmt(Math.min(...aioWeeks[1].values))} to {fmt(Math.max(...aioWeeks[1].values))}."
+        ariaLabel="Line chart of weekly citations of reliefweb.int in Google’s AI Overviews and weekly engaged visits to reliefweb.int, {aioSpan}. Citations ran at {fmt(Math.min(...aioWeeks[0].values))} to {fmt(Math.max(...aioWeeks[0].values))} a week, engaged visits at {fmt(Math.min(...aioWeeks[1].values))} to {fmt(Math.max(...aioWeeks[1].values))}."
       />
     {/snippet}
   </Figure>
@@ -96,10 +96,10 @@
     id="coda-firewall"
     title="AI crawlers blocked on reliefweb.int"
     sub="Requests blocked by ReliefWeb’s firewall, per month, {readWindowShort}"
-    intro="AI platforms harvest ReliefWeb pages at scale to build up their databases. OCHA sometimes blocks access by AI crawlers to maintain site stability and control infrastructure costs. In {month(rwMonths[rwLast])}, OCHA's firewall blocked {millions(rwAi[rwLast])} requests to ReliefWeb classed as AI harvesting, up from {millions(rwAi[0])} requests in {month(rwMonths[0])}."
+    intro="AI platforms harvest ReliefWeb pages at scale to build up their databases. OCHA sometimes blocks access by AI crawlers to maintain site stability and control infrastructure costs. In {month(rwMonths[rwLast])}, OCHA’s firewall blocked {millions(rwAi[rwLast])} requests to ReliefWeb classed as AI harvesting, up from {millions(rwAi[0])} requests in {month(rwMonths[0])}."
     docsNote={false}
     source="OCHA internal monitoring"
-    footnote="A request is any HTTP request blocked by the firewall's AI crawler rule, not equivalent to a page or a reader."
+    footnote="A request is any HTTP request blocked by the firewall’s AI crawler rule, not equivalent to a page or a reader."
   >
     {#snippet chart()}
       <Columns
@@ -111,7 +111,7 @@
         labelFormat={(v) => `${(v / 1e6).toFixed(1)}M`}
         xFormat={mon}
         yUnit="requests"
-        ariaLabel="Column chart of requests to reliefweb.int blocked by the firewall's AI rule each month, {readWindowShort}. They peaked at {fmt(rwAi[rwPeak])} in {mon(rwMonths[rwPeak])}."
+        ariaLabel="Column chart of requests to reliefweb.int blocked by the firewall’s AI rule each month, {readWindowShort}. They peaked at {fmt(rwAi[rwPeak])} in {mon(rwMonths[rwPeak])}."
       />
     {/snippet}
   </Figure>
@@ -119,7 +119,7 @@
   <AiDocsFigure
     id="coda-aidocs"
     num={null}
-    title="AI assistants send readers to ReliefWeb's documents"
+    title="AI assistants send readers to ReliefWeb’s documents"
     sub="Visits starting on a report or map, by referring assistant, {aiDocsSpan}"
     docsNote
     intro={aiDocsBrief}
