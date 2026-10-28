@@ -10,7 +10,7 @@
  "docs_total": 1029778,
  "world_docs": 92409,
  "sessions_total": 12011332,
- "centroids": "HDX countries-and-territories (OCHA vocabulary), Latitude/Longitude, 2026-10-06",
+ "centroids": "HDX countries-and-territories (OCHA vocabulary), Latitude/Longitude, 2026-10-06; PHL overridden with its geoCentroid in world.topo.json, as the HDX row is off Halmahera, Indonesia",
  "countries": [
   {
    "iso3": "COD",
@@ -76,8 +76,8 @@
    "iso3": "PHL",
    "name": "Philippines",
    "rw_short": "Philippines",
-   "lon": 127.236,
-   "lat": -0.737,
+   "lon": 122.88,
+   "lat": 11.752,
    "docs": 29599,
    "doc_share": 2.874,
    "sessions": 547992,
